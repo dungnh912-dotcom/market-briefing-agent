@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-07-01T18:46:17.049207+07:00",
+  "global": {
+    "SPY": {
+      "available": true,
+      "last_price": 746.77,
+      "ma20": 742.24,
+      "ma50": 735.87,
+      "rsi14": 54.96,
+      "avg_volume20": 63559990.0,
+      "volume": 55540700.0,
+      "support20": 725.43,
+      "resistance20": 759.57,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "QQQ": {
+      "available": true,
+      "last_price": 736.4,
+      "ma20": 723.73,
+      "ma50": 706.22,
+      "rsi14": 56.65,
+      "avg_volume20": 53261540.0,
+      "volume": 41926000.0,
+      "support20": 693.69,
+      "resistance20": 746.16,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "DIA": {
+      "available": true,
+      "last_price": 522.39,
+      "ma20": 514.74,
+      "ma50": 504.55,
+      "rsi14": 63.41,
+      "avg_volume20": 5576935.0,
+      "volume": 3602700.0,
+      "support20": 500.25,
+      "resistance20": 522.39,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "GLD": {
+      "available": true,
+      "last_price": 368.38,
+      "ma20": 387.03,
+      "ma50": 408.83,
+      "rsi14": 33.11,
+      "avg_volume20": 8358490.0,
+      "volume": 5287100.0,
+      "support20": 365.92,
+      "resistance20": 411.95,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    },
+    "USO": {
+      "available": true,
+      "last_price": 106.44,
+      "ma20": 121.36,
+      "ma50": 131.84,
+      "rsi14": 31.5,
+      "avg_volume20": 5980670.0,
+      "volume": 3725800.0,
+      "support20": 105.48,
+      "resistance20": 140.86,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    },
+    "TLT": {
+      "available": true,
+      "last_price": 86.42,
+      "ma20": 86.06,
+      "ma50": 85.66,
+      "rsi14": 52.89,
+      "avg_volume20": 25207850.0,
+      "volume": 31027300.0,
+      "support20": 84.62,
+      "resistance20": 87.45,
+      "trend": "Tăng",
+      "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận"
+    },
+    "BTC-USD": {
+      "available": true,
+      "last_price": 58610.5,
+      "ma20": 62401.58,
+      "ma50": 68062.78,
+      "rsi14": 30.28,
+      "avg_volume20": 27548042166.65,
+      "volume": 34348036096.0,
+      "support20": 58558.86,
+      "resistance20": 66289.5,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    }
+  },
+  "macro": {
+    "US Dollar Index": {
+      "available": true,
+      "last_price": 101.36,
+      "ma20": 100.46,
+      "ma50": 99.41,
+      "rsi14": 68.52,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 99.41,
+      "resistance20": 101.61,
+      "trend": "Tăng",
+      "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+      "ticker": "DX-Y.NYB"
+    },
+    "US 10Y Yield": {
+      "available": true,
+      "last_price": 4.37,
+      "ma20": 4.47,
+      "ma50": 4.44,
+      "rsi14": 40.14,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 4.37,
+      "resistance20": 4.55,
+      "trend": "Điều chỉnh",
+      "trade_status": "Chỉ mua khi lấy lại MA20",
+      "ticker": "^TNX"
+    },
+    "VIX": {
+      "available": true,
+      "last_price": 16.67,
+      "ma20": 18.1,
+      "ma50": 17.69,
+      "rsi14": 46.04,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 15.4,
+      "resistance20": 22.22,
+      "trend": "Điều chỉnh",
+      "trade_status": "Chỉ mua khi lấy lại MA20",
+      "ticker": "^VIX"
+    }
+  },
+  "news": {
+    "source": "RSS",
+    "items": [
+      {
+        "title": "Vay ngân hàng dưới 400 triệu sẽ không phải chứng minh tài chính",
+        "url": "https://vnexpress.net/vay-ngan-hang-duoi-400-trieu-se-khong-phai-chung-minh-tai-chinh-5092195.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 16:44:44 +0700",
+        "summary": "<a href=\"https://vnexpress.net/vay-ngan-hang-duoi-400-trieu-se-khong-phai-chung-minh-tai-chinh-5092195.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/nganhangbanvang-jpg-1782896934-5705-1782897569.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=bKRKtLfIDFCxsRnLw9b2tg\" /></a>Từ 15/8, khách vay không quá 400 triệu đồng sẽ không cần chứng minh tài chính hay phương án sử dụng vốn cho ngân hàng và công ty tài chính."
+      },
+      {
+        "title": "Các ngân hàng trung ương muốn bán USD mua vàng",
+        "url": "https://vnexpress.net/cac-ngan-hang-trung-uong-muon-ban-usd-mua-vang-5092120.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 16:32:51 +0700",
+        "summary": "<a href=\"https://vnexpress.net/cac-ngan-hang-trung-uong-muon-ban-usd-mua-vang-5092120.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/2022t143236z-rc2xav9vo6ui-rtrm-7682-9475-1782893297.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=CDKQMaAPc8MwQcLteTBHdA\" /></a>Bất an trước các rủi ro địa chính trị, nhiều ngân hàng trung ương dự kiến bán bớt USD và tăng mua vàng, theo khảo sát của tổ chức nghiên cứu độc lập trụ sở tại Anh."
+      },
+      {
+        "title": "Ngân hàng ngoại đầu tiên xây trụ sở tại trung tâm tài chính TP HCM",
+        "url": "https://vnexpress.net/ngan-hang-ngoai-dau-tien-xay-tru-so-tai-trung-tam-tai-chinh-tp-hcm-5092132.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 16:09:56 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ngan-hang-ngoai-dau-tien-xay-tru-so-tai-trung-tam-tai-chinh-tp-hcm-5092132.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/uob-plaza-hcmc-1782893229-9793-1782893717.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=VecjZsgKsY8zLZHuxAnOkA\" /></a>UOB Việt Nam ngày 1/7 khởi công xây trụ sở với tổng mức đầu tư 450 triệu USD đặt tại trung tâm tài chính quốc tế TP HCM."
+      },
+      {
+        "title": "VN30 vượt 2.000 điểm",
+        "url": "https://vnexpress.net/vn30-vuot-2-000-diem-5092172.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 15:34:48 +0700",
+        "summary": "<a href=\"https://vnexpress.net/vn30-vuot-2-000-diem-5092172.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/233A7958-6659-1782894226.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=4KVCifqN2TXB_37AOb2Tkw\" /></a>Chỉ số đại diện cho rổ vốn hóa lớn tăng vọt lên 2.013 điểm - mức cao nhất một tháng qua - bất chấp các cổ phiếu liên quan đến Vingroup giảm mạnh."
+      },
+      {
+        "title": "'Ông lớn' hạ tầng TP HCM liên tục gom cổ phiếu PC1",
+        "url": "https://vnexpress.net/ong-lon-ha-tang-tp-hcm-lien-tuc-gom-co-phieu-pc1-5092154.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 15:28:09 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ong-lon-ha-tang-tp-hcm-lien-tuc-gom-co-phieu-pc1-5092154.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/a09952d7e12540b1a046187c289bd9-8359-2621-1782893352.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=0_wHbRoo6_2JH_NQyjiznA\" /></a>Nhóm cổ đông công ty CII mua thêm cổ phiếu PC1 cho mục đích đầu tư, nâng tỷ lệ sở hữu lên gần 9% trong bối cảnh thị giá mã này cải thiện mạnh."
+      },
+      {
+        "title": "Giá heo hơi lao dốc, thịt bán lẻ vẫn neo cao",
+        "url": "https://vnexpress.net/gia-heo-hoi-lao-doc-thit-ban-le-van-neo-cao-5092094.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 15:00:27 +0700",
+        "summary": "<a href=\"https://vnexpress.net/gia-heo-hoi-lao-doc-thit-ban-le-van-neo-cao-5092094.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/bk3a6378-1782887294-4222-1782887572.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=y4SPM16i9ddC04VajuhNBg\" /></a>Giá heo hơi giảm 13-14% so với đỉnh đầu năm, nhưng giá thịt bán lẻ tại nhiều chợ truyền thống ở TP HCM gần như chưa đổi, người tiêu dùng chưa được hưởng lợi"
+      },
+      {
+        "title": "Tổng công ty Xây dựng Hà Nội đình chỉ chức vụ chủ tịch HĐQT",
+        "url": "https://vnexpress.net/tong-cong-ty-xay-dung-ha-noi-dinh-chi-chuc-vu-chu-tich-hdqt-5092069.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 14:45:53 +0700",
+        "summary": "<a href=\"https://vnexpress.net/tong-cong-ty-xay-dung-ha-noi-dinh-chi-chuc-vu-chu-tich-hdqt-5092069.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/hancorp-1782891065-8500-1782891152.png?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=OQFayImHQFvSGd6Sqyz3Wg\" /></a>Hancorp - một thành viên trong liên danh làm nhà ga sân bay Long Thành - vừa tạm đình chỉ chức vụ Chủ tịch HĐQT với ông Đậu Văn Diện."
+      },
+      {
+        "title": "Ngân hàng nào hưởng lợi khi nới trần vốn ngắn hạn cho vay trung dài hạn?",
+        "url": "https://vnexpress.net/ngan-hang-nao-huong-loi-khi-noi-tran-von-ngan-han-cho-vay-trung-dai-han-5091451.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 11:15:57 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ngan-hang-nao-huong-loi-khi-noi-tran-von-ngan-han-cho-vay-trung-dai-han-5091451.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/vpbank-thanhtung30-1782788376-8169-1782788511.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=0EC_m7pMmxa_7_7fbPdp3A\" /></a>Việc nâng trần vốn ngắn hạn cho vay trung, dài hạn theo ước tính của VCBS, có thể mở rộng 1 triệu tỷ đồng tín dụng, trong đó nhóm ngân hàng quy mô vừa và nhỏ hưởng lợi nhiều nhất."
+      },
+      {
+        "title": "Iran bán hơn 40 triệu thùng dầu trong 2 tuần",
+        "url": "https://vnexpress.net/iran-ban-hon-40-trieu-thung-dau-trong-2-tuan-5091967.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 10:45:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/iran-ban-hon-40-trieu-thung-dau-trong-2-tuan-5091967.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/ap26168698034901-1782877024-2827-1782877048.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=KaJ5tDh6oVeMg1kRcex_PA\" /></a>Việc Mỹ dỡ bỏ lệnh phong tỏa cảng biển giữa tháng 6 khiến cả xuất khẩu và giá dầu thô của Iran cùng tăng."
+      },
+      {
+        "title": "Giá vàng thế giới có quý giảm mạnh nhất 13 năm",
+        "url": "https://vnexpress.net/gia-vang-the-gioi-co-quy-giam-manh-nhat-13-nam-5091888.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 08:28:23 +0700",
+        "summary": "<a href=\"https://vnexpress.net/gia-vang-the-gioi-co-quy-giam-manh-nhat-13-nam-5091888.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/goldreu9-1782868446-6334-1782868458.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=PwErCTnY7Pc4Bm2xbbLpVA\" /></a>Mỗi ounce vàng giảm hơn 11% trong quý II, xuống sát 4.000 USD một ounce - tệ nhất kể từ năm 2013."
+      },
+      {
+        "title": "Khi nào khối ngoại ngừng rút vốn khỏi chứng khoán Việt Nam?",
+        "url": "https://vnexpress.net/khi-nao-khoi-ngoai-ngung-rut-von-khoi-chung-khoan-viet-nam-5091834.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 08:02:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/khi-nao-khoi-ngoai-ngung-rut-von-khoi-chung-khoan-viet-nam-5091834.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/bang-gia-1782832791-7312-1782832806.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=NP_XBBJmeLPOWmwKblnhgQ\" /></a>Nhà đầu tư nước ngoài đã rút hơn 3 tỷ USD trong nửa năm nhưng chuyên gia cho rằng tháng 9, khi thị trường được nâng hạng, dòng tiền có thể quay lại."
+      },
+      {
+        "title": "Lý do Việt Nam nghiên cứu áp giá điện theo giờ với hộ gia đình",
+        "url": "https://vnexpress.net/ly-do-viet-nam-nghien-cuu-ap-gia-dien-theo-gio-voi-ho-gia-dinh-5091298.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 07:01:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ly-do-viet-nam-nghien-cuu-ap-gia-dien-theo-gio-voi-ho-gia-dinh-5091298.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/8-1782752019-2709-1782757250.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=Q8EYW52_AiEwOAJjY4hHZw\" /></a>Chuyên gia cho rằng áp giá điện sinh hoạt theo thời gian sử dụng (TOU) có thể giúp điều chỉnh nhu cầu sử dụng, giảm áp lực đầu tư nguồn mới trong bối cảnh tiêu thụ điện tăng nhanh."
+      },
+      {
+        "title": "Áp lực giữ điện than vì an ninh năng lượng của châu Á",
+        "url": "https://vnexpress.net/ap-luc-giu-dien-than-vi-an-ninh-nang-luong-cua-chau-a-5091723.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 00:10:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ap-luc-giu-dien-than-vi-an-ninh-nang-luong-cua-chau-a-5091723.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/2026t074722z-rc2vulakrvkn-rtrm-6316-6261-1782813980.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=Hlpj4FyRD4KcQTNjBqvFtA\" /></a>Mục tiêu khí hậu của châu Á thêm thách thức khi nhiều nước phải đa dạng hóa nguồn cung, gồm cả than đá, để đảm bảo an ninh năng lượng."
+      },
+      {
+        "title": "Warren Buffett hoãn quyên góp cho quỹ từ thiện của Bill Gates",
+        "url": "https://vnexpress.net/warren-buffett-hoan-quyen-gop-cho-quy-tu-thien-cua-bill-gates-5091691.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 00:02:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/warren-buffett-hoan-quyen-gop-cho-quy-tu-thien-cua-bill-gates-5091691.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/screenshot-1782810864-6326-1782811677.png?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=SGMIyzZQLthXVw2KC8rogw\" /></a>Lần đầu tiên trong 20 năm, tỷ phú đầu tư hoãn quyên góp cho quỹ từ thiện của người bạn lâu năm, vì scandal Epstein."
+      },
+      {
+        "title": "Sếp công ty bất động sản làm cổ đông lớn tại nhiều doanh nghiệp",
+        "url": "https://vnexpress.net/sep-cong-ty-bat-dong-san-lam-co-dong-lon-tai-nhieu-doanh-nghiep-5091731.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 00:03:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/sep-cong-ty-bat-dong-san-lam-co-dong-lon-tai-nhieu-doanh-nghiep-5091731.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/thiet-ke-chua-co-ten-178281156-8964-3640-1782811602.png?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=EpQONaaZlMdXBknasxjeig\" /></a>Ông Đinh Quang Chiến, Phó chủ tịch Lideco, đang làm cổ đông lớn tại nhiều doanh nghiệp, với tổng giá trị cổ phiếu nắm giữ hơn 1.200 tỷ đồng."
+      },
+      {
+        "title": "Techcombank góp thêm 2.400 tỷ đồng vào Techcom Life",
+        "url": "https://vnexpress.net/techcombank-gop-them-2-400-ty-dong-vao-techcom-life-5092211.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 16:00:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/techcombank-gop-them-2-400-ty-dong-vao-techcom-life-5092211.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/techcom-life-voi-chien-dich-ha-2156-8560-1782896542.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=srM1H_zNEYAM57u6SwU94A\" /></a>Techcombank thông qua nghị quyết góp thêm 2.400 tỷ đồng vào Công ty bảo hiểm nhân thọ Kỹ thương (Techcom Life), tăng tổng vốn điều lệ của doanh nghiệp này lên 4.300 tỷ đồng."
+      },
+      {
+        "title": "Vingroup khởi công ba dự án hạ tầng giao thông trọng điểm tại TP HCM",
+        "url": "https://vnexpress.net/vingroup-khoi-cong-ba-du-an-ha-tang-giao-thong-trong-diem-tai-tp-hcm-5092067.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 12:15:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/vingroup-khoi-cong-ba-du-an-ha-tang-giao-thong-trong-diem-tai-tp-hcm-5092067.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/07/01/anh-1782882149-9805-1782882279.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=-aRtboPVUPb4OgvqUZ2FFg\" /></a>Vingroup khởi công đường vượt biển kết nối Cần Giờ - Vũng Tàu cùng hai nút giao quan trọng trên tuyến cao tốc Bến Lức - Long Thành, nhằm tạo động lực tăng trưởng cho khu vực phía Nam."
+      },
+      {
+        "title": "Giá xăng tăng, dầu giữ nguyên",
+        "url": "https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-30-6-5091842.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Tue, 30 Jun 2026 23:42:43 +0700",
+        "summary": "<a href=\"https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-30-6-5091842.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/xang-e10-1782838009-3466-1782838016.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=lQKoe6kYCfJX3BG6PPOILw\" /></a>Từ 0h ngày 1/7, giá xăng tăng 1.290-1.430 đồng một lít sau khi thuế tiêu thụ đặc biệt với mặt hàng này được khôi phục, trong khi giá dầu giữ nguyên."
+      },
+      {
+        "title": "Chính phủ tiếp tục giảm thuế xăng, dầu về 0 đến hết tháng 9",
+        "url": "https://vnexpress.net/chinh-phu-tiep-tuc-giam-thue-xang-dau-ve-0-den-het-thang-9-5091822.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Tue, 30 Jun 2026 21:55:13 +0700",
+        "summary": "<a href=\"https://vnexpress.net/chinh-phu-tiep-tuc-giam-thue-xang-dau-ve-0-den-het-thang-9-5091822.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/xange1013-1782830852-4764-1782830978.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=6fsPv_fWIREyqfwE5mJFoQ\" /></a>Chính phủ đồng ý kéo dài miễn thuế bảo vệ môi trường, giá trị gia tăng (VAT), nhập khẩu ưu đãi với xăng dầu thêm 3 tháng, đến hết ngày 30/9."
+      },
+      {
+        "title": "Beckham kiếm hàng chục triệu USD nhờ quãng nghỉ uống nước ở World Cup",
+        "url": "https://vnexpress.net/beckham-kiem-hang-chuc-trieu-usd-nho-quang-nghi-uong-nuoc-o-world-cup-5091739.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Tue, 30 Jun 2026 21:28:35 +0700",
+        "summary": "<a href=\"https://vnexpress.net/beckham-kiem-hang-chuc-trieu-usd-nho-quang-nghi-uong-nuoc-o-world-cup-5091739.html\"><img src=\"https://i1-kinhdoanh.vnecdn.net/2026/06/30/beck-copy-1782814142-2164-1782814367.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=grpcBvFsk1_m8fWGVdOEew\" /></a>David Beckham có thể kiếm hơn 23 triệu USD nhờ xuất hiện trên quảng cáo được phát trong 2 quãng nghỉ uống nước tại trận đấu World Cup 2026."
+      }
+    ],
+    "note": "Không có NEWSAPI_KEY hoặc NewsAPI lỗi; đã dùng RSS miễn phí."
+  },
+  "vietnam": {
+    "stocks": {
+      "VCB": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "BID": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "CTG": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "TCB": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "MBB": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "ACB": {
+        "available": false,
+        "sector": "Ngân hàng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "SSI": {
+        "available": false,
+        "sector": "Chứng khoán",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VND": {
+        "available": false,
+        "sector": "Chứng khoán",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HCM": {
+        "available": false,
+        "sector": "Chứng khoán",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VCI": {
+        "available": false,
+        "sector": "Chứng khoán",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VHM": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VIC": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "KDH": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "NLG": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "DXG": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HPG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HSG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "NKG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "GAS": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PVD": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PVS": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "MWG": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "FRT": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PNJ": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "FPT": {
+        "available": false,
+        "sector": "Công nghệ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "GMD": {
+        "available": false,
+        "sector": "Cảng biển / logistics",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VHC": {
+        "available": false,
+        "sector": "Thủy sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "ANV": {
+        "available": false,
+        "sector": "Thủy sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "TNG": {
+        "available": false,
+        "sector": "Dệt may",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "STK": {
+        "available": false,
+        "sector": "Dệt may",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VCG": {
+        "available": false,
+        "sector": "Đầu tư công / xây dựng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HHV": {
+        "available": false,
+        "sector": "Đầu tư công / hạ tầng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "CII": {
+        "available": false,
+        "sector": "Đầu tư công / hạ tầng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "LCG": {
+        "available": false,
+        "sector": "Đầu tư công / xây dựng",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      }
+    },
+    "vnindex": {
+      "available": false,
+      "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+    },
+    "notes": [
+      "VCB: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "BID: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "CTG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "TCB: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "MBB: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "ACB: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "SSI: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VND: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HCM: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VCI: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VHM: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VIC: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "KDH: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "NLG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "DXG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HPG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HSG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "NKG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "GAS: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PVD: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PVS: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "MWG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "FRT: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PNJ: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "FPT: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "GMD: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VHC: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "ANV: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "TNG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "STK: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VCG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HHV: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "CII: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "LCG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "Chưa có dữ liệu kỹ thuật đầy đủ cho cổ phiếu Việt Nam do nguồn vnstock chưa được cấu hình/kích hoạt."
+    ],
+    "technical_note": "Chưa có dữ liệu kỹ thuật đầy đủ cho cổ phiếu Việt Nam do nguồn vnstock chưa được cấu hình/kích hoạt.",
+    "fallback": true
+  }
+}
