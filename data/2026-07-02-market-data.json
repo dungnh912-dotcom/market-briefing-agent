@@ -1,0 +1,631 @@
+{
+  "generated_at": "2026-07-02T17:20:05.573353+07:00",
+  "global": {
+    "SPY": {
+      "available": true,
+      "last_price": 745.76,
+      "ma20": 741.55,
+      "ma50": 736.61,
+      "rsi14": 54.23,
+      "avg_volume20": 64329490.0,
+      "volume": 46886600.0,
+      "support20": 725.43,
+      "resistance20": 757.09,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "QQQ": {
+      "available": true,
+      "last_price": 725.17,
+      "ma20": 722.68,
+      "ma50": 707.78,
+      "rsi14": 52.43,
+      "avg_volume20": 53779970.0,
+      "volume": 40258000.0,
+      "support20": 693.69,
+      "resistance20": 744.21,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "DIA": {
+      "available": true,
+      "last_price": 522.4,
+      "ma20": 515.15,
+      "ma50": 505.12,
+      "rsi14": 63.42,
+      "avg_volume20": 5494490.0,
+      "volume": 3423900.0,
+      "support20": 500.25,
+      "resistance20": 522.4,
+      "trend": "Tăng",
+      "trade_status": "Quan sát thêm"
+    },
+    "GLD": {
+      "available": true,
+      "last_price": 370.6,
+      "ma20": 384.96,
+      "ma50": 407.4,
+      "rsi14": 35.24,
+      "avg_volume20": 8619770.0,
+      "volume": 9034500.0,
+      "support20": 365.92,
+      "resistance20": 411.27,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    },
+    "USO": {
+      "available": true,
+      "last_price": 103.27,
+      "ma20": 119.66,
+      "ma50": 131.48,
+      "rsi14": 29.17,
+      "avg_volume20": 5944790.0,
+      "volume": 3102900.0,
+      "support20": 103.27,
+      "resistance20": 140.86,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    },
+    "TLT": {
+      "available": true,
+      "last_price": 85.52,
+      "ma20": 86.05,
+      "ma50": 85.63,
+      "rsi14": 45.13,
+      "avg_volume20": 25599020.0,
+      "volume": 28090200.0,
+      "support20": 84.62,
+      "resistance20": 87.45,
+      "trend": "Điều chỉnh",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    },
+    "BTC-USD": {
+      "available": true,
+      "last_price": 61058.47,
+      "ma20": 62347.0,
+      "ma50": 67726.27,
+      "rsi14": 42.0,
+      "avg_volume20": 28534672518.0,
+      "volume": 43058061312.0,
+      "support20": 58558.86,
+      "resistance20": 66289.5,
+      "trend": "Giảm",
+      "trade_status": "Chỉ mua khi lấy lại MA20"
+    }
+  },
+  "macro": {
+    "US Dollar Index": {
+      "available": true,
+      "last_price": 101.04,
+      "ma20": 100.53,
+      "ma50": 99.46,
+      "rsi14": 61.36,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 99.41,
+      "resistance20": 101.61,
+      "trend": "Tăng",
+      "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+      "ticker": "DX-Y.NYB"
+    },
+    "US 10Y Yield": {
+      "available": true,
+      "last_price": 4.37,
+      "ma20": 4.47,
+      "ma50": 4.44,
+      "rsi14": 40.14,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 4.37,
+      "resistance20": 4.55,
+      "trend": "Điều chỉnh",
+      "trade_status": "Chỉ mua khi lấy lại MA20",
+      "ticker": "^TNX"
+    },
+    "VIX": {
+      "available": true,
+      "last_price": 16.8,
+      "ma20": 18.13,
+      "ma50": 17.64,
+      "rsi14": 46.53,
+      "avg_volume20": 0.0,
+      "volume": 0.0,
+      "support20": 15.4,
+      "resistance20": 22.22,
+      "trend": "Điều chỉnh",
+      "trade_status": "Chỉ mua khi lấy lại MA20",
+      "ticker": "^VIX"
+    }
+  },
+  "news": {
+    "source": "RSS",
+    "items": [
+      {
+        "title": "Tiền vào chứng khoán tiếp tục ở mức thấp",
+        "url": "https://vnexpress.net/tien-vao-chung-khoan-tiep-tuc-o-muc-thap-5092709.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 16:44:45 +0700",
+        "summary": "<a href=\"https://vnexpress.net/tien-vao-chung-khoan-tiep-tuc-o-muc-thap-5092709.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/233a7377-1782984628-5790-1782984741.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=-cgcm0e7Zj25aKNIw9fv1w\" /></a>Tổng giá trị giao dịch sàn HoSE đạt hơn 17.200 tỷ đồng, phiên thứ 7 liên tiếp dưới ngưỡng tỷ USD, khi chứng khoán giảm nhẹ gần 1 điểm."
+      },
+      {
+        "title": "Giá xăng, dầu cùng giảm",
+        "url": "https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-2-7-5092571.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 15:46:34 +0700",
+        "summary": "<a href=\"https://vnexpress.net/gia-xang-dau-moi-nhat-hom-nay-2-7-5092571.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/xange103-1782972142-4295-1782972189.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=4-mY_6BNjGhRuFdBtzmwIA\" /></a>Từ 16h hôm nay, giá xăng, dầu cùng giảm 690-1.050 đồng một lít, theo đà đi xuống của thị trường năng lượng thế giới."
+      },
+      {
+        "title": "EU áp phí tối thiểu 3 euro với kiện hàng giá trị thấp từ Trung Quốc",
+        "url": "https://vnexpress.net/eu-ap-phi-toi-thieu-3-euro-voi-kien-hang-gia-tri-thap-tu-trung-quoc-5092566.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 14:38:27 +0700",
+        "summary": "<a href=\"https://vnexpress.net/eu-ap-phi-toi-thieu-3-euro-voi-kien-hang-gia-tri-thap-tu-trung-quoc-5092566.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/2024t061525z-rc20l9a4a9t0-rtrm-8381-7100-1782973551.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=41co0nuaPs1rOjuiRiHw2g\" /></a>Kể từ 1/7, Liên minh châu Âu (EU) áp phí tối thiểu 3 euro với các kiện hàng nhập khẩu giá trị thấp từ Trung Quốc."
+      },
+      {
+        "title": "Sẽ ứng dụng AI, blockchain trong quản lý đất đai",
+        "url": "https://vnexpress.net/se-ung-dung-ai-blockchain-trong-quan-ly-dat-dai-5092568.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 14:34:16 +0700",
+        "summary": "<a href=\"https://vnexpress.net/se-ung-dung-ai-blockchain-trong-quan-ly-dat-dai-5092568.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/dji06141778478036-1782970339-2109-1782971391.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=9psE0P5lNm-hN83hRpfzOw\" /></a>Trí tuệ nhân tạo (AI), blockchain sẽ được ứng dụng trong quản lý đất đai để tự động cập nhật dữ liệu, giám sát quy hoạch và tăng minh bạch."
+      },
+      {
+        "title": "Giải ngân gần 300.000 tỷ đồng vốn đầu tư công sau nửa năm",
+        "url": "https://vnexpress.net/giai-ngan-gan-300-000-ty-dong-von-dau-tu-cong-sau-nua-nam-5092524.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 12:23:16 +0700",
+        "summary": "<a href=\"https://vnexpress.net/giai-ngan-gan-300-000-ty-dong-von-dau-tu-cong-sau-nua-nam-5092524.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/huy7073-1782964794-4642-1782964948.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=GXCmItlvCPwavVKGNoZgMg\" /></a>Cả nước giải ngân gần 300.000 tỷ đồng vốn đầu tư công đến ngày 25/6, đạt hơn 29% kế hoạch được Thủ tướng giao."
+      },
+      {
+        "title": "Vinhomes rót vốn vào dự án đường sắt tốc độ cao Hà Nội - Quảng Ninh",
+        "url": "https://vnexpress.net/vinhomes-rot-von-vao-du-an-duong-sat-toc-do-cao-ha-noi-quang-ninh-5092495.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 11:13:59 +0700",
+        "summary": "<a href=\"https://vnexpress.net/vinhomes-rot-von-vao-du-an-duong-sat-toc-do-cao-ha-noi-quang-ninh-5092495.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/dsat-toc-do-cao-hn-qn-17829655-2824-5620-1782965640.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=mfvGQm3QkpmL7FLSGiMfxA\" /></a>Vinhomes sẽ góp vốn đầu tư dự án đường sắt cao tốc Hà Nội - Quảng Ninh để vận hành, kinh doanh dự án này cùng VinSpeed."
+      },
+      {
+        "title": "Chủ tịch Fed cho rằng lạm phát đang quá cao",
+        "url": "https://vnexpress.net/chu-tich-fed-cho-rang-lam-phat-dang-qua-cao-5092500.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 10:38:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/chu-tich-fed-cho-rang-lam-phat-dang-qua-cao-5092500.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/screenshot-1782963069-9249-1782963159.png?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=6Ap4EtjLQlFVaBSRqS-dzw\" /></a>Chủ tịch Fed Kevin Warsh lo ngại về lạm phát và cam kết sẽ khiến giá cả ở Mỹ ổn định trở lại sau nhiều năm vượt mục tiêu."
+      },
+      {
+        "title": "World Bank nâng hạng Việt Nam lên nhóm quốc gia thu nhập trung bình cao",
+        "url": "https://vnexpress.net/world-bank-nang-hang-viet-nam-len-nhom-quoc-gia-thu-nhap-trung-binh-cao-5092345.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 09:24:11 +0700",
+        "summary": "<a href=\"https://vnexpress.net/world-bank-nang-hang-viet-nam-len-nhom-quoc-gia-thu-nhap-trung-binh-cao-5092345.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/z7967024968353a1400b265f738eef-1819-8333-1782929137.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=HQPGIhKxRy3udAcELc9i-A\" /></a>World Bank nâng hạng Việt Nam lên nhóm thu nhập trung bình cao, do tổng thu nhập quốc dân (GNI) bình quân đầu người tăng lên gần 5.000 USD vào năm ngoái."
+      },
+      {
+        "title": "Việt Nam thu 56,5 triệu USD từ bán tín chỉ carbon cho World Bank",
+        "url": "https://vnexpress.net/viet-nam-thu-56-5-trieu-usd-tu-ban-tin-chi-carbon-cho-world-bank-5092593.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 15:26:06 +0700",
+        "summary": "<a href=\"https://vnexpress.net/viet-nam-thu-56-5-trieu-usd-tu-ban-tin-chi-carbon-cho-world-bank-5092593.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/dji-1782975360-7632-1782975602.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=sfN5HdCcLn9KF20RbyUPhw\" /></a>Việt Nam đã thu 56,5 triệu USD từ World Bank cho hoạt động chuyển nhượng 11,3 triệu tấn CO2 giảm thải từ rừng."
+      },
+      {
+        "title": "Du khách Singapore có thể thanh toán QR tại Việt Nam",
+        "url": "https://vnexpress.net/du-khach-singapore-co-the-thanh-toan-qr-tai-viet-nam-5092575.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 13:21:57 +0700",
+        "summary": "<a href=\"https://vnexpress.net/du-khach-singapore-co-the-thanh-toan-qr-tai-viet-nam-5092575.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/z7998759458072a5bc91f36b415f08-9476-2608-1782972682.png?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=USngMMryfPL0_IvzmY0s0Q\" /></a>Từ hôm nay, du khách Singapore đến Việt Nam có thể thanh toán QR và chiều ngược lại đang được Napas triển khai, dự kiến từ nay đến cuối năm."
+      },
+      {
+        "title": "Tăng trưởng tín dụng 6 tháng đạt hơn 7,4%",
+        "url": "https://vnexpress.net/tang-truong-tin-dung-6-thang-dat-hon-7-4-5092530.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 12:19:03 +0700",
+        "summary": "<a href=\"https://vnexpress.net/tang-truong-tin-dung-6-thang-dat-hon-7-4-5092530.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/z7998584789964e8a468bd726e4f57-5008-5329-1782965638.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=Q_n7EyOhCbcP65zlAsavrQ\" /></a>Tính đến ngày 26/6, tổng dư nợ toàn nền kinh tế đạt 19,97 triệu tỷ đồng, tăng 7,41% so với cuối năm ngoái."
+      },
+      {
+        "title": "Giá dầu thế giới xuống thấp nhất 4 tháng",
+        "url": "https://vnexpress.net/gia-dau-the-gioi-xuong-thap-nhat-4-thang-5092373.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 08:12:39 +0700",
+        "summary": "<a href=\"https://vnexpress.net/gia-dau-the-gioi-xuong-thap-nhat-4-thang-5092373.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/image1774398060660-1782954269-5583-1782954310.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=FNjPBeMAzNhnvVJmCvKWSA\" /></a>Giá mỗi thùng Brent hiện xuống sát 70 USD - thấp nhất kể từ đầu tháng 3, khi chiến sự Trung Đông mới bùng phát."
+      },
+      {
+        "title": "Nhân viên Vietlott thu nhập bình quân hơn 45 triệu đồng một tháng",
+        "url": "https://vnexpress.net/nhan-vien-vietlott-thu-nhap-binh-quan-hon-45-trieu-dong-mot-thang-5092314.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 00:09:06 +0700",
+        "summary": "<a href=\"https://vnexpress.net/nhan-vien-vietlott-thu-nhap-binh-quan-hon-45-trieu-dong-mot-thang-5092314.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/01/CG2A7369-7452-1782915942.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=e0huTcOkPO8-7PO6otpIsw\" /></a>Nhân sự Vietlott năm ngoái có thu nhập bình quân 547 triệu đồng, tức mỗi tháng khoảng 45,6 triệu đồng, trong đó khoảng 20% là tiền thưởng dự kiến trả trong năm nay."
+      },
+      {
+        "title": "Nhiều công ty hối tiếc khi sa thải nhân sự vì AI",
+        "url": "https://vnexpress.net/nhieu-cong-ty-hoi-tiec-khi-sa-thai-nhan-su-vi-ai-5092157.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 00:08:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/nhieu-cong-ty-hoi-tiec-khi-sa-thai-nhan-su-vi-ai-5092157.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/01/sx2jthsmd5lt7lvvr6ot2rlr5m-178-3290-1473-1782898383.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=DsAqDly0F4ySYAQ18fdSNw\" /></a>Thay đổi quan điểm \"AI có thể làm được tất cả\", nhiều doanh nghiệp tuyển dụng trở lại để thúc đẩy hoạt động kinh doanh."
+      },
+      {
+        "title": "Sendo Farm dừng hoạt động từ 10/7",
+        "url": "https://vnexpress.net/sendo-farm-dung-hoat-dong-tu-10-7-5092317.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 00:02:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/sendo-farm-dung-hoat-dong-tu-10-7-5092317.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/01/sendo-1782918260-9250-1782918479.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=-_pdYj_sWmEq-AAX8ixZVw\" /></a>Nền tảng bán nông sản, thực phẩm trực tuyến Sendo Farm thông báo dừng hoạt động từ ngày 10/7 nhằm tái cơ cấu."
+      },
+      {
+        "title": "TP HCM - từ đô thị thương cảng đến trung tâm tài chính mới",
+        "url": "https://vnexpress.net/tp-hcm-tu-do-thi-thuong-cang-den-trung-tam-tai-chinh-moi-5092539.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 17:00:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/tp-hcm-tu-do-thi-thuong-cang-den-trung-tam-tai-chinh-moi-5092539.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/marina2-1782976987-6672-1782977761.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=k3p4PKXs2_3AE9nrZNZ2tg\" /></a>Sau nửa thế kỷ mang tên Chủ tịch Hồ Chí Minh (2/7/1976), TP HCM liên tục mở rộng vai trò kinh tế, từ cửa ngõ giao thương, trung tâm sản xuất, thương mại đến mục tiêu Trung tâm Tài chính Quốc tế."
+      },
+      {
+        "title": "Hạ tầng tài chính - 'hệ tuần hoàn' của nền kinh tế TP HCM",
+        "url": "https://vnexpress.net/ha-tang-tai-chinh-he-tuan-hoan-cua-nen-kinh-te-tp-hcm-5092469.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 11:00:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/ha-tang-tai-chinh-he-tuan-hoan-cua-nen-kinh-te-tp-hcm-5092469.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/tphcm-1782960757-2710-1782961081.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=HYgCZNpNYfyB6jRtx0FM_A\" /></a>TP HCM lần đầu vào nhóm ba trung tâm tài chính hàng đầu Đông Nam Á, phản ánh quá trình tích lũy hạ tầng tài chính qua nhiều thập niên, từ hệ thống ngân hàng, thị trường vốn đến thanh toán số và fintech."
+      },
+      {
+        "title": "SHB vào top 200 doanh nghiệp lớn nhất Đông Nam Á",
+        "url": "https://vnexpress.net/shb-vao-top-200-doanh-nghiep-lon-nhat-dong-nam-a-5092234.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Thu, 02 Jul 2026 09:15:00 +0700",
+        "summary": "<a href=\"https://vnexpress.net/shb-vao-top-200-doanh-nghiep-lon-nhat-dong-nam-a-5092234.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/02/anh-1782957592-2584-1782957689.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=jUbnAHANk6jpQfiXTWLZuw\" /></a>SHB xếp thứ 141 trong bảng xếp hạng 500 doanh nghiệp lớn nhất Đông Nam Á, đồng thời được Vietnam Report vinh danh trong top 10 ngân hàng thương mại uy tín Việt Nam năm 2026."
+      },
+      {
+        "title": "Doanh nghiệp Hà Lan xây nhà máy sản xuất du thuyền nhôm tại Bắc Ninh",
+        "url": "https://vnexpress.net/doanh-nghiep-ha-lan-xay-nha-may-san-xuat-du-thuyen-nhom-tai-bac-ninh-5092283.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 21:36:52 +0700",
+        "summary": "<a href=\"https://vnexpress.net/doanh-nghiep-ha-lan-xay-nha-may-san-xuat-du-thuyen-nhom-tai-bac-ninh-5092283.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/01/2aoboqhnvscwnhmxt5wldc5abscxhm-6876-4898-1782910147.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=EmM01g9VIc18_SXhlsnIgA\" /></a>Alumax Boats, doanh nghiệp Hà Lan cung ứng taxi đường thủy trong Thế vận hội London, tham gia liên doanh đóng tàu tại Việt Nam, hướng tới sản xuất du thuyền cá nhân bằng vật liệu bền vững."
+      },
+      {
+        "title": "Lãi suất liên ngân hàng lên 13%",
+        "url": "https://vnexpress.net/lai-suat-lien-ngan-hang-len-13-5092109.html",
+        "source": "Kinh doanh - VnExpress RSS",
+        "published_at": "Wed, 01 Jul 2026 18:52:26 +0700",
+        "summary": "<a href=\"https://vnexpress.net/lai-suat-lien-ngan-hang-len-13-5092109.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/07/01/vpbank-thanhtung7-1782890712-2731-1782890883.jpg?w=1200&amp;h=0&amp;q=100&amp;dpr=1&amp;fit=crop&amp;s=a6E2LzzfhwBYpkn_m80ogw\" /></a>Lãi suất vay mượn bình quân kỳ hạn qua đêm giữa các ngân hàng trong phiên 30/6 vọt lên 13%, mức cao nhất kể từ cuối tháng 3."
+      }
+    ],
+    "note": "Không có NEWSAPI_KEY hoặc NewsAPI lỗi; đã dùng RSS miễn phí."
+  },
+  "vietnam": {
+    "stocks": {
+      "VCB": {
+        "available": true,
+        "last_price": 62.1,
+        "ma20": 61.67,
+        "ma50": 61.7,
+        "rsi14": 52.53,
+        "avg_volume20": 4028995.0,
+        "volume": 2744500.0,
+        "support20": 60.8,
+        "resistance20": 63.0,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Ngân hàng"
+      },
+      "BID": {
+        "available": true,
+        "last_price": 42.55,
+        "ma20": 42.02,
+        "ma50": 42.09,
+        "rsi14": 52.73,
+        "avg_volume20": 3885975.0,
+        "volume": 2980300.0,
+        "support20": 41.0,
+        "resistance20": 43.05,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Ngân hàng"
+      },
+      "CTG": {
+        "available": true,
+        "last_price": 34.25,
+        "ma20": 33.78,
+        "ma50": 34.61,
+        "rsi14": 52.31,
+        "avg_volume20": 6166150.0,
+        "volume": 5071200.0,
+        "support20": 33.25,
+        "resistance20": 34.4,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Ngân hàng"
+      },
+      "TCB": {
+        "available": true,
+        "last_price": 33.85,
+        "ma20": 32.06,
+        "ma50": 32.48,
+        "rsi14": 63.29,
+        "avg_volume20": 11760315.0,
+        "volume": 12377100.0,
+        "support20": 30.85,
+        "resistance20": 34.3,
+        "trend": "Hồi phục",
+        "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+        "sector": "Ngân hàng"
+      },
+      "MBB": {
+        "available": true,
+        "last_price": 25.65,
+        "ma20": 24.99,
+        "ma50": 25.34,
+        "rsi14": 60.7,
+        "avg_volume20": 11579945.0,
+        "volume": 9990900.0,
+        "support20": 24.6,
+        "resistance20": 25.75,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Ngân hàng"
+      },
+      "ACB": {
+        "available": true,
+        "last_price": 22.65,
+        "ma20": 22.5,
+        "ma50": 21.22,
+        "rsi14": 58.95,
+        "avg_volume20": 20128009.25,
+        "volume": 10197900.0,
+        "support20": 21.76,
+        "resistance20": 22.9,
+        "trend": "Tăng",
+        "trade_status": "Quan sát thêm",
+        "sector": "Ngân hàng"
+      },
+      "SSI": {
+        "available": true,
+        "last_price": 27.1,
+        "ma20": 26.86,
+        "ma50": 27.4,
+        "rsi14": 50.54,
+        "avg_volume20": 13092710.0,
+        "volume": 13087400.0,
+        "support20": 26.15,
+        "resistance20": 27.7,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Chứng khoán"
+      },
+      "VND": {
+        "available": true,
+        "last_price": 18.0,
+        "ma20": 17.63,
+        "ma50": 16.9,
+        "rsi14": 58.18,
+        "avg_volume20": 15226069.95,
+        "volume": 12634600.0,
+        "support20": 16.85,
+        "resistance20": 18.25,
+        "trend": "Tăng",
+        "trade_status": "Quan sát thêm",
+        "sector": "Chứng khoán"
+      },
+      "HCM": {
+        "available": true,
+        "last_price": 29.0,
+        "ma20": 27.58,
+        "ma50": 27.69,
+        "rsi14": 63.05,
+        "avg_volume20": 4079060.0,
+        "volume": 11411100.0,
+        "support20": 26.9,
+        "resistance20": 29.0,
+        "trend": "Hồi phục",
+        "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+        "sector": "Chứng khoán"
+      },
+      "VCI": {
+        "available": true,
+        "last_price": 24.85,
+        "ma20": 24.23,
+        "ma50": 25.03,
+        "rsi14": 53.98,
+        "avg_volume20": 5874890.0,
+        "volume": 5871400.0,
+        "support20": 23.4,
+        "resistance20": 25.0,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Chứng khoán"
+      },
+      "VHM": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VIC": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "KDH": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "NLG": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "DXG": {
+        "available": false,
+        "sector": "Bất động sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HPG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "HSG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "NKG": {
+        "available": false,
+        "sector": "Thép",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "GAS": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PVD": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PVS": {
+        "available": false,
+        "sector": "Dầu khí",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "MWG": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "FRT": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "PNJ": {
+        "available": false,
+        "sector": "Bán lẻ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "FPT": {
+        "available": false,
+        "sector": "Công nghệ",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "GMD": {
+        "available": false,
+        "sector": "Cảng biển / logistics",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "VHC": {
+        "available": false,
+        "sector": "Thủy sản",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "ANV": {
+        "available": true,
+        "last_price": 21.5,
+        "ma20": 21.21,
+        "ma50": 22.23,
+        "rsi14": 48.45,
+        "avg_volume20": 546210.0,
+        "volume": 679800.0,
+        "support20": 20.3,
+        "resistance20": 22.45,
+        "trend": "Hồi phục",
+        "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+        "sector": "Thủy sản"
+      },
+      "TNG": {
+        "available": false,
+        "sector": "Dệt may",
+        "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+      },
+      "STK": {
+        "available": true,
+        "last_price": 10.1,
+        "ma20": 10.79,
+        "ma50": 12.01,
+        "rsi14": 20.96,
+        "avg_volume20": 30550.0,
+        "volume": 48000.0,
+        "support20": 10.05,
+        "resistance20": 11.3,
+        "trend": "Giảm",
+        "trade_status": "Chỉ mua khi lấy lại MA20",
+        "sector": "Dệt may"
+      },
+      "VCG": {
+        "available": true,
+        "last_price": 21.15,
+        "ma20": 19.96,
+        "ma50": 20.85,
+        "rsi14": 62.95,
+        "avg_volume20": 3297230.0,
+        "volume": 7122300.0,
+        "support20": 19.2,
+        "resistance20": 21.15,
+        "trend": "Hồi phục",
+        "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+        "sector": "Đầu tư công / xây dựng"
+      },
+      "HHV": {
+        "available": true,
+        "last_price": 11.4,
+        "ma20": 11.43,
+        "ma50": 11.87,
+        "rsi14": 45.62,
+        "avg_volume20": 2792425.0,
+        "volume": 3345400.0,
+        "support20": 11.1,
+        "resistance20": 11.75,
+        "trend": "Giảm",
+        "trade_status": "Chỉ mua khi lấy lại MA20",
+        "sector": "Đầu tư công / hạ tầng"
+      },
+      "CII": {
+        "available": true,
+        "last_price": 17.55,
+        "ma20": 17.31,
+        "ma50": 17.93,
+        "rsi14": 50.74,
+        "avg_volume20": 11285470.0,
+        "volume": 7862400.0,
+        "support20": 16.2,
+        "resistance20": 18.05,
+        "trend": "Hồi phục",
+        "trade_status": "Quan sát thêm",
+        "sector": "Đầu tư công / hạ tầng"
+      },
+      "LCG": {
+        "available": true,
+        "last_price": 8.64,
+        "ma20": 8.48,
+        "ma50": 8.67,
+        "rsi14": 55.71,
+        "avg_volume20": 921274.2,
+        "volume": 1390300.0,
+        "support20": 8.17,
+        "resistance20": 8.66,
+        "trend": "Hồi phục",
+        "trade_status": "Có thể mua thăm dò nếu vượt vùng xác nhận",
+        "sector": "Đầu tư công / xây dựng"
+      }
+    },
+    "vnindex": {
+      "available": false,
+      "reason": "Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu"
+    },
+    "notes": [
+      "VHM: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VIC: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "KDH: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "NLG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "DXG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HPG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "HSG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "NKG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "GAS: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PVD: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PVS: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "MWG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "FRT: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "PNJ: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "FPT: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "GMD: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "VHC: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "TNG: Chưa lấy được dữ liệu từ vnstock, cần kiểm tra API key hoặc nguồn dữ liệu.",
+      "Chưa có dữ liệu kỹ thuật đầy đủ cho cổ phiếu Việt Nam do nguồn vnstock chưa được cấu hình/kích hoạt."
+    ],
+    "technical_note": "Chưa có dữ liệu kỹ thuật đầy đủ cho cổ phiếu Việt Nam do nguồn vnstock chưa được cấu hình/kích hoạt.",
+    "fallback": true
+  }
+}
