@@ -2,8 +2,8 @@
   "payload": {
     "date": "2026-07-09",
     "date_label": "09/07/2026",
-    "updated_at": "2026-07-09T16:06:31.189195+07:00",
-    "updated_label": "Cập nhật lúc: 16:06 09/07/2026, giờ Việt Nam",
+    "updated_at": "2026-07-09T16:16:35.695363+07:00",
+    "updated_label": "Cập nhật lúc: 16:16 09/07/2026, giờ Việt Nam",
     "brand": {
       "name": "HDUNGINVEST",
       "site_name": "HDUNGINVEST Daily Research",
@@ -13,8 +13,8 @@
       "logo_path": "assets/logo.png"
     },
     "market_data": {
-      "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-      "updated_at": "2026-07-09T09:06:31.189504+00:00",
+      "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+      "updated_at": "2026-07-09T09:16:35.695729+00:00",
       "vietnam_markets": [
         {
           "label": "VN-Index",
@@ -87,15 +87,15 @@
         {
           "label": "USD/VND",
           "symbol": "USD-VND",
-          "value": "26,291.5000",
-          "raw_value": 26291.5,
-          "change": "-3.50 (-0.01%)",
+          "value": "26,292.0000",
+          "raw_value": 26292.0,
+          "change": "-3.00 (-0.01%)",
           "change_pct": -0.01,
           "tone": "neutral",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:00:00 AM UTC.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:16:00 AM UTC.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:37.072782+00:00",
-          "as_of": "Jul 9, 9:00:00 AM UTC",
+          "updated_at": "2026-07-09T09:16:41.552838+00:00",
+          "as_of": "Jul 9, 9:16:00 AM UTC",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -181,7 +181,7 @@
           "tone": "down",
           "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:41 PM GMT-4.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:31.189518+00:00",
+          "updated_at": "2026-07-09T09:16:35.695746+00:00",
           "as_of": "Jul 8, 4:48:41 PM GMT-4",
           "technical": {
             "available": false,
@@ -199,7 +199,7 @@
           "tone": "down",
           "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:50 PM GMT-4.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:31.777061+00:00",
+          "updated_at": "2026-07-09T09:16:36.519943+00:00",
           "as_of": "Jul 8, 4:48:50 PM GMT-4",
           "technical": {
             "available": false,
@@ -217,7 +217,7 @@
           "tone": "up",
           "note": "Google Finance, dữ liệu gần nhất: Jul 8, 5:15:59 PM GMT-4.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:32.342517+00:00",
+          "updated_at": "2026-07-09T09:16:36.949756+00:00",
           "as_of": "Jul 8, 5:15:59 PM GMT-4",
           "technical": {
             "available": false,
@@ -235,7 +235,7 @@
           "tone": "up",
           "note": "Google Finance, dữ liệu gần nhất: Jul 9, 3:45:03 PM GMT+9.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:32.873185+00:00",
+          "updated_at": "2026-07-09T09:16:37.511765+00:00",
           "as_of": "Jul 9, 3:45:03 PM GMT+9",
           "technical": {
             "available": false,
@@ -246,15 +246,15 @@
         {
           "label": "Vàng thế giới",
           "symbol": "GCW00:COMEX",
-          "value": "4,119.40",
-          "raw_value": 4119.4,
-          "change": "+37.00 (+0.91%)",
-          "change_pct": 0.91,
+          "value": "4,117.70",
+          "raw_value": 4117.7,
+          "change": "+35.30 (+0.86%)",
+          "change_pct": 0.86,
           "tone": "up",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:53:43 AM UTC  ·   USD.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:01:24 AM UTC  ·   USD.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:33.404798+00:00",
-          "as_of": "Jul 9, 8:53:43 AM UTC  ·   USD",
+          "updated_at": "2026-07-09T09:16:38.000235+00:00",
+          "as_of": "Jul 9, 9:01:24 AM UTC  ·   USD",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -266,13 +266,13 @@
           "symbol": "SIW00:COMEX",
           "value": "59.60",
           "raw_value": 59.6,
-          "change": "+1.06 (+1.81%)",
-          "change_pct": 1.81,
+          "change": "+1.06 (+1.82%)",
+          "change_pct": 1.82,
           "tone": "up",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:54:19 AM UTC  ·   USD.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:55:18 AM UTC  ·   USD.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:33.999688+00:00",
-          "as_of": "Jul 9, 8:54:19 AM UTC  ·   USD",
+          "updated_at": "2026-07-09T09:16:38.537500+00:00",
+          "as_of": "Jul 9, 8:55:18 AM UTC  ·   USD",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -282,15 +282,15 @@
         {
           "label": "Dầu WTI",
           "symbol": "CLW00:NYMEX",
-          "value": "72.56",
-          "raw_value": 72.56,
-          "change": "-0.71 (-0.97%)",
-          "change_pct": -0.97,
+          "value": "72.85",
+          "raw_value": 72.85,
+          "change": "-0.42 (-0.57%)",
+          "change_pct": -0.57,
           "tone": "down",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:54:55 AM UTC  ·   USD.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:59:46 AM UTC  ·   USD.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:34.637415+00:00",
-          "as_of": "Jul 9, 8:54:55 AM UTC  ·   USD",
+          "updated_at": "2026-07-09T09:16:39.156952+00:00",
+          "as_of": "Jul 9, 8:59:46 AM UTC  ·   USD",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -300,15 +300,15 @@
         {
           "label": "Dầu Brent",
           "symbol": "BZW00:NYMEX",
-          "value": "75.84",
-          "raw_value": 75.84,
-          "change": "-0.76 (-0.99%)",
-          "change_pct": -0.99,
+          "value": "76.07",
+          "raw_value": 76.07,
+          "change": "-0.53 (-0.69%)",
+          "change_pct": -0.69,
           "tone": "down",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:55:29 AM UTC  ·   USD.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:54:03 AM UTC  ·   USD.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:35.202661+00:00",
-          "as_of": "Jul 9, 8:55:29 AM UTC  ·   USD",
+          "updated_at": "2026-07-09T09:16:39.653811+00:00",
+          "as_of": "Jul 9, 8:54:03 AM UTC  ·   USD",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -318,15 +318,15 @@
         {
           "label": "Bitcoin",
           "symbol": "BTC-USD",
-          "value": "62,805.95",
-          "raw_value": 62805.95,
-          "change": "+548.64 (+0.88%)",
-          "change_pct": 0.88,
+          "value": "62,811.74",
+          "raw_value": 62811.74,
+          "change": "+554.42 (+0.89%)",
+          "change_pct": 0.89,
           "tone": "up",
-          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:58:59 AM UTC.",
+          "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:13:00 AM UTC.",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:35.744415+00:00",
-          "as_of": "Jul 9, 8:58:59 AM UTC",
+          "updated_at": "2026-07-09T09:16:40.142646+00:00",
+          "as_of": "Jul 9, 9:13:00 AM UTC",
           "technical": {
             "available": false,
             "message": "Google Finance quote page không cung cấp đủ lịch sử giá để tính kỹ thuật."
@@ -343,7 +343,7 @@
           "tone": "neutral",
           "note": "Không tìm thấy block giá trong Google Finance",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:36.563908+00:00",
+          "updated_at": "2026-07-09T09:16:41.097417+00:00",
           "as_of": "chưa có dữ liệu cập nhật",
           "technical": {
             "available": false,
@@ -361,7 +361,7 @@
           "tone": "neutral",
           "note": "Không tìm thấy block giá trong Google Finance",
           "source": "Google Finance",
-          "updated_at": "2026-07-09T09:06:37.071769+00:00",
+          "updated_at": "2026-07-09T09:16:41.551796+00:00",
           "as_of": "chưa có dữ liệu cập nhật",
           "technical": {
             "available": false,
@@ -437,14 +437,14 @@
           "name": "Google Finance",
           "url": "https://www.google.com/finance/",
           "used_for": "Chỉ số quốc tế, hàng hóa, crypto và tỷ giá USD/VND nếu truy cập được.",
-          "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-          "updated_at": "2026-07-09T09:06:31.189504+00:00"
+          "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+          "updated_at": "2026-07-09T09:16:35.695729+00:00"
         },
         {
           "name": "manual_market_data.json",
           "url": "data/manual_market_data.json",
           "used_for": "Dữ liệu Việt Nam, dòng tiền, độ rộng, thanh khoản và phần thiếu từ nguồn tự động.",
-          "fetched_at": "2026-07-09T09:06:31.189504+00:00",
+          "fetched_at": "2026-07-09T09:16:35.695729+00:00",
           "updated_at": "chưa có dữ liệu cập nhật"
         }
       ]
@@ -460,8 +460,8 @@
           "tags": [
             "trong nước"
           ],
-          "fetched_at": "2026-07-09T09:06:37.531988+00:00",
-          "updated_at": "2026-07-09T09:06:37.531871+00:00"
+          "fetched_at": "2026-07-09T09:16:42.230060+00:00",
+          "updated_at": "2026-07-09T09:16:42.229950+00:00"
         },
         {
           "title": "Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần",
@@ -472,8 +472,18 @@
           "tags": [
             "quốc tế"
           ],
-          "fetched_at": "2026-07-09T09:06:37.531996+00:00",
-          "updated_at": "2026-07-09T09:06:37.531871+00:00"
+          "fetched_at": "2026-07-09T09:16:42.230068+00:00",
+          "updated_at": "2026-07-09T09:16:42.229950+00:00"
+        },
+        {
+          "title": "Nắm mỏ quặng vonfram \"khủng\" nhưng thiếu đúng 1 mắt xích: Tập đoàn Hàn Quốc buộc phải tìm đến Việt Nam",
+          "url": "https://cafef.vn/nam-mo-quang-vonfram-khung-nhung-thieu-dung-1-mat-xich-tap-doan-han-quoc-buoc-phai-tim-den-viet-nam-188260709141251614.chn",
+          "source": "CafeF",
+          "published": "Thu, 09 Jul 26 16:12:00 +0700",
+          "summary": "Mỏ vonfram khủng trong tay nhưng không thể tự làm, tập đoàn nãy đã mang \"kho báu\" sang Việt Nam, bắt tay Masan High-Tech Materials gia công chế biến.",
+          "tags": [],
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
+          "updated_at": "Thu, 09 Jul 26 16:12:00 +0700"
         },
         {
           "title": "Người đồng hành cùng Hòa Phát hơn 30 năm vừa bán lượng cổ phiếu HPG trị giá 150 tỷ đồng",
@@ -482,7 +492,7 @@
           "published": "Thu, 09 Jul 26 16:01:00 +0700",
           "summary": "Hoàn tất, số lượng và tỷ lệ cổ phiếu HPG vị này nắm giữ giảm xuống còn 131.434.285 cổ phiếu (tỷ lệ 1,56%).",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 16:01:00 +0700"
         },
         {
@@ -492,7 +502,7 @@
           "published": "Thu, 09 Jul 26 15:59:00 +0700",
           "summary": "Petrolimex triển khai bán 23,3 triệu cổ phiếu quỹ nhằm đáp ứng điều kiện Công ty đại chúng theo quy định pháp luật hiện hành.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 15:59:00 +0700"
         },
         {
@@ -502,7 +512,7 @@
           "published": "Thu, 09 Jul 26 15:53:00 +0700",
           "summary": "Ngoài heo và trứng gà, công ty nông nghiệp của tỷ phú Trần Đình Long còn Hòa Phát (HPA) còn bán được gần 92.000 tấn thức ăn chăn nuôi, tăng 9% so với cùng kì.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 15:53:00 +0700"
         },
         {
@@ -512,7 +522,7 @@
           "published": "Thu, 09 Jul 26 15:45:00 +0700",
           "summary": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 479 tỷ đồng cổ phiếu trên toàn thị trường.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 15:45:00 +0700"
         },
         {
@@ -522,7 +532,7 @@
           "published": "Thu, 09 Jul 26 15:32:00 +0700",
           "summary": "Siba Group trình cổ đông kế hoạch chào bán riêng lẻ tối đa 20 triệu cổ phiếu đồng thời sửa đổi phương án phát hành cổ phiếu ESOP.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 15:32:00 +0700"
         },
         {
@@ -532,7 +542,7 @@
           "published": "Thu, 09 Jul 26 13:30:00 +0700",
           "summary": "Chỉ một tuần sau khi vượt mốc 22.000 tài khoản trong 48 giờ đầu triển khai, SCEX Simulator (*) tiếp tục bùng nổ với  hơn 41.000 tài khoản đăng ký, khẳng định sức hấp dẫn của \"Đấu trường Tài sản mã hoá\" và tiềm năng phổ cập tài sản số của thị trường Việt Nam.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 13:30:00 +0700"
         },
         {
@@ -542,7 +552,7 @@
           "published": "Thu, 09 Jul 26 11:50:00 +0700",
           "summary": "Được hậu thuẫn bởi Toyota, startup này từng được kỳ vọng sẽ làm nên kỳ vọng.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 11:50:00 +0700"
         },
         {
@@ -552,7 +562,7 @@
           "published": "Thu, 09 Jul 26 11:47:00 +0700",
           "summary": "Việt Nam có lợi thế lớn.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 11:47:00 +0700"
         },
         {
@@ -562,7 +572,7 @@
           "published": "Thu, 09 Jul 26 11:18:00 +0700",
           "summary": "Đà tăng được hỗ trợ bởi thông tin doanh nghiệp vừa công bố kết quả kinh doanh vượt xa kế hoạch.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 11:18:00 +0700"
         },
         {
@@ -572,7 +582,7 @@
           "published": "Thu, 09 Jul 26 11:17:00 +0700",
           "summary": "Theo SSI Research, việc mở rộng quy mô thị trường vốn phải đi cùng khả năng tiếp cận thực tế của nhà đầu tư và sự gia tăng tương ứng của dòng vốn tổ chức.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 11:17:00 +0700"
         },
         {
@@ -582,18 +592,18 @@
           "published": "Thu, 09 Jul 26 10:50:00 +0700",
           "summary": "Dù tăng song thanh khoản mã này tương đối thấp với chỉ vài trăm đơn vị được khớp lệnh.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
           "updated_at": "Thu, 09 Jul 26 10:50:00 +0700"
         },
         {
-          "title": "IPO DatVietVAC: Định giá P/E 13,x lần, chiết khấu 28% so với trung bình ngành giải trí Châu Á",
-          "url": "https://cafef.vn/ipo-datvietvac-dinh-gia-p-e-13x-lan-chiet-khau-28-so-voi-trung-binh-nganh-giai-tri-chau-a-188260709104119327.chn",
-          "source": "CafeF",
-          "published": "Thu, 09 Jul 26 10:41:00 +0700",
-          "summary": "Mức giá chào bán cổ phiếu lần đầu ra công chúng (IPO) của Công ty Cổ phần DatViet VAC Group Holdings (DatVietVAC) là 54.800 đồng/cổ phiếu, tương ứng định giá P/E trên lợi nhuận dự kiến 2026 ở mức 13,x lần, hấp dẫn so với mức trung bình của các doanh nghiệp cùng ngành trong khu vực.",
+          "title": "Áp lực bán đè nặng chứng khoán",
+          "url": "https://vnexpress.net/ap-luc-ban-de-nang-chung-khoan-5095507.html",
+          "source": "VnExpress Kinh doanh",
+          "published": "Thu, 09 Jul 2026 16:01:11 +0700",
+          "summary": "Hơn 200 cổ phiếu trên sàn HoSE bị nhuộm đỏ, trong đó có nhiều mã trụ, tạo thành áp lực chính khiến chỉ số VN-Index sụt 13 điểm.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
-          "updated_at": "Thu, 09 Jul 26 10:41:00 +0700"
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
+          "updated_at": "Thu, 09 Jul 2026 16:01:11 +0700"
         },
         {
           "title": "TP HCM vận hành nền tảng AI kết nối nhà đầu tư",
@@ -602,7 +612,7 @@
           "published": "Thu, 09 Jul 2026 15:45:51 +0700",
           "summary": "TP HCM thử nghiệm nền tảng ứng dụng AI để kết nối nhà đầu tư với khoảng 250 dự án, định hướng và hỗ trợ theo thời gian thực.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 15:45:51 +0700"
         },
         {
@@ -612,7 +622,7 @@
           "published": "Thu, 09 Jul 2026 15:14:03 +0700",
           "summary": "16 tàu bay thương gia đang vận hành tại Việt Nam, tăng hơn 77% so với 2025 - tốc độ nhanh nhất khu vực châu Á - Thái Bình Dương, theo lãnh đạo hãng máy bay Dassault.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 15:14:03 +0700"
         },
         {
@@ -622,7 +632,7 @@
           "published": "Thu, 09 Jul 2026 14:50:57 +0700",
           "summary": "Từ 15h hôm nay, giá xăng giảm, dầu tăng tùy mặt hàng, theo đà biến động của thị trường năng lượng thế giới.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 14:50:57 +0700"
         },
         {
@@ -632,7 +642,7 @@
           "published": "Thu, 09 Jul 2026 14:35:48 +0700",
           "summary": "Hạ tầng chuẩn quốc tế, khung pháp lý minh bạch và công nghệ số là những \"chìa khóa\" được chuyên gia hiến kế giúp Việt Nam hút dòng vốn toàn cầu.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 14:35:48 +0700"
         },
         {
@@ -642,7 +652,7 @@
           "published": "Thu, 09 Jul 2026 14:33:39 +0700",
           "summary": "Bà Vũ Khánh Linh, con gái doanh nhân Vũ Văn Tiền, xin từ nhiệm thành viên HĐQT Chứng khoán An Bình, sau 4 tháng làm việc.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 14:33:39 +0700"
         },
         {
@@ -652,7 +662,7 @@
           "published": "Thu, 09 Jul 2026 13:42:05 +0700",
           "summary": "GB Innovation (Hàn Quốc) chọn Masan High-Tech Materials làm đối tác chế biến tinh quặng vonfram thành các sản phẩm APT dùng trong ngành bán dẫn.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 13:42:05 +0700"
         },
         {
@@ -662,7 +672,7 @@
           "published": "Thu, 09 Jul 2026 11:57:47 +0700",
           "summary": "Cử tri TP HCM đề nghị nâng mức doanh thu chịu thuế của hộ kinh doanh lên 3 tỷ đồng mỗi năm, nhưng Bộ Tài chính cho rằng chưa có cơ sở điều chỉnh.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 11:57:47 +0700"
         },
         {
@@ -672,7 +682,7 @@
           "published": "Thu, 09 Jul 2026 09:00:00 +0700",
           "summary": "Lãi suất tiền gửi được dự báo duy trì trên 7% cho kỳ hạn 6-12 tháng, còn trái phiếu dao động 8-9%, kéo theo mức lãi cho vay khó giảm trong nửa cuối năm.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 09:00:00 +0700"
         },
         {
@@ -682,7 +692,7 @@
           "published": "Thu, 09 Jul 2026 05:00:00 +0700",
           "summary": "Từ những quyết định \"đánh lớn, đi nhanh\" đưa Hoàng Anh Gia Lai lên đỉnh cao, đến cú ngã bên bờ vực phá sản, rồi hành trình hồi sinh, bầu Đức chưa từng từ bỏ triết lý: không đi sau ai và sẵn sàng trả giá để dẫn đầu.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 05:00:00 +0700"
         },
         {
@@ -692,7 +702,7 @@
           "published": "Thu, 09 Jul 2026 04:00:00 +0700",
           "summary": "Từng được ví là \"vua sầu riêng\", Musang King Việt Nam tại vườn hiện có giá bán 50.000-70.000 đồng một kg, mức thấp nhất kể từ khi được bán thương mại.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 04:00:00 +0700"
         },
         {
@@ -702,28 +712,8 @@
           "published": "Thu, 09 Jul 2026 00:05:00 +0700",
           "summary": "Nike không trả tiền tài trợ cho FIFA, nhưng hãng thể thao Mỹ vẫn phủ sóng trên khắp truyền thông dịp World Cup 2026 so với các đối thủ.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
           "updated_at": "Thu, 09 Jul 2026 00:05:00 +0700"
-        },
-        {
-          "title": "Doanh nghiệp cần chuẩn bị gì để tiếp cận vốn xanh?",
-          "url": "https://vnexpress.net/doanh-nghiep-can-chuan-bi-gi-de-tiep-can-von-xanh-5095077.html",
-          "source": "VnExpress Kinh doanh",
-          "published": "Thu, 09 Jul 2026 00:00:00 +0700",
-          "summary": "Chuyên gia khuyến nghị doanh nghiệp tập trung lập kế hoạch chuyển đổi vài hạng mục cụ thể, chuẩn hóa dữ liệu khi chuẩn bị tiếp cận vốn xanh.",
-          "tags": [],
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
-          "updated_at": "Thu, 09 Jul 2026 00:00:00 +0700"
-        },
-        {
-          "title": "Ukraine’s drone playbook is wreaking havoc in Russia — and upending where NATO wants to invest",
-          "url": "https://www.cnbc.com/2026/07/09/ukraine-drone-strikes-russia-nato.html",
-          "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 05:15:02 GMT",
-          "summary": "Ukraine’s deep drone strikes on Russian refineries are reshaping the war and pushing NATO toward a $40 billion counter-drone plan.",
-          "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 05:15:02 GMT"
         },
         {
           "title": "Oil prices ease after spiking following fresh U.S. strikes against Iran",
@@ -732,38 +722,18 @@
           "published": "Thu, 09 Jul 2026 06:51:07 GMT",
           "summary": "Oil prices turned lower on Thursday after the U.S. carried out fresh strikes on Iran, renewing concerns about supply disruptions in the Middle East.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
           "updated_at": "Thu, 09 Jul 2026 06:51:07 GMT"
         },
         {
-          "title": "Why the world’s best-performing stock market this year fell into bear territory",
-          "url": "https://www.cnbc.com/2026/07/09/kospi-bear-territory-ai-samsung-skhynix-chipmakers.html",
+          "title": "Ukraine’s drone playbook is wreaking havoc in Russia — and upending where NATO wants to invest",
+          "url": "https://www.cnbc.com/2026/07/09/ukraine-drone-strikes-russia-nato.html",
           "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 08:48:32 GMT",
-          "summary": "The Kospi fell more than 5% on Wednesday, which brought it 20% below its June 19 record high, according to LSEG data.",
+          "published": "Thu, 09 Jul 2026 05:15:02 GMT",
+          "summary": "Ukraine’s deep drone strikes on Russian refineries are reshaping the war and pushing NATO toward a $40 billion counter-drone plan.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 08:48:32 GMT"
-        },
-        {
-          "title": "U.S., Iran trade fresh strikes as Trump says he's 'not sure' he wants deal",
-          "url": "https://www.cnbc.com/2026/07/08/trump-iran-war-deal-hormuz-strait-ceasefire.html",
-          "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 07:23:00 GMT",
-          "summary": "Centcom said it launched dozens of strikes on Iranian military infrastructure and small boats; Trump said the U.S. might take more military action \"tonight.\"",
-          "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 07:23:00 GMT"
-        },
-        {
-          "title": "Trump loses appeals court bid to delay paying E. Jean Carroll $5M in damages",
-          "url": "https://www.cnbc.com/2026/07/08/trump-e-jean-carroll-supreme-court-sex-abuse.html",
-          "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 02:47:58 GMT",
-          "summary": "Trump was held civilly liable in two trials for defaming E. Jean Carroll when he denied her claim he sexually abused her in a New York department store.",
-          "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 02:47:58 GMT"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Thu, 09 Jul 2026 05:15:02 GMT"
         },
         {
           "title": "AstraZeneca stock dives 9% after heart drug trial misses target",
@@ -772,8 +742,18 @@
           "published": "Thu, 09 Jul 2026 08:53:44 GMT",
           "summary": "A late-stage clinical trial failed to miss its primary endpoint, U.K.'s laregst drugmaker said Thursday.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
           "updated_at": "Thu, 09 Jul 2026 08:53:44 GMT"
+        },
+        {
+          "title": "Why the world’s best-performing stock market this year fell into bear territory",
+          "url": "https://www.cnbc.com/2026/07/09/kospi-bear-territory-ai-samsung-skhynix-chipmakers.html",
+          "source": "CNBC Markets",
+          "published": "Thu, 09 Jul 2026 08:48:32 GMT",
+          "summary": "The Kospi fell more than 5% on Wednesday, which brought it 20% below its June 19 record high, according to LSEG data.",
+          "tags": [],
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Thu, 09 Jul 2026 08:48:32 GMT"
         },
         {
           "title": "Platner quits Maine Senate race; Democrats set to pick new nominee",
@@ -782,38 +762,48 @@
           "published": "Thu, 09 Jul 2026 01:32:34 GMT",
           "summary": "Maine Democrats must now replace Platner with less than four months until the midterm elections.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
           "updated_at": "Thu, 09 Jul 2026 01:32:34 GMT"
         },
         {
-          "title": "AirPods-maker Luxshare sees shares close lower in tepid Hong Kong debut",
-          "url": "https://www.cnbc.com/2026/07/09/luxshare-ipo-hong-kong-debut-apple-airpod-.html",
+          "title": "Jim Cramer sees a big risk to the bull market resurfacing — and it's not the Iran war",
+          "url": "https://www.cnbc.com/2026/07/08/jim-cramer-risk-bull-market-resurfacing.html",
           "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 08:42:13 GMT",
-          "summary": "The company, which is already listed in Shenzhen, had priced shares in the IPO at 63.28 Hong Kong dollars apiece, raising HK$24.27 billion ($3.09 billion).",
+          "published": "Wed, 08 Jul 2026 22:14:51 GMT",
+          "summary": "CNBC's Jim Cramer said the growing wave of stock offerings and debt issuance is the next big threat to the bull market.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 08:42:13 GMT"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Wed, 08 Jul 2026 22:14:51 GMT"
         },
         {
-          "title": "Trump's European allies add distance on Iran following testy NATO summit",
-          "url": "https://www.cnbc.com/2026/07/08/trump-iran-nato-summit-war-hormuz-strait.html",
+          "title": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
+          "url": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html",
           "source": "CNBC Markets",
-          "published": "Wed, 08 Jul 2026 22:06:44 GMT",
-          "summary": "President Donald Trump spent two days in Ankara, Turkey with other NATO member leaders.",
+          "published": "Wed, 08 Jul 2026 21:32:49 GMT",
+          "summary": "Levi Strauss beat quarterly expectations on the top and bottom lines during its fiscal 2026 second quarter.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Wed, 08 Jul 2026 22:06:44 GMT"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Wed, 08 Jul 2026 21:32:49 GMT"
         },
         {
-          "title": "Trump says he doesn't want anything to do with Spain: 'Cut off all trade'",
-          "url": "https://www.cnbc.com/2026/07/08/trump-spain-nato-trade-summit.html",
+          "title": "Trump loses appeals court bid to delay paying E. Jean Carroll $5M in damages",
+          "url": "https://www.cnbc.com/2026/07/08/trump-e-jean-carroll-supreme-court-sex-abuse.html",
           "source": "CNBC Markets",
-          "published": "Thu, 09 Jul 2026 08:52:15 GMT",
-          "summary": "U.S. President Donald Trump slammed Spain for not contributing enough to NATO, as he attended the defense alliance summit in Turkey.",
+          "published": "Thu, 09 Jul 2026 02:47:58 GMT",
+          "summary": "Trump was held civilly liable in two trials for defaming E. Jean Carroll when he denied her claim he sexually abused her in a New York department store.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Thu, 09 Jul 2026 08:52:15 GMT"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Thu, 09 Jul 2026 02:47:58 GMT"
+        },
+        {
+          "title": "Crypto still 'off the table' for Singapore's Temasek, four years after FTX flop",
+          "url": "https://www.cnbc.com/2026/07/09/temasek-takeaways-crypto-defense-ai-european-luxury-names.html",
+          "source": "CNBC Markets",
+          "published": "Thu, 09 Jul 2026 05:12:22 GMT",
+          "summary": "Temasek's investment in the now-bankrupt FTX cryptocurrency exchange led to a writedown of $275 million in 2022, drawing much local criticism.",
+          "tags": [],
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Thu, 09 Jul 2026 05:12:22 GMT"
         },
         {
           "title": "World Cup drives Google Search to record queries per second",
@@ -822,18 +812,28 @@
           "published": "Thu, 09 Jul 2026 00:34:21 GMT",
           "summary": "The milestone comes amid Lionel Messi and Argentina's popularity.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
           "updated_at": "Thu, 09 Jul 2026 00:34:21 GMT"
         },
         {
-          "title": "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion",
-          "url": "https://www.cnbc.com/2026/07/08/spacex-stock-nasdaq-100-ipo.html",
+          "title": "McConnell health update demanded by Gov. Beshear as Senate vacancy questions grow",
+          "url": "https://www.cnbc.com/2026/07/08/mcconnell-health-update-beshear-hospitalization-kentucky.html",
           "source": "CNBC Markets",
-          "published": "Wed, 08 Jul 2026 21:10:47 GMT",
-          "summary": "SpaceX's record IPO raised a total of $85.7 billion after underwriters exercised the \"greenshoe\" overallotment.",
+          "published": "Wed, 08 Jul 2026 17:42:25 GMT",
+          "summary": "McConnell, the former longtime Senate leader who declined to seek an eighth term following a series of health scares, was admitted to a hospital on June 14.",
           "tags": [],
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "Wed, 08 Jul 2026 21:10:47 GMT"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Wed, 08 Jul 2026 17:42:25 GMT"
+        },
+        {
+          "title": "Trump announces long-shot bid to get Supreme Court to rehear birthright citizenship case",
+          "url": "https://www.cnbc.com/2026/07/08/trump-supreme-court-birthright-citizenship-rehearing.html",
+          "source": "CNBC Markets",
+          "published": "Wed, 08 Jul 2026 22:06:19 GMT",
+          "summary": "Trump already asked the Supreme Court to reconsider denying him an appeal of a verdict holding him liable for sexually abusing and defaming E. Jean Carroll.",
+          "tags": [],
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "Wed, 08 Jul 2026 22:06:19 GMT"
         }
       ],
       "sources": [
@@ -841,48 +841,48 @@
           "name": "manual_news.json",
           "url": "data/manual_news.json",
           "used_for": "Tin bổ sung thủ công khi RSS/public pages thiếu dữ liệu.",
-          "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-          "updated_at": "2026-07-09T09:06:37.531871+00:00"
+          "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+          "updated_at": "2026-07-09T09:16:42.229950+00:00"
         },
         {
           "name": "Vietstock",
           "url": "https://vietstock.vn/rss/chung-khoan-830.rss",
           "used_for": "Tin tức RSS/public feed.",
-          "fetched_at": "2026-07-09T09:06:37.532004+00:00",
-          "updated_at": "2026-07-09T09:06:37.532004+00:00"
+          "fetched_at": "2026-07-09T09:16:42.230076+00:00",
+          "updated_at": "2026-07-09T09:16:42.230076+00:00"
         },
         {
           "name": "CafeF",
           "url": "https://cafef.vn/thi-truong-chung-khoan.rss",
           "used_for": "Tin tức RSS/public feed.",
-          "fetched_at": "2026-07-09T09:06:38.879977+00:00",
-          "updated_at": "2026-07-09T09:06:38.879977+00:00"
+          "fetched_at": "2026-07-09T09:16:43.286722+00:00",
+          "updated_at": "2026-07-09T09:16:43.286722+00:00"
         },
         {
           "name": "VnExpress Kinh doanh",
           "url": "https://vnexpress.net/rss/kinh-doanh.rss",
           "used_for": "Tin tức RSS/public feed.",
-          "fetched_at": "2026-07-09T09:06:53.367785+00:00",
-          "updated_at": "2026-07-09T09:06:53.367785+00:00"
+          "fetched_at": "2026-07-09T09:16:56.389739+00:00",
+          "updated_at": "2026-07-09T09:16:56.389739+00:00"
         },
         {
           "name": "CNBC Markets",
           "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
           "used_for": "Tin tức RSS/public feed.",
-          "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-          "updated_at": "2026-07-09T09:06:55.628278+00:00"
+          "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+          "updated_at": "2026-07-09T09:16:57.503548+00:00"
         }
       ],
       "errors": [
         {
           "name": "VnEconomy",
           "url": "https://vneconomy.vn/chung-khoan.rss",
-          "error": "HTTPSConnectionPool(host='vneconomy.vn', port=443): Max retries exceeded with url: /chung-khoan.rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy.vn', port=443) at 0x7f06dce1d1d0>, 'Connection to vneconomy.vn timed out. (connect timeout=12)'))",
-          "updated_at": "2026-07-09T09:06:37.531871+00:00"
+          "error": "HTTPSConnectionPool(host='vneconomy.vn', port=443): Max retries exceeded with url: /chung-khoan.rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy.vn', port=443) at 0x7f1296aa0e50>, 'Connection to vneconomy.vn timed out. (connect timeout=12)'))",
+          "updated_at": "2026-07-09T09:16:42.229950+00:00"
         }
       ],
-      "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-      "updated_at": "2026-07-09T09:06:37.531871+00:00"
+      "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+      "updated_at": "2026-07-09T09:16:42.229950+00:00"
     },
     "watchlist": [
       {
@@ -1138,84 +1138,84 @@
         "name": "Google Finance",
         "url": "https://www.google.com/finance/",
         "used_for": "Chỉ số quốc tế, hàng hóa, crypto và tỷ giá USD/VND nếu truy cập được.",
-        "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-        "updated_at": "2026-07-09T09:06:31.189504+00:00"
+        "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+        "updated_at": "2026-07-09T09:16:35.695729+00:00"
       },
       {
         "name": "manual_market_data.json",
         "url": "data/manual_market_data.json",
         "used_for": "Dữ liệu Việt Nam, dòng tiền, độ rộng, thanh khoản và phần thiếu từ nguồn tự động.",
-        "fetched_at": "2026-07-09T09:06:31.189504+00:00",
+        "fetched_at": "2026-07-09T09:16:35.695729+00:00",
         "updated_at": "chưa có dữ liệu cập nhật"
       },
       {
         "name": "manual_news.json",
         "url": "data/manual_news.json",
         "used_for": "Tin bổ sung thủ công khi RSS/public pages thiếu dữ liệu.",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "Vietstock",
         "url": "https://vietstock.vn/rss/chung-khoan-830.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:37.532004+00:00",
-        "updated_at": "2026-07-09T09:06:37.532004+00:00"
+        "fetched_at": "2026-07-09T09:16:42.230076+00:00",
+        "updated_at": "2026-07-09T09:16:42.230076+00:00"
       },
       {
         "name": "CafeF",
         "url": "https://cafef.vn/thi-truong-chung-khoan.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:38.879977+00:00",
-        "updated_at": "2026-07-09T09:06:38.879977+00:00"
+        "fetched_at": "2026-07-09T09:16:43.286722+00:00",
+        "updated_at": "2026-07-09T09:16:43.286722+00:00"
       },
       {
         "name": "VnExpress Kinh doanh",
         "url": "https://vnexpress.net/rss/kinh-doanh.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:53.367785+00:00",
-        "updated_at": "2026-07-09T09:06:53.367785+00:00"
+        "fetched_at": "2026-07-09T09:16:56.389739+00:00",
+        "updated_at": "2026-07-09T09:16:56.389739+00:00"
       },
       {
         "name": "CNBC Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-        "updated_at": "2026-07-09T09:06:55.628278+00:00"
+        "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+        "updated_at": "2026-07-09T09:16:57.503548+00:00"
       },
       {
         "name": "VnEconomy",
         "url": "https://vneconomy.vn/chung-khoan.rss",
-        "used_for": "Nguồn chưa truy cập được trong lần chạy này: HTTPSConnectionPool(host='vneconomy.vn', port=443): Max retries exceeded with url: /chung-khoan.rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy.vn', port=443) at 0x7f06dce1d1d0>, 'Connection to vneconomy.vn timed out. (connect timeout=12)'))",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "used_for": "Nguồn chưa truy cập được trong lần chạy này: HTTPSConnectionPool(host='vneconomy.vn', port=443): Max retries exceeded with url: /chung-khoan.rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy.vn', port=443) at 0x7f1296aa0e50>, 'Connection to vneconomy.vn timed out. (connect timeout=12)'))",
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "Vietstock / CafeF / VnEconomy",
         "url": "https://vietstock.vn/",
         "used_for": "Tin thị trường Việt Nam khi RSS/public page truy cập được hoặc khi người dùng bổ sung thủ công.",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "SBV",
         "url": "https://www.sbv.gov.vn/",
         "used_for": "Tham khảo tỷ giá và thông tin chính sách nếu được nhập vào dữ liệu thủ công.",
-        "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-        "updated_at": "2026-07-09T09:06:31.189504+00:00"
+        "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+        "updated_at": "2026-07-09T09:16:35.695729+00:00"
       }
     ]
   },
   "briefing": {
-    "title": "VN-Index chưa có dữ liệu cập nhật, dầu WTI -0.71 (-0.97%), Nasdaq +51.96 (+0.20%)",
+    "title": "VN-Index chưa có dữ liệu cập nhật, dầu WTI -0.42 (-0.57%), Nasdaq +51.96 (+0.20%)",
     "subtitle": "Daily Market Briefing for Vietnamese Brokers",
     "date_label": "09/07/2026",
-    "updated_label": "Cập nhật lúc: 16:06 09/07/2026, giờ Việt Nam",
-    "updated_at": "2026-07-09T16:06:31.189195+07:00",
+    "updated_label": "Cập nhật lúc: 16:16 09/07/2026, giờ Việt Nam",
+    "updated_at": "2026-07-09T16:16:35.695363+07:00",
     "hero_summary": [
       "VN-Index ghi nhận chưa có dữ liệu cập nhật với biến động chưa có dữ liệu cập nhật.",
       "Nasdaq +51.96 (+0.20%); tác động tới khẩu vị rủi ro cần kiểm chứng qua khối ngoại.",
-      "Dầu WTI -0.71 (-0.97%); nhóm dầu khí chỉ đáng theo dõi nếu dòng tiền xác nhận.",
+      "Dầu WTI -0.42 (-0.57%); nhóm dầu khí chỉ đáng theo dõi nếu dòng tiền xác nhận.",
       "Khối ngoại: chưa có dữ liệu cập nhật.",
       "Cần cảnh giác rủi ro phân phối nếu thanh khoản tăng nhưng độ rộng hẹp.",
       "Watchlist chỉ phù hợp khi thị trường xác nhận thanh khoản."
@@ -1272,10 +1272,10 @@
       },
       {
         "label": "USD/VND",
-        "value": "26,291.5000",
-        "change": "-3.50 (-0.01%)",
+        "value": "26,292.0000",
+        "change": "-3.00 (-0.01%)",
         "tone": "neutral",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:00:00 AM UTC. Cập nhật nguồn: 2026-07-09T09:06:37.072782+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:16:00 AM UTC. Cập nhật nguồn: 2026-07-09T09:16:41.552838+00:00."
       },
       {
         "label": "Lãi suất liên ngân hàng",
@@ -1289,56 +1289,56 @@
         "value": "7,482.71",
         "change": "-21.14 (-0.28%)",
         "tone": "down",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:41 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:06:31.189518+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:41 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:16:35.695746+00:00."
       },
       {
         "label": "Dow Jones",
         "value": "52,348.39",
         "change": "-576.76 (-1.09%)",
         "tone": "down",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:50 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:06:31.777061+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 4:48:50 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:16:36.519943+00:00."
       },
       {
         "label": "Nasdaq",
         "value": "25,870.65",
         "change": "+51.96 (+0.20%)",
         "tone": "up",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 5:15:59 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:06:32.342517+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 8, 5:15:59 PM GMT-4. Cập nhật nguồn: 2026-07-09T09:16:36.949756+00:00."
       },
       {
         "label": "Nikkei 225",
         "value": "67,743.85",
         "change": "+924.80 (+1.38%)",
         "tone": "up",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 3:45:03 PM GMT+9. Cập nhật nguồn: 2026-07-09T09:06:32.873185+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 3:45:03 PM GMT+9. Cập nhật nguồn: 2026-07-09T09:16:37.511765+00:00."
       },
       {
         "label": "Vàng thế giới",
-        "value": "4,119.40",
-        "change": "+37.00 (+0.91%)",
+        "value": "4,117.70",
+        "change": "+35.30 (+0.86%)",
         "tone": "up",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:53:43 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:06:33.404798+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:01:24 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:16:38.000235+00:00."
       },
       {
         "label": "Dầu WTI",
-        "value": "72.56",
-        "change": "-0.71 (-0.97%)",
+        "value": "72.85",
+        "change": "-0.42 (-0.57%)",
         "tone": "down",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:54:55 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:06:34.637415+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:59:46 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:16:39.156952+00:00."
       },
       {
         "label": "Dầu Brent",
-        "value": "75.84",
-        "change": "-0.76 (-0.99%)",
+        "value": "76.07",
+        "change": "-0.53 (-0.69%)",
         "tone": "down",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:55:29 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:06:35.202661+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:54:03 AM UTC · USD. Cập nhật nguồn: 2026-07-09T09:16:39.653811+00:00."
       },
       {
         "label": "Bitcoin",
-        "value": "62,805.95",
-        "change": "+548.64 (+0.88%)",
+        "value": "62,811.74",
+        "change": "+554.42 (+0.89%)",
         "tone": "up",
-        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 8:58:59 AM UTC. Cập nhật nguồn: 2026-07-09T09:06:35.744415+00:00."
+        "note": "Google Finance, dữ liệu gần nhất: Jul 9, 9:13:00 AM UTC. Cập nhật nguồn: 2026-07-09T09:16:40.142646+00:00."
       }
     ],
     "sections": [
@@ -1347,10 +1347,10 @@
         "title": "Tóm tắt nhanh",
         "kicker": "Dữ liệu thực tế / Kỳ vọng thị trường / Suy luận",
         "paragraphs": [
-          "Bản tin được tạo bằng fallback vì 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService. ListModels to see the list of available models and their supported methods. ', 'status': 'NOT_FOUND'}}. Hệ thống chỉ dùng dữ liệu có nguồn."
+          "Bản tin được tạo bằng fallback vì model is required. . Hệ thống chỉ dùng dữ liệu có nguồn."
         ],
         "bullets": [],
-        "factual_data": "Bản tin được tạo bằng fallback vì 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService. ListModels to see the list of available models and their supported methods. ', 'status': 'NOT_FOUND'}}. Hệ thống chỉ dùng dữ liệu có nguồn.",
+        "factual_data": "Bản tin được tạo bằng fallback vì model is required. . Hệ thống chỉ dùng dữ liệu có nguồn.",
         "market_expectation": "Thị trường có thể phản ứng mạnh với tỷ giá, lãi suất, giá dầu và Nasdaq.",
         "inference": "Ưu tiên quan sát dòng tiền thật thay vì chạy theo headline.",
         "flow_reality_check": {
@@ -1432,10 +1432,10 @@
         "title": "Tin Việt Nam mới nhất",
         "kicker": "Dữ liệu thực tế / Kỳ vọng thị trường / Suy luận",
         "paragraphs": [
-          "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu; Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần; Người đồng hành cùng Hòa Phát hơn 30 năm vừa bán lượng cổ phiếu HPG trị giá 150 tỷ đồng"
+          "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu; Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần; Nắm mỏ quặng vonfram \"khủng\" nhưng thiếu đúng 1 mắt xích: Tập đoàn Hàn Quốc buộc phải tìm đến Việt Nam"
         ],
         "bullets": [],
-        "factual_data": "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu; Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần; Người đồng hành cùng Hòa Phát hơn 30 năm vừa bán lượng cổ phiếu HPG trị giá 150 tỷ đồng",
+        "factual_data": "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu; Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần; Nắm mỏ quặng vonfram \"khủng\" nhưng thiếu đúng 1 mắt xích: Tập đoàn Hàn Quốc buộc phải tìm đến Việt Nam",
         "market_expectation": "Tin doanh nghiệp/ngành có thể kích hoạt dòng tiền ngắn hạn.",
         "inference": "Tin tốt chỉ có giá trị khi đi cùng giá, volume và hành vi mua ròng xác nhận.",
         "flow_reality_check": {
@@ -1449,10 +1449,10 @@
         "title": "Tin quốc tế mới nhất",
         "kicker": "Dữ liệu thực tế / Kỳ vọng thị trường / Suy luận",
         "paragraphs": [
-          "Petrolimex triển khai bán hơn 23 triệu cổ phiếu quỹ; Nửa đầu năm, tỷ phú Trần Đình Long bán ra hơn 200.000 con heo và 170 triệu quả trứng gà; Phiên 9/6: Khối ngoại bán ròng gần 500 tỷ đồng, cổ phiếu nào bị \"xả\" mạnh?"
+          "Người đồng hành cùng Hòa Phát hơn 30 năm vừa bán lượng cổ phiếu HPG trị giá 150 tỷ đồng; Petrolimex triển khai bán hơn 23 triệu cổ phiếu quỹ; Nửa đầu năm, tỷ phú Trần Đình Long bán ra hơn 200.000 con heo và 170 triệu quả trứng gà"
         ],
         "bullets": [],
-        "factual_data": "Petrolimex triển khai bán hơn 23 triệu cổ phiếu quỹ; Nửa đầu năm, tỷ phú Trần Đình Long bán ra hơn 200.000 con heo và 170 triệu quả trứng gà; Phiên 9/6: Khối ngoại bán ròng gần 500 tỷ đồng, cổ phiếu nào bị \"xả\" mạnh?",
+        "factual_data": "Người đồng hành cùng Hòa Phát hơn 30 năm vừa bán lượng cổ phiếu HPG trị giá 150 tỷ đồng; Petrolimex triển khai bán hơn 23 triệu cổ phiếu quỹ; Nửa đầu năm, tỷ phú Trần Đình Long bán ra hơn 200.000 con heo và 170 triệu quả trứng gà",
         "market_expectation": "Fed, CPI, PMI, lợi suất Mỹ, dầu và Nasdaq ảnh hưởng khẩu vị rủi ro.",
         "inference": "Tác động vào Việt Nam thường qua tỷ giá, khối ngoại và nhóm công nghệ/dầu khí.",
         "flow_reality_check": {
@@ -1650,7 +1650,7 @@
       {
         "target": "Dầu khí",
         "impact": "Trung tính",
-        "reason": "Dầu WTI -0.71 (-0.97%) hỗ trợ tâm lý, nhưng cần kiểm chứng dòng tiền thật ở GAS, PVD, PVS, BSR."
+        "reason": "Dầu WTI -0.42 (-0.57%) hỗ trợ tâm lý, nhưng cần kiểm chứng dòng tiền thật ở GAS, PVD, PVS, BSR."
       },
       {
         "target": "FPT/Công nghệ",
@@ -1660,7 +1660,7 @@
       {
         "target": "Ngân hàng",
         "impact": "Trung tính",
-        "reason": "USD/VND -3.50 (-0.01%) và lãi suất cần được cập nhật trước khi đánh giá chi phí vốn."
+        "reason": "USD/VND -3.00 (-0.01%) và lãi suất cần được cập nhật trước khi đánh giá chi phí vốn."
       }
     ],
     "watchlist_rows": [
@@ -2118,8 +2118,8 @@
         "name": "Google Finance",
         "url": "https://www.google.com/finance/",
         "used_for": "Chỉ số quốc tế, hàng hóa, crypto và tỷ giá USD/VND nếu truy cập được.",
-        "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-        "updated_at": "2026-07-09T09:06:31.189504+00:00"
+        "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+        "updated_at": "2026-07-09T09:16:35.695729+00:00"
       },
       {
         "name": "manual_market_data.json",
@@ -2132,64 +2132,64 @@
         "name": "manual_news.json",
         "url": "data/manual_news.json",
         "used_for": "Tin bổ sung thủ công khi RSS/public pages thiếu dữ liệu.",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "Vietstock",
         "url": "https://vietstock.vn/rss/chung-khoan-830.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:37.532004+00:00",
-        "updated_at": "2026-07-09T09:06:37.532004+00:00"
+        "fetched_at": "2026-07-09T09:16:42.230076+00:00",
+        "updated_at": "2026-07-09T09:16:42.230076+00:00"
       },
       {
         "name": "CafeF",
         "url": "https://cafef.vn/thi-truong-chung-khoan.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:38.879977+00:00",
-        "updated_at": "2026-07-09T09:06:38.879977+00:00"
+        "fetched_at": "2026-07-09T09:16:43.286722+00:00",
+        "updated_at": "2026-07-09T09:16:43.286722+00:00"
       },
       {
         "name": "VnExpress Kinh doanh",
         "url": "https://vnexpress.net/rss/kinh-doanh.rss",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:53.367785+00:00",
-        "updated_at": "2026-07-09T09:06:53.367785+00:00"
+        "fetched_at": "2026-07-09T09:16:56.389739+00:00",
+        "updated_at": "2026-07-09T09:16:56.389739+00:00"
       },
       {
         "name": "CNBC Markets",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "used_for": "Tin tức RSS/public feed.",
-        "fetched_at": "2026-07-09T09:06:55.628278+00:00",
-        "updated_at": "2026-07-09T09:06:55.628278+00:00"
+        "fetched_at": "2026-07-09T09:16:57.503548+00:00",
+        "updated_at": "2026-07-09T09:16:57.503548+00:00"
       },
       {
         "name": "VnEconomy",
         "url": "https://vneconomy.vn/chung-khoan.rss",
-        "used_for": "Nguồn chưa truy cập được trong lần chạy này: HTTPSConnectionPool(host='vneconomy. vn', port=443): Max retries exceeded with url: /chung-khoan. rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy. vn', port=443) at 0x7f06dce1d1d0>, 'Connection to vneconomy. vn timed out. (connect timeout=12)'))",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "used_for": "Nguồn chưa truy cập được trong lần chạy này: HTTPSConnectionPool(host='vneconomy. vn', port=443): Max retries exceeded with url: /chung-khoan. rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='vneconomy. vn', port=443) at 0x7f1296aa0e50>, 'Connection to vneconomy. vn timed out. (connect timeout=12)'))",
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "Vietstock / CafeF / VnEconomy",
         "url": "https://vietstock.vn/",
         "used_for": "Tin thị trường Việt Nam khi RSS/public page truy cập được hoặc khi người dùng bổ sung thủ công.",
-        "fetched_at": "2026-07-09T09:06:37.531871+00:00",
-        "updated_at": "2026-07-09T09:06:37.531871+00:00"
+        "fetched_at": "2026-07-09T09:16:42.229950+00:00",
+        "updated_at": "2026-07-09T09:16:42.229950+00:00"
       },
       {
         "name": "SBV",
         "url": "https://www.sbv.gov.vn/",
         "used_for": "Tham khảo tỷ giá và thông tin chính sách nếu được nhập vào dữ liệu thủ công.",
-        "fetched_at": "2026-07-09T09:06:31.189504+00:00",
-        "updated_at": "2026-07-09T09:06:31.189504+00:00"
+        "fetched_at": "2026-07-09T09:16:35.695729+00:00",
+        "updated_at": "2026-07-09T09:16:35.695729+00:00"
       }
     ],
     "disclaimer": "Tài liệu thông tin tổng hợp, KHÔNG phải khuyến nghị giao dịch hay đầu tư. Nhà đầu tư cần tự chịu trách nhiệm với quyết định của mình.",
     "ai_status": {
       "mode": "fallback",
-      "model": "gemini-1.5-flash",
-      "message": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService. ListModels to see the list of available models and their supported methods. ', 'status': 'NOT_FOUND'}}"
+      "model": "",
+      "message": "model is required."
     }
   }
 }
