@@ -75,18 +75,18 @@
   },
   "sector_flow": [
     {
-      "sector": "Ngan hang",
-      "status": "chua co du lieu cap nhat",
+      "sector": "Ngân hàng",
+      "status": "chưa có dữ liệu cập nhật",
       "notable_tickers": ["MBB", "HDB"]
     },
     {
-      "sector": "Chung khoan",
-      "status": "chua co du lieu cap nhat",
+      "sector": "Chứng khoán",
+      "status": "chưa có dữ liệu cập nhật",
       "notable_tickers": ["SSI", "VND", "VCI"]
     },
     {
-      "sector": "Thep",
-      "status": "chua co du lieu cap nhat",
+      "sector": "Thép",
+      "status": "chưa có dữ liệu cập nhật",
       "notable_tickers": ["HPG", "HSG"]
     }
   ],

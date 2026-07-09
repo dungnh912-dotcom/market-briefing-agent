@@ -2,20 +2,20 @@
   "updated_at": "",
   "items": [
     {
-      "title": "Bo sung tin trong nuoc tai day neu RSS khong du du lieu",
+      "title": "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu",
       "url": "",
       "source": "manual",
       "published": "",
-      "summary": "chua co du lieu cap nhat",
-      "tags": ["trong nuoc"]
+      "summary": "chưa có dữ liệu cập nhật",
+      "tags": ["trong nước"]
     },
     {
-      "title": "Bo sung tin quoc te/Fed/hang hoa tai day neu can",
+      "title": "Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần",
       "url": "",
       "source": "manual",
       "published": "",
-      "summary": "chua co du lieu cap nhat",
-      "tags": ["quoc te"]
+      "summary": "chưa có dữ liệu cập nhật",
+      "tags": ["quốc tế"]
     }
   ]
 }

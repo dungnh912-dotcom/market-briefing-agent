@@ -5,11 +5,17 @@ from copy import deepcopy
 from typing import Any
 
 TYPO_REPLACEMENTS: dict[str, str] = {
+    "chua co du lieu cap nhat": "chưa có dữ liệu cập nhật",
     "sảy ra": "xảy ra",
     "cồ phiếu": "cổ phiếu",
     "thi trường": "thị trường",
     "ngnahf": "ngành",
     "chung trung": "chúng tôi",
+    "ngan hang": "ngân hàng",
+    "chung khoan": "chứng khoán",
+    "thep": "thép",
+    "rui ro thi truong": "rủi ro thị trường",
+    "chi xem xet neu": "chỉ xem xét nếu",
     "vnindex": "VN-Index",
     "vn-index": "VN-Index",
     "vn30": "VN30",
@@ -39,7 +45,8 @@ FORBIDDEN_UNSUPPORTED = [
     "sắp úp bô",
 ]
 
-SKIP_KEYS = {"url", "href", "qr_path", "logo_path"}
+SKIP_KEYS = {"url", "href", "qr_path", "logo_path", "name"}
+FILE_EXTENSIONS = ("json", "html", "py", "yml", "yaml", "css", "png", "svg", "md", "txt")
 
 
 def fix_text(text: str) -> str:
@@ -50,7 +57,10 @@ def fix_text(text: str) -> str:
         value = value.replace(wrong, right)
 
     value = re.sub(r"\s+([,.;:%])", r"\1", value)
-    value = re.sub(r"([,.;:])([^\s\d])", r"\1 \2", value)
+    value = re.sub(r"([,;:])([^\s\d])", r"\1 \2", value)
+    value = re.sub(r"\.([^\s\d])", r". \1", value)
+    for extension in FILE_EXTENSIONS:
+        value = re.sub(rf"\.\s+{extension}\b", f".{extension}", value, flags=re.IGNORECASE)
     value = re.sub(r"\s{2,}", " ", value).strip()
     value = value.replace(" tỉ đồng", " tỷ đồng")
     value = value.replace(" tỷ VND", " tỷ đồng")

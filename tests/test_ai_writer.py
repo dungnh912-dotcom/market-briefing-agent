@@ -1,4 +1,5 @@
 from scripts.gemini_writer import REQUIRED_SECTION_TITLES, build_prompt, fallback_briefing
+from scripts.text_postprocessor import fix_text, postprocess_briefing
 from scripts.validate_output import DISCLAIMER
 
 
@@ -36,3 +37,22 @@ def test_fallback_briefing_is_complete_without_ai_key():
     assert len(briefing["market_cards"]) == 17
     assert briefing["disclaimer"] == DISCLAIMER
     assert "flow_reality_check" in briefing["sections"][0]
+
+
+def test_text_postprocessor_preserves_source_filenames():
+    text = "Nguồn gồm Google Finance, manual_market_data.json, manual_news.json."
+    assert fix_text(text) == text
+
+    briefing = postprocess_briefing(
+        {
+            "sources": [
+                {
+                    "name": "manual_market_data.json",
+                    "url": "data/manual_market_data.json",
+                    "used_for": "chua co du lieu cap nhat",
+                }
+            ]
+        }
+    )
+    assert briefing["sources"][0]["name"] == "manual_market_data.json"
+    assert briefing["sources"][0]["used_for"] == "chưa có dữ liệu cập nhật"
