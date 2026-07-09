@@ -1,6 +1,6 @@
 import pandas as pd
 
-from scripts.data_collector import MISSING, metric_from_manual
+from scripts.data_collector import MISSING, metric_from_manual, parse_google_finance_text
 from scripts.technical_analysis import analyze_price_history, build_watchlist_rows
 
 
@@ -9,6 +9,17 @@ def test_metric_from_manual_marks_missing_data():
     assert metric["label"] == "VN-Index"
     assert metric["value"] == MISSING
     assert metric["tone"] == "neutral"
+
+
+def test_parse_google_finance_text_extracts_quote():
+    text = (
+        "Research .INX:INDEXSP check_indeterminate_small S&P 500 "
+        "7,482.71 arrow_downward -0.28% ( -21.14 ) 1D Jul 8, 4:48:41 PM GMT-4 area_chart"
+    )
+    metric = parse_google_finance_text("S&P 500", ".INX:INDEXSP", text, "2026-07-09T00:00:00Z")
+    assert metric["value"] == "7,482.71"
+    assert metric["change"] == "-21.14 (-0.28%)"
+    assert metric["tone"] == "down"
 
 
 def test_technical_analysis_calculates_levels():

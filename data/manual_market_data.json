@@ -1,13 +1,13 @@
 {
   "updated_at": "",
-  "note": "Nhap so lieu thu cong tai day neu nguon tu dong thieu hoac khong on dinh. De trong value/change_pct neu chua co du lieu cap nhat.",
+  "note": "Nhập số liệu thủ công tại đây nếu nguồn tự động thiếu hoặc không ổn định. Để trống value/change_pct nếu chưa có dữ liệu cập nhật.",
   "indexes": {
     "VNINDEX": {
       "label": "VN-Index",
       "value": null,
       "change": null,
       "change_pct": null,
-      "comment": "chua co du lieu cap nhat",
+      "comment": "chưa có dữ liệu cập nhật",
       "source": "manual"
     },
     "VN30": {
@@ -15,7 +15,7 @@
       "value": null,
       "change": null,
       "change_pct": null,
-      "comment": "chua co du lieu cap nhat",
+      "comment": "chưa có dữ liệu cập nhật",
       "source": "manual"
     },
     "HNX": {
@@ -23,7 +23,7 @@
       "value": null,
       "change": null,
       "change_pct": null,
-      "comment": "chua co du lieu cap nhat",
+      "comment": "chưa có dữ liệu cập nhật",
       "source": "manual"
     },
     "UPCOM": {
@@ -31,7 +31,7 @@
       "value": null,
       "change": null,
       "change_pct": null,
-      "comment": "chua co du lieu cap nhat",
+      "comment": "chưa có dữ liệu cập nhật",
       "source": "manual"
     },
     "USDVND": {
@@ -39,7 +39,7 @@
       "value": null,
       "change": null,
       "change_pct": null,
-      "comment": "chua co du lieu cap nhat",
+      "comment": "chưa có dữ liệu cập nhật",
       "source": "manual"
     }
   },
@@ -47,26 +47,31 @@
     "advancers": null,
     "decliners": null,
     "unchanged": null,
-    "comment": "chua co du lieu cap nhat"
+    "comment": "chưa có dữ liệu cập nhật"
   },
   "liquidity": {
     "value": null,
-    "unit": "ty VND",
-    "comment": "chua co du lieu cap nhat"
+    "unit": "tỷ đồng",
+    "comment": "chưa có dữ liệu cập nhật"
   },
   "foreign_flow": {
     "net_value": null,
-    "unit": "ty VND",
+    "unit": "tỷ đồng",
     "top_buy": [],
     "top_sell": [],
-    "comment": "chua co du lieu cap nhat"
+    "comment": "chưa có dữ liệu cập nhật"
   },
   "proprietary_flow": {
     "net_value": null,
-    "unit": "ty VND",
+    "unit": "tỷ đồng",
     "top_buy": [],
     "top_sell": [],
-    "comment": "chua co du lieu cap nhat"
+    "comment": "chưa có dữ liệu cập nhật"
+  },
+  "interbank_rate": {
+    "value": null,
+    "unit": "%",
+    "comment": "chưa có dữ liệu cập nhật"
   },
   "sector_flow": [
     {

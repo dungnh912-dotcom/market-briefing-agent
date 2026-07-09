@@ -70,7 +70,6 @@ def analyze_price_history(history: pd.DataFrame | None) -> dict[str, Any]:
     support, resistance = support_resistance(history, 60)
     last_close = _last_number(close)
     last_ma20 = _last_number(ma20)
-    last_ma50 = _last_number(ma50)
 
     trend = "trung tính"
     if last_close is not None and last_ma20 is not None:
@@ -93,15 +92,15 @@ def analyze_price_history(history: pd.DataFrame | None) -> dict[str, Any]:
         "support": support,
         "resistance": resistance,
         "ma20": last_ma20,
-        "ma50": last_ma50,
+        "ma50": _last_number(ma50),
         "rsi14": _last_number(rsi14),
         "macd": _last_number(macd_line),
         "macd_signal": _last_number(macd_signal),
         "macd_hist": _last_number(macd_hist),
         "volume_vs_avg20": volume_vs_avg20,
         "trend": trend,
-        "breakout_scenario": f"Vượt { _fmt(resistance) } với thanh khoản cải thiện sẽ củng cố nhịp hồi." if resistance else MISSING,
-        "breakdown_scenario": f"Thủng { _fmt(support) } làm tăng rủi ro hạ tỷ trọng trading." if support else MISSING,
+        "breakout_scenario": f"Vượt {_fmt(resistance)} với thanh khoản cải thiện sẽ củng cố nhịp hồi." if resistance else MISSING,
+        "breakdown_scenario": f"Thủng {_fmt(support)} làm tăng rủi ro hạ tỷ trọng trading." if support else MISSING,
     }
 
 
@@ -160,6 +159,10 @@ def build_watchlist_rows(watchlist: list[dict[str, Any]], automated: dict[str, d
             take_profit = take_profit if take_profit and take_profit != MISSING else f"Vùng kháng cự gần {_fmt(technical.get('resistance'))}."
             stop_loss = stop_loss if stop_loss and stop_loss != MISSING else f"Dưới hỗ trợ {_fmt(technical.get('support'))} hoặc khi kịch bản bị phủ định."
 
+        activation = item.get("condition") or "Chỉ xem xét nếu thanh khoản và xu hướng xác nhận."
+        if "chỉ phù hợp khi thị trường xác nhận thanh khoản" not in activation.lower():
+            activation = f"{activation} Chỉ phù hợp khi thị trường xác nhận thanh khoản."
+
         rows.append(
             {
                 "ticker": ticker,
@@ -168,8 +171,8 @@ def build_watchlist_rows(watchlist: list[dict[str, Any]], automated: dict[str, d
                 "entry_zone": entry or MISSING,
                 "take_profit_zone": take_profit or MISSING,
                 "stop_loss_zone": stop_loss or MISSING,
-                "activation": item.get("condition") or "Chỉ xem xét nếu thanh khoản và xu hướng xác nhận.",
-                "risk": item.get("risk") or "Rủi ro thị trường chung và tin doanh nghiệp.",
+                "activation": activation,
+                "risk": item.get("risk") or "Rủi ro thị trường chung, margin và tin doanh nghiệp.",
                 "technical": technical,
                 "technical_view": technical_to_text(technical),
             }

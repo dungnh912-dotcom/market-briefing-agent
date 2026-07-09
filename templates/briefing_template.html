@@ -12,20 +12,21 @@
     <header class="hero">
       <nav class="topbar" aria-label="Điều hướng">
         <a href="index.html">Tất cả bản tin</a>
-        <span>{{ brand.site_name }}</span>
+        <span>{{ brand.name }}</span>
       </nav>
       <div class="hero__content">
         <p class="eyebrow">{{ brand.name }} · DAILY RESEARCH · {{ briefing.date_label }}</p>
         <h1>{{ briefing.title }}</h1>
-        <p class="hero__subtitle">{{ briefing.subtitle }}</p>
+        <p class="hero__subtitle">Daily Market Briefing for Vietnamese Brokers</p>
+        <p class="hero__deck">{{ briefing.subtitle }}</p>
         <p class="timestamp">{{ briefing.updated_label }}</p>
-        <p class="warning">Không phải khuyến nghị giao dịch hay đầu tư</p>
+        <p class="warning">{{ briefing.disclaimer }}</p>
       </div>
     </header>
 
     <main>
       <section class="summary-band" aria-labelledby="summary-title">
-        <div class="section-label">Tóm tắt</div>
+        <div class="section-label">Executive Summary</div>
         <h2 id="summary-title">Những điểm cần theo dõi trong ngày</h2>
         <div class="summary-list">
           {% for line in briefing.hero_summary %}
@@ -37,7 +38,7 @@
       <section class="metrics" aria-label="Dashboard chỉ số">
         {% for card in briefing.market_cards %}
         <article class="metric metric--{{ card.tone }}">
-          <div>
+          <div class="metric__top">
             <span>{{ card.label }}</span>
             <strong>{{ card.value }}</strong>
           </div>
@@ -67,13 +68,38 @@
             {% endfor %}
           </ul>
           {% endif %}
+          <div class="insight-grid">
+            <article>
+              <span>Dữ liệu thực tế</span>
+              <p>{{ section.factual_data }}</p>
+            </article>
+            <article>
+              <span>Kỳ vọng thị trường</span>
+              <p>{{ section.market_expectation }}</p>
+            </article>
+            <article>
+              <span>Suy luận</span>
+              <p>{{ section.inference }}</p>
+            </article>
+          </div>
+          <aside class="flow-check">
+            <h3>Góc nhìn dòng tiền thực chiến</h3>
+            <dl>
+              <dt>Bức màn truyền thông</dt>
+              <dd>{{ section.flow_reality_check.mask }}</dd>
+              <dt>Bản chất cần kiểm chứng</dt>
+              <dd>{{ section.flow_reality_check.reality_to_verify }}</dd>
+              <dt>Hệ quả với cổ phiếu</dt>
+              <dd>{{ section.flow_reality_check.stock_impact }}</dd>
+            </dl>
+          </aside>
         </section>
         {% endfor %}
       </div>
 
       <section class="wide-block" aria-labelledby="sector-title">
         <div class="section-head">
-          <span>06</span>
+          <span>08</span>
           <div>
             <p>Tác động theo nhóm</p>
             <h2 id="sector-title">Nhóm ngành</h2>
@@ -107,7 +133,7 @@
 
       <section class="wide-block" aria-labelledby="impact-title">
         <div class="section-head">
-          <span>07</span>
+          <span>09</span>
           <div>
             <p>Liên thị trường</p>
             <h2 id="impact-title">Mã & nhóm ngành tác động</h2>
@@ -137,7 +163,7 @@
 
       <section class="wide-block" aria-labelledby="watchlist-title">
         <div class="section-head">
-          <span>08</span>
+          <span>10</span>
           <div>
             <p>Có điều kiện</p>
             <h2 id="watchlist-title">Watchlist giao dịch</h2>
@@ -148,11 +174,11 @@
             <thead>
               <tr>
                 <th>Mã</th>
-                <th>Nhóm ngành</th>
-                <th>Luận điểm theo dõi</th>
-                <th>Vùng mua tham khảo</th>
-                <th>Vùng chốt lời tham khảo</th>
-                <th>Vùng cắt lỗ tham khảo</th>
+                <th>Ngành</th>
+                <th>Luận điểm</th>
+                <th>Vùng mua theo dõi</th>
+                <th>Kháng cự/chốt lời</th>
+                <th>Cắt lỗ</th>
                 <th>Điều kiện kích hoạt</th>
                 <th>Rủi ro</th>
               </tr>
@@ -177,7 +203,7 @@
 
       <section class="wide-block" aria-labelledby="technical-title">
         <div class="section-head">
-          <span>09</span>
+          <span>11</span>
           <div>
             <p>Hỗ trợ · Kháng cự · MA</p>
             <h2 id="technical-title">Phân tích kỹ thuật</h2>
@@ -214,7 +240,7 @@
 
       <section class="wide-block" aria-labelledby="events-title">
         <div class="section-head">
-          <span>11</span>
+          <span>12</span>
           <div>
             <p>Hôm nay · Tuần này · Trong nước · Quốc tế</p>
             <h2 id="events-title">Lịch sự kiện</h2>
@@ -227,6 +253,12 @@
             <h3>{{ event.event }}</h3>
             <p>{{ event.impact }}</p>
             <small>{{ event.affected_groups }}</small>
+            <div class="event-flow">
+              <strong>Góc nhìn dòng tiền thực chiến</strong>
+              <p>{{ event.flow_mask }}</p>
+              <p>{{ event.flow_reality }}</p>
+              <p>{{ event.flow_impact }}</p>
+            </div>
           </article>
           {% endfor %}
         </div>
@@ -235,8 +267,8 @@
       <section class="cta" aria-labelledby="cta-title">
         <div>
           <p>LIÊN HỆ TƯ VẤN ĐẦU TƯ · {{ brand.name }}</p>
-          <h2 id="cta-title">{{ brand.hotline }}</h2>
-          <span>Quét mã QR để tham gia nhóm Zalo cập nhật thị trường hằng ngày.</span>
+          <h2 id="cta-title">Hotline: {{ brand.hotline }}</h2>
+          <span>Quét mã QR để kết nối Zalo và nhận cập nhật thị trường hằng ngày.</span>
         </div>
         <img src="{{ asset_prefix }}{{ brand.qr_path }}" alt="QR Zalo {{ brand.name }}">
       </section>
@@ -245,14 +277,14 @@
         <h2 id="sources-title">Nguồn tham khảo</h2>
         <ul>
           {% for source in briefing.sources %}
-          <li><a href="{{ source.url }}">{{ source.name }}</a> · {{ source.used_for }} · {{ source.fetched_at }}</li>
+          <li><a href="{{ source.url }}">{{ source.name }}</a> · {{ source.used_for }} · cập nhật: {{ source.updated_at }}</li>
           {% endfor %}
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <strong>{{ brand.footer }}</strong>
+      <strong>{{ brand.footer }} · {{ briefing.date_label }}</strong>
       <span>{{ briefing.disclaimer }}</span>
     </footer>
   </div>

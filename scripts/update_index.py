@@ -40,7 +40,7 @@ def build_archive_items(prefix: str = "") -> list[dict[str, str]]:
                 "date": html_path.stem,
                 "date_label": briefing.get("date_label") or date_label(html_path.stem),
                 "title": briefing.get("title") or "Bản tin thị trường",
-                "subtitle": briefing.get("subtitle") or "HDUNGINVEST Daily Research",
+                "subtitle": briefing.get("subtitle") or "Daily Market Briefing for Vietnamese Brokers",
             }
         )
     return items
@@ -61,6 +61,6 @@ if __name__ == "__main__":
         {
             "name": "HDUNGINVEST",
             "site_name": "HDUNGINVEST Daily Research",
-            "footer": "HDUNGINVEST · Daily Market Briefing",
+            "footer": "HDUNGINVEST",
         }
     )

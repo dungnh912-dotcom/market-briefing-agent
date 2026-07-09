@@ -38,8 +38,8 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-1.5-flash' }}
           BRAND_NAME: HDUNGINVEST
           SITE_NAME: HDUNGINVEST Daily Research
-          FOOTER_TEXT: HDUNGINVEST · Daily Market Briefing
-          CONTACT_PHONE: 098xxxxxxx
+          FOOTER_TEXT: HDUNGINVEST
+          CONTACT_PHONE: "0387337164"
           ZALO_QR_PATH: assets/qr-zalo.png
         run: python scripts/generate_briefing.py
 
@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html bantin/*.html bantin/*.json assets/css/style.css assets/qr-zalo.png assets/logo.png
+          git add index.html bantin/*.html bantin/*.json assets/css/style.css assets/qr-zalo.png assets/logo.png data/config.json
           git diff --cached --quiet || git commit -m "Add daily market briefing"
           git push
 
