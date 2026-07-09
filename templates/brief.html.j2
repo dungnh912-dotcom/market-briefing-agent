@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ briefing.subtitle or briefing.hero_summary }}">
+  <title>{{ briefing.title }} · {{ brand.name }}</title>
+  <style>{{ css }}</style>
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <nav class="topbar">
+        <a class="back-link" href="index.html">← Tất cả bản tin</a>
+        <span>{{ brand.name }}</span>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Daily market briefing · {{ briefing.date }}</p>
+          <h1>{{ briefing.title }}</h1>
+          <p class="subtitle">{{ briefing.subtitle }}</p>
+          <p class="summary">{{ briefing.hero_summary }}</p>
+        </div>
+        <div class="contact-panel">
+          <span>Tư vấn khách hàng</span>
+          <strong>{{ brand.contact_phone }}</strong>
+          <img src="../{{ brand.zalo_qr_path }}" alt="QR Zalo">
+        </div>
+      </div>
+    </header>
+
+    <section class="market-strip" aria-label="Chỉ số thị trường">
+      {% for card in briefing.market_cards %}
+      <article class="metric {{ card.tone }}">
+        <span>{{ card.label }}</span>
+        <strong>{{ card.value }}</strong>
+        <em>{{ card.change }}</em>
+        <small>{{ card.note }}</small>
+      </article>
+      {% endfor %}
+    </section>
+
+    <main class="content-grid">
+      {% for section in briefing.sections %}
+      <section class="section">
+        <div class="section-heading">
+          <span>§{{ section.id }}</span>
+          <div>
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.subtitle }}</p>
+          </div>
+        </div>
+        <div class="bullet-list">
+          {% for bullet in section.bullets %}
+          <article class="bullet {{ bullet.type }}">
+            <strong>{{ bullet.main }}</strong>
+            <p>{{ bullet.comment }}</p>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %}
+    </main>
+
+    <section class="wide-section">
+      <div class="section-heading">
+        <span>07</span>
+        <div>
+          <h2>Nhóm ngành tác động</h2>
+          <p>Bảng đánh giá nhanh theo dữ liệu và catalyst hiện có.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Nhóm ngành</th><th>Tác động</th><th>Lý do</th><th>Mã theo dõi</th></tr>
+          </thead>
+          <tbody>
+            {% for row in briefing.sector_table %}
+            <tr>
+              <td>{{ row.sector }}</td>
+              <td><span class="impact">{{ row.impact }}</span></td>
+              <td>{{ row.reason }}</td>
+              <td>{{ row.stocks|join(", ") }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="wide-section">
+      <div class="section-heading">
+        <span>08</span>
+        <div>
+          <h2>Mã cổ phiếu cần theo dõi</h2>
+          <p>Vùng tham khảo có điều kiện, không phải khuyến nghị giao dịch.</p>
+        </div>
+      </div>
+      <div class="watch-grid">
+        {% for stock in briefing.stock_watchlist %}
+        <article class="watch-card">
+          <div><strong>{{ stock.ticker }}</strong><span>{{ stock.sector }}</span></div>
+          <p>{{ stock.reason }}</p>
+          <dl>
+            <dt>Xu hướng</dt><dd>{{ stock.technical_view }}</dd>
+            <dt>Vùng mua</dt><dd>{{ stock.entry_zone }}</dd>
+            <dt>Chốt lời</dt><dd>{{ stock.take_profit_zone }}</dd>
+            <dt>Cắt lỗ</dt><dd>{{ stock.stop_loss_zone }}</dd>
+            <dt>Hủy kịch bản</dt><dd>{{ stock.invalid_condition }}</dd>
+            <dt>Rủi ro</dt><dd>{{ stock.risk }}</dd>
+          </dl>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="scenario-row">
+      {% for scenario in briefing.scenarios %}
+      <article>
+        <h3>{{ scenario.name }}</h3>
+        <p><strong>Điều kiện:</strong> {{ scenario.condition }}</p>
+        <p><strong>Chiến lược:</strong> {{ scenario.strategy }}</p>
+      </article>
+      {% endfor %}
+    </section>
+
+    <section class="wide-section">
+      <div class="section-heading">
+        <span>09</span>
+        <div>
+          <h2>Lịch sự kiện</h2>
+          <p>Các mốc cần quan sát trong phiên và trong tuần.</p>
+        </div>
+      </div>
+      <div class="event-list">
+        {% for event in briefing.events %}
+        <article><strong>{{ event.date }}</strong><span>{{ event.event }}</span><p>{{ event.why_it_matters }}</p></article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="source-block">
+      <h2>Nguồn tham khảo</h2>
+      <ul>
+        {% for source in briefing.sources %}
+        <li><a href="{{ source.url }}">{{ source.name }}</a> · {{ source.used_for }} · {{ source.fetched_at }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <footer>
+      <strong>{{ briefing.disclaimer }}</strong>
+      <span>Cập nhật: {{ briefing.updated_at }}</span>
+    </footer>
+  </div>
+</body>
+</html>

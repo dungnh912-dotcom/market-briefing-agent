@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bản tin TTCK · {{ report_date }}</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #111827;
+      --muted: #667085;
+      --line: #d9e0ea;
+      --brand: #0f766e;
+      --soft: #eef6f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .page { max-width: 1120px; margin: 0 auto; padding: 28px 18px 48px; }
+    header { padding: 28px 0 20px; border-bottom: 1px solid var(--line); }
+    .site { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+    .brand { font-size: 18px; font-weight: 800; letter-spacing: 0; }
+    .sub { color: var(--muted); font-size: 13px; text-transform: uppercase; }
+    .date { color: var(--brand); font-weight: 800; }
+    h1 { margin: 24px 0 12px; font-size: clamp(30px, 4vw, 52px); line-height: 1.05; letter-spacing: 0; max-width: 920px; }
+    .lead { max-width: 850px; color: #344054; font-size: 17px; }
+    .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 24px 0; }
+    .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 112px; }
+    .metric .label { color: var(--muted); font-size: 13px; }
+    .metric .value { margin-top: 8px; font-size: 22px; font-weight: 800; }
+    .metric .change { margin-top: 6px; color: var(--muted); font-size: 13px; }
+    .up { color: #067647; } .down { color: #b42318; } .flat { color: #475467; }
+    main { display: grid; gap: 18px; }
+    section, .block { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
+    h2 { margin: 0 0 12px; font-size: 21px; letter-spacing: 0; }
+    h3 { margin: 0 0 10px; font-size: 17px; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 8px 0; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .tag { display: inline-block; color: var(--brand); background: var(--soft); border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 700; }
+    footer { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      .page { padding: 20px 14px 36px; }
+      .grid-2 { grid-template-columns: 1fr; }
+      section, .block, .metric { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="site">
+        <div>
+          <div class="brand">Bản tin TTCK</div>
+          <div class="sub">Daily research</div>
+        </div>
+        <div class="date">{{ date_label }}</div>
+      </div>
+      <h1>{{ briefing.headline }}</h1>
+      <div class="lead">
+        {% for sentence in briefing.summary %}
+          <p>{{ sentence }}</p>
+        {% endfor %}
+      </div>
+    </header>
+
+    <div class="dashboard" aria-label="Dashboard số liệu nhanh">
+      {% for item in dashboard %}
+      {% set cls = "flat" %}
+      {% if item.direction == "▲" %}{% set cls = "up" %}{% endif %}
+      {% if item.direction == "▼" %}{% set cls = "down" %}{% endif %}
+      <article class="metric">
+        <div class="label">{{ item.label }}</div>
+        <div class="value"><span class="{{ cls }}">{{ item.direction }}</span> {{ item.display }}</div>
+        <div class="change">{{ item.change_display }}</div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <main>
+      {% for section in briefing.sections %}
+      <section>
+        <h2>{{ section.title }}</h2>
+        <ul>
+          {% for bullet in section.bullets %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+
+      <div class="grid-2">
+        <div class="block">
+          <h3>Nhóm ngành</h3>
+          <ul>
+            {% for name, view in briefing.sector_view.items() %}
+            <li><span class="tag">{{ name }}</span> {{ view }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Kịch bản thị trường</h3>
+          <ul>
+            {% for name, view in briefing.scenarios.items() %}
+            <li><strong>{{ name|capitalize }}:</strong> {{ view }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>Checklist theo dõi trong phiên</h3>
+        <ul>
+          {% for item in briefing.checklist %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <strong>{{ briefing.disclaimer }}</strong>. Dữ liệu lấy từ nguồn miễn phí có thể trễ, thiếu hoặc thay đổi cấu trúc. Vui lòng kiểm chứng trước khi ra quyết định.
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,67 +1,40 @@
 from __future__ import annotations
 
-import logging
+from pathlib import Path
 import sys
-from datetime import datetime
-from zoneinfo import ZoneInfo
 
-from config import get_settings
-from fetch_global import fetch_global_markets
-from fetch_macro import fetch_macro
-from fetch_news import fetch_news
-from fetch_vietnam import VIETNAM_TECHNICAL_NOTE, fetch_vietnam_market
-from llm import generate_with_llm
-from prompt import build_prompt
-from report_writer import build_fallback_report, write_json, write_report
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parent))
 
-
-def setup_logging() -> None:
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s %(levelname)s %(name)s - %(message)s",
-        handlers=[logging.StreamHandler(sys.stdout)],
-    )
+from ai_writer import write_briefing
+from collect_data import collect_all
+from config import load_settings
+from render_html import render_report
+from utils import setup_logging, vietnam_now, write_json
 
 
 def main() -> None:
     setup_logging()
-    logger = logging.getLogger(__name__)
-    settings = get_settings()
-    now_vn = datetime.now(ZoneInfo("Asia/Ho_Chi_Minh"))
-    report_date = now_vn.date()
-    date_slug = report_date.isoformat()
+    settings = load_settings()
+    report_date = vietnam_now()
 
-    logger.info("Building market briefing for %s", date_slug)
-    market_data = {
-        "generated_at": now_vn.isoformat(),
-        "global": fetch_global_markets(settings.global_symbols, settings.lookback_days),
-        "macro": fetch_macro(settings.lookback_days),
-        "news": fetch_news(settings.newsapi_key),
-        "vietnam": fetch_vietnam_market(settings.vietnam_watchlist, settings.lookback_days),
-    }
+    data = collect_all(settings, report_date)
+    briefing = write_briefing(data, settings)
 
-    data_path = settings.data_dir / f"{date_slug}-market-data.json"
-    write_json(data_path, market_data)
-    logger.info("Wrote raw data to %s", data_path)
+    reports_dir = Path(settings.reports_dir)
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    json_path = reports_dir / f"{report_date.date().isoformat()}.json"
+    write_json(json_path, data)
 
-    prompt = build_prompt(market_data, report_date)
-    report = generate_with_llm(prompt, settings) or build_fallback_report(market_data, report_date)
-    report = _ensure_vietnam_data_note(report, market_data)
-
-    report_path = settings.reports_dir / f"{date_slug}-market-briefing.md"
-    write_report(report_path, report)
-    logger.info("Wrote report to %s", report_path)
-
-
-def _ensure_vietnam_data_note(report: str, market_data: dict) -> str:
-    vietnam = market_data.get("vietnam", {})
-    stocks = vietnam.get("stocks", {})
-    has_missing_vietnam_data = vietnam.get("fallback") or any(
-        not stock.get("available") for stock in stocks.values()
+    html_path = render_report(
+        briefing=briefing,
+        data=data,
+        report_date=report_date,
+        template_path=settings.template_path,
+        reports_dir=settings.reports_dir,
+        public_dir=settings.public_dir,
     )
-    if not has_missing_vietnam_data or VIETNAM_TECHNICAL_NOTE in report:
-        return report
-    return f"{report.rstrip()}\n\n> {VIETNAM_TECHNICAL_NOTE}\n"
+    print(f"Generated {html_path} and {json_path}")
 
 
 if __name__ == "__main__":

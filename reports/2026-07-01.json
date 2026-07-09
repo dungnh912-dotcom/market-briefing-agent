@@ -1,0 +1,393 @@
+{
+  "report_date": "2026-07-01",
+  "market_data": [
+    {
+      "label": "VN-Index",
+      "symbol": "^VNINDEX",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "direction": "●",
+      "display": "chưa có dữ liệu",
+      "change_display": "chưa có dữ liệu",
+      "volume": null,
+      "note": "Nguồn dữ liệu chưa trả kết quả."
+    },
+    {
+      "label": "HNX-Index",
+      "symbol": "HNX.VN",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "direction": "●",
+      "display": "chưa có dữ liệu",
+      "change_display": "chưa có dữ liệu",
+      "volume": null,
+      "note": "Nguồn dữ liệu chưa trả kết quả."
+    },
+    {
+      "label": "VN30",
+      "symbol": "VN30.VN",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "direction": "●",
+      "display": "chưa có dữ liệu",
+      "change_display": "chưa có dữ liệu",
+      "volume": null,
+      "note": "Nguồn dữ liệu chưa trả kết quả."
+    },
+    {
+      "label": "S&P 500",
+      "symbol": "^GSPC",
+      "value": 7489.47021484375,
+      "change": -9.8896484375,
+      "change_pct": -0.13187323475330479,
+      "direction": "▼",
+      "display": "7,489.47",
+      "change_display": "-9.89 (-0.13%)",
+      "volume": 820427412.0,
+      "note": null
+    },
+    {
+      "label": "Nasdaq",
+      "symbol": "^IXIC",
+      "value": 26081.271484375,
+      "change": -132.44921875,
+      "change_pct": -0.505266765637777,
+      "direction": "▼",
+      "display": "26,081.27",
+      "change_display": "-132.45 (-0.51%)",
+      "volume": 2504460000.0,
+      "note": null
+    },
+    {
+      "label": "Dow Jones",
+      "symbol": "^DJI",
+      "value": 52401.4609375,
+      "change": 82.26171875,
+      "change_pct": 0.157230462198128,
+      "direction": "▲",
+      "display": "52,401.46",
+      "change_display": "+82.26 (+0.16%)",
+      "volume": 168219412.0,
+      "note": null
+    },
+    {
+      "label": "Nikkei 225",
+      "symbol": "^N225",
+      "value": 70474.9609375,
+      "change": 412.640625,
+      "change_pct": 0.5889622598273836,
+      "direction": "▲",
+      "display": "70,474.96",
+      "change_display": "+412.64 (+0.59%)",
+      "volume": 0.0,
+      "note": null
+    },
+    {
+      "label": "Dầu Brent",
+      "symbol": "BZ=F",
+      "value": 71.87000274658203,
+      "change": -1.0499954223632812,
+      "change_pct": -1.4399279329801826,
+      "direction": "▼",
+      "display": "71.87",
+      "change_display": "-1.05 (-1.44%)",
+      "volume": 21618.0,
+      "note": null
+    },
+    {
+      "label": "DXY",
+      "symbol": "DX-Y.NYB",
+      "value": 101.27799987792969,
+      "change": 0.0879974365234375,
+      "change_pct": 0.08696257970187532,
+      "direction": "▲",
+      "display": "101.28",
+      "change_display": "+0.09 (+0.09%)",
+      "volume": 0.0,
+      "note": null
+    },
+    {
+      "label": "UST 10Y",
+      "symbol": "^TNX",
+      "value": 4.459000110626221,
+      "change": 0.08699989318847656,
+      "change_pct": 1.9899334140350007,
+      "direction": "▲",
+      "display": "4.46",
+      "change_display": "+0.09 (+1.99%)",
+      "volume": 0.0,
+      "note": null
+    },
+    {
+      "label": "Vàng",
+      "symbol": "GC=F",
+      "value": 4122.0,
+      "change": 99.10009765625,
+      "change_pct": 2.4633995391860006,
+      "direction": "▲",
+      "display": "4,122.00",
+      "change_display": "+99.10 (+2.46%)",
+      "volume": 106674.0,
+      "note": null
+    },
+    {
+      "label": "Bitcoin",
+      "symbol": "BTC-USD",
+      "value": 59575.9609375,
+      "change": 1017.1015625,
+      "change_pct": 1.7368875919981153,
+      "direction": "▲",
+      "display": "59,575.96",
+      "change_display": "+1,017.10 (+1.74%)",
+      "volume": 34960687104.0,
+      "note": null
+    }
+  ],
+  "domestic_flows": [
+    {
+      "label": "Thanh khoản HOSE",
+      "value": "chưa có dữ liệu",
+      "note": "Cần nguồn HOSE/FiinTrade/SSI iBoard công khai ổn định."
+    },
+    {
+      "label": "Khối ngoại",
+      "value": "chưa có dữ liệu",
+      "note": "Không hard-code khi nguồn miễn phí chưa ổn định."
+    },
+    {
+      "label": "Tự doanh",
+      "value": "chưa có dữ liệu",
+      "note": "Không hard-code khi nguồn miễn phí chưa ổn định."
+    }
+  ],
+  "technical": {
+    "available": false,
+    "support": null,
+    "resistance": null,
+    "comment": "Chưa có dữ liệu kỹ thuật VN-Index."
+  },
+  "news": {
+    "collected_at": "2026-07-01T14:49:13.986883Z",
+    "items": [
+      {
+        "title": "Chủ tịch Fed thay đổi 'luật chơi': Chứng khoán Việt Nam ảnh hưởng ra sao? - Báo Tuổi Trẻ",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeENYODU4OFZualZ5V0ktbU1kMUN5NWdXTVhUTVFveFNwTWVZbl9FZmRIUzF1N0xtdUVmamM5aWlRTndtNTBHVWR5YmRaWF9CcDY5Ql9uSGdoWXU1Mm1iMzFYa1MzVWppSllUWG16NmtrLTI0SzJhYnBCc2NJWEh0RUpFT0d6WFloWkZXeWZjY0Q2R2UtUFFIWHFzOUI4aHNFMnR4R2gwXzJkVXA4RlZGbg?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 16:08:35 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPeENYODU4OFZualZ5V0ktbU1kMUN5NWdXTVhUTVFveFNwTWVZbl9FZmRIUzF1N0xtdUVmamM5aWlRTndtNTBHVWR5YmRaWF9CcDY5Ql9uSGdoWXU1Mm1iMzFYa1MzVWppSllUWG16NmtrLTI0SzJhYnBCc2NJWEh0RUpFT0d6WFloWkZXeWZjY0Q2R2UtUFFIWHFzOUI4aHNFMnR4R2gwXzJkVXA4RlZGbg?oc=5\" target=\"_blank\">Chủ tịch Fed thay đổi 'luật chơi': Chứng khoán Việt Nam ảnh hưởng ra sao?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Báo Tuổi Trẻ</font>"
+      },
+      {
+        "title": "MSCI và FTSE - Hai góc nhìn bổ sung về hành trình hội nhập của thị trường chứng khoán Việt Nam - Vietstock",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1ZoNHI1RjF0ejBidWdhdkdmZC1zRHNZeXZxWFliVFk4VXlUc0dzUk0xb21uSW1JcmRicXpWNkU5NjBKZzFmSEdVajRfRXBQa2N1ZGRPSVp0aU9mT0luTnlaTjFwYjlzSFk5cXRZWmRkbU1waUo5NXN3YnBva1JIVUFQNjAwT1VWcmhZQXA3SS1JZjZZdW8tTjB6NG1DV3Y4RGcwd1hrYTBnNVhBbENYT0dZZ0RlRDFtZ0ZjREdNNXplczB4WU1Ob2QyMGNHemVhRzdR?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 01:57:13 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQV1ZoNHI1RjF0ejBidWdhdkdmZC1zRHNZeXZxWFliVFk4VXlUc0dzUk0xb21uSW1JcmRicXpWNkU5NjBKZzFmSEdVajRfRXBQa2N1ZGRPSVp0aU9mT0luTnlaTjFwYjlzSFk5cXRZWmRkbU1waUo5NXN3YnBva1JIVUFQNjAwT1VWcmhZQXA3SS1JZjZZdW8tTjB6NG1DV3Y4RGcwd1hrYTBnNVhBbENYT0dZZ0RlRDFtZ0ZjREdNNXplczB4WU1Ob2QyMGNHemVhRzdR?oc=5\" target=\"_blank\">MSCI và FTSE - Hai góc nhìn bổ sung về hành trình hội nhập của thị trường chứng khoán Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vietstock</font>"
+      },
+      {
+        "title": "Bán ròng gần 3 tỷ USD từ đầu năm, quỹ ngoại nhận định thế nào về chứng khoán Việt Nam? - VnEconomy",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVh2T3IxbnBCbnp1STRFdDFqZ0JCWUVpaGhSS0w0NkVkN2l3cUtObER0eFY3RVNic2xuN0VfOElGUm1vdjlSM3RwVkR4TkVocmMzdHJqLU14SUF4b3pHbVVScVpOc21sN3NZRkRKSjF1a3RzdWVTdHM5M2hfcXVGRW1pczhSdFF3Vy1jM1ZVN3BjT3hZMzBOV3NIOWh4ZmxfaS1Hb2p2MTZpcWk4NGc?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 03:35:10 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQeVh2T3IxbnBCbnp1STRFdDFqZ0JCWUVpaGhSS0w0NkVkN2l3cUtObER0eFY3RVNic2xuN0VfOElGUm1vdjlSM3RwVkR4TkVocmMzdHJqLU14SUF4b3pHbVVScVpOc21sN3NZRkRKSjF1a3RzdWVTdHM5M2hfcXVGRW1pczhSdFF3Vy1jM1ZVN3BjT3hZMzBOV3NIOWh4ZmxfaS1Hb2p2MTZpcWk4NGc?oc=5\" target=\"_blank\">Bán ròng gần 3 tỷ USD từ đầu năm, quỹ ngoại nhận định thế nào về chứng khoán Việt Nam?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VnEconomy</font>"
+      },
+      {
+        "title": "Tổ chức nước ngoài đang đánh giá như thế nào về thị trường chứng khoán Việt Nam? - VTV.vn",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMnNzUEFJUTB5TFEyWWVyYS1VV0xNZGVfNEYwd1VVczVOME83aEFLRFNUNExNTlVzb2VhNHNvVThUeXJLajJkdkNZTGJYUWNuSUVMYU9MWWpDNnByd0h1WlROdGo2MlFHTkZDSHRvTS1VRDVsdWN4UEJaaGNfMklOaldpTG5lclNJRWs3TGV3bU9KcjJzRF9LLUZ3M3o5QUtOandqTmx2SmRpbDRqc1dzZTZ3MVFUUHdD?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 05:40:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMnNzUEFJUTB5TFEyWWVyYS1VV0xNZGVfNEYwd1VVczVOME83aEFLRFNUNExNTlVzb2VhNHNvVThUeXJLajJkdkNZTGJYUWNuSUVMYU9MWWpDNnByd0h1WlROdGo2MlFHTkZDSHRvTS1VRDVsdWN4UEJaaGNfMklOaldpTG5lclNJRWs3TGV3bU9KcjJzRF9LLUZ3M3o5QUtOandqTmx2SmRpbDRqc1dzZTZ3MVFUUHdD?oc=5\" target=\"_blank\">Tổ chức nước ngoài đang đánh giá như thế nào về thị trường chứng khoán Việt Nam?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VTV.vn</font>"
+      },
+      {
+        "title": "Cuộc 'di cư' lớn nhất lịch sử chứng khoán Việt: Gần 300 mã cổ phiếu từ HNX sang HoSE - VietnamFinance",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV0JHMjV6cXIxZVRzckRFLWd0Qi1YTWQ4UVlIdlpJTkpIb0psb3I5czJMNXJnWWxBZ1JhanN2cjlKZ2E5TkljYnNaNmYyeTRyanNKbHViZi0zZHMtc1JxWFdmLXVQcTRjZnNuR1hibjFsNmdIblBoUjRBRTBWWElrZGQ2OWZlNTkzcE9nT3hrUU9NdTV3MlRWajJlSWRTT2RIamlsVFlQamI0MjRCM1RHR0c5UGQwTUFZTkhtWQ?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 05:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPV0JHMjV6cXIxZVRzckRFLWd0Qi1YTWQ4UVlIdlpJTkpIb0psb3I5czJMNXJnWWxBZ1JhanN2cjlKZ2E5TkljYnNaNmYyeTRyanNKbHViZi0zZHMtc1JxWFdmLXVQcTRjZnNuR1hibjFsNmdIblBoUjRBRTBWWElrZGQ2OWZlNTkzcE9nT3hrUU9NdTV3MlRWajJlSWRTT2RIamlsVFlQamI0MjRCM1RHR0c5UGQwTUFZTkhtWQ?oc=5\" target=\"_blank\">Cuộc 'di cư' lớn nhất lịch sử chứng khoán Việt: Gần 300 mã cổ phiếu từ HNX sang HoSE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VietnamFinance</font>"
+      },
+      {
+        "title": "Dragon Capital chuẩn bị mở ETF mới tại châu Âu, đón sóng nâng hạng chứng khoán Việt Nam - CafeF",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT1k2RHJUY0hkMEdQTEM0ZVdNNXBMdk4yd0xjR2ZmSjFtdzBRZ1RDYThFVG9aU09zU3EwQmZBNC1ZX2s1WDVXX1hhTDI3SDBvbUJVRTRpSnBfYWJJUF9wTklHb1VKVnhZaVJ3M2RtQk1rY2t3WEZoOTcwb2tVOEwxd0lJSlM1eUM4LS0ycjlPQ29sNTFwLXhaaE5nQmVQWTBJbEpobzN5amJxRm1WSDJvZG9GbUlSZWZjMXk5YmNJeDkzMlJv?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 00:51:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQT1k2RHJUY0hkMEdQTEM0ZVdNNXBMdk4yd0xjR2ZmSjFtdzBRZ1RDYThFVG9aU09zU3EwQmZBNC1ZX2s1WDVXX1hhTDI3SDBvbUJVRTRpSnBfYWJJUF9wTklHb1VKVnhZaVJ3M2RtQk1rY2t3WEZoOTcwb2tVOEwxd0lJSlM1eUM4LS0ycjlPQ29sNTFwLXhaaE5nQmVQWTBJbEpobzN5amJxRm1WSDJvZG9GbUlSZWZjMXk5YmNJeDkzMlJv?oc=5\" target=\"_blank\">Dragon Capital chuẩn bị mở ETF mới tại châu Âu, đón sóng nâng hạng chứng khoán Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CafeF</font>"
+      },
+      {
+        "title": "Nhà đầu tư nước ngoài đang 'bán' mạnh chứng khoán Việt Nam - Znews",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU1JfbXhmMVBqY2NMbU95LVBWYkRDU3pkMFA0UjJiWkRWYWRyY0M3ZDh2cWgzUDJud2NvUnpqVWFzT3FaMmJxLUNIZVYxTmNHNzdZbU91dVYzcjZDY2twUEpIZzdTQ0RMWmM2dWIyaWdVcGktUlQ1d3Y5ajNidGtTYlVBMjdSOGF4a2FZQU1jVmFxaWxi?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 10:53:30 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPU1JfbXhmMVBqY2NMbU95LVBWYkRDU3pkMFA0UjJiWkRWYWRyY0M3ZDh2cWgzUDJud2NvUnpqVWFzT3FaMmJxLUNIZVYxTmNHNzdZbU91dVYzcjZDY2twUEpIZzdTQ0RMWmM2dWIyaWdVcGktUlQ1d3Y5ajNidGtTYlVBMjdSOGF4a2FZQU1jVmFxaWxi?oc=5\" target=\"_blank\">Nhà đầu tư nước ngoài đang 'bán' mạnh chứng khoán Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Znews</font>"
+      },
+      {
+        "title": "Tái định hình bức tranh ngành dầu khí Việt Nam - Tin nhanh chứng khoán",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFdRWG1kUEFqTXlyRTVfdGdCWDd2MkR0MjJtSG1jeWtqOTVSVzFWNXZwWm9ER2lTcVpuSHZzUDFONmVDSWlKdzJjdzA2RGk3bHZ1N1NyNUdyUDFrazI1WUtyLTdGYlljc2tMbHc0RVpRZW5CTXZ4cGdrRkJWT1FzaGNWWWZGUXlldVJCazFUTnRKMFV2aS10VUZwWFjSAZgBQVVfeXFMUHY1Q0JndkozYnFHdkZGWmUwOEt3cVdpZ1FSaGNBUllfSWNRdWJfWEgtU29SM0VpVXpCXzFUVkFmeTkyYXhHMHhCZDZvWURHMUlVSDY5WnJQRXpaMzhra0FRMm9hZFhCcXR3SUZwVVlHVjgySmJJbXljMVNHNkFreENYTFcwOVBlMHplYXh6OGVLNEJIV3dyXzM?oc=5",
+        "source": "\"chung khoan Viet Nam\" - Google Tin tức",
+        "published": "Mon, 29 Jun 2026 00:03:32 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFdRWG1kUEFqTXlyRTVfdGdCWDd2MkR0MjJtSG1jeWtqOTVSVzFWNXZwWm9ER2lTcVpuSHZzUDFONmVDSWlKdzJjdzA2RGk3bHZ1N1NyNUdyUDFrazI1WUtyLTdGYlljc2tMbHc0RVpRZW5CTXZ4cGdrRkJWT1FzaGNWWWZGUXlldVJCazFUTnRKMFV2aS10VUZwWFjSAZgBQVVfeXFMUHY1Q0JndkozYnFHdkZGWmUwOEt3cVdpZ1FSaGNBUllfSWNRdWJfWEgtU29SM0VpVXpCXzFUVkFmeTkyYXhHMHhCZDZvWURHMUlVSDY5WnJQRXpaMzhra0FRMm9hZFhCcXR3SUZwVVlHVjgySmJJbXljMVNHNkFreENYTFcwOVBlMHplYXh6OGVLNEJIV3dyXzM?oc=5\" target=\"_blank\">Tái định hình bức tranh ngành dầu khí Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tin nhanh chứng khoán</font>"
+      },
+      {
+        "title": "Khối ngoại bất ngờ đảo chiều mua ròng ngay đầu tháng 7, sự chú ý đổ dồn vào 1 ngân hàng - CafeF",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcm83emNjeHl6SDRpUkpna01YVUN0MVdoSWhxdWN6SFVsWEkzbHdXanVIT0JncnBDa1pPUGJ0dE8tQVpTZGFTTDJvVWNKZWpvenl4OXdjRVR1enFZOV9NdVJSTm1Hc0JBWURnRHpSQ2xhaE85WVhZMUlIcGE5SVJVYkR5YmE1UmczMEJfWEdHcGxMUThOMzkyaXYwSXhyY0lRSDBMa1VodGUwbnRWSmNPRmtrUm9HeUFoRUxHXzljSVFiUDQ3?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 08:45:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQcm83emNjeHl6SDRpUkpna01YVUN0MVdoSWhxdWN6SFVsWEkzbHdXanVIT0JncnBDa1pPUGJ0dE8tQVpTZGFTTDJvVWNKZWpvenl4OXdjRVR1enFZOV9NdVJSTm1Hc0JBWURnRHpSQ2xhaE85WVhZMUlIcGE5SVJVYkR5YmE1UmczMEJfWEdHcGxMUThOMzkyaXYwSXhyY0lRSDBMa1VodGUwbnRWSmNPRmtrUm9HeUFoRUxHXzljSVFiUDQ3?oc=5\" target=\"_blank\">Khối ngoại bất ngờ đảo chiều mua ròng ngay đầu tháng 7, sự chú ý đổ dồn vào 1 ngân hàng</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CafeF</font>"
+      },
+      {
+        "title": "VN-Index tiếp tục hồi phục - VTV.vn",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tY3lpN0JzckxiUTA3bFFrT0RLVTlneENBM0xUbXlNMEx4aUhpVjRIWHR6ZldoWXU3ZG9lTkhRVjV5ZTVvSVpaaHBULWQ4UHlaQlJaVy1vN19GMERxNjRta1JHNndsT0VLUEVSck5WTWdhUQ?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 13:06:00 GMT",
+        "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE4tY3lpN0JzckxiUTA3bFFrT0RLVTlneENBM0xUbXlNMEx4aUhpVjRIWHR6ZldoWXU3ZG9lTkhRVjV5ZTVvSVpaaHBULWQ4UHlaQlJaVy1vN19GMERxNjRta1JHNndsT0VLUEVSck5WTWdhUQ?oc=5\" target=\"_blank\">VN-Index tiếp tục hồi phục</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VTV.vn</font></li><li><a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNejdiT3F4MFFzZHl0N3VMMC1nSUZSSkpnWTRhWi1rRkZZX0ZObTRVeHgzNVR6YU1ucGtrOGNjUGdzR1E4T2tRQXJaSUlxU0pPVmNzZXFOWXlxa1Ewc3pDTWk2bl93ODdNak1nd3VuOXh1U2NlT19CanQ4bG1WMmhYSWpha3BVdWljNm5zckZqSHM3bEZDSmExOWhhRDBvVGVuOGZ3VkQxZGpoaE5xWnFxRUk3Vmx1a2ptVnJlakREM214aEFjNmF3LS1zdDV1OUczeG1v0gHPAUFVX3lxTFBLa1ZILXB1Qnd1N1NhQ1puRkw4TjJPQWRzVWNZVngzekxna0llN2kzQVBSblFPeTc3MFNQckNkejYtNWEya3BCZ3RNY1ZrWThWQ1VqazYwRzJYMXAwX2RXbDRMVXJJdnlrQ3FIbXpNOHhtNGNJNDROUDlLR3BnZ3c1NDhjdzdZcVFNVjd6cTBoR2kzWnc1b0Vkb0Rmc3Z3ZVlPekxWNllhYWtEME8xM0RPUlcyeWhHbWo5Qm5MeTZrVTBic2xRVl9vR3JScnQ4cw?oc=5\" target=\"_blank\">Nhận định thị trường phiên giao dịch ngày 2/7: Duy trì tỷ trọng trung bình, tránh mua đuổi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tin nhanh chứng khoán</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlphTHd0b0dfaTJtUXJ4VlVPYkxER0VhcVFXOFhYa0YyZldnV3JzQUtCWVF4OTlHRF9QaHRLbmczMnE0dGdtcFcxYVVmYnhiV1FMXzFEcFJmQ1lsazl1dEQ2cjdXSkNodVN2RmdqSk1YQTFwZm5rajdmR0VUVlVwNmxPQVZLUTlMQXJma1o3T3lPWnhoVVluNTg3ZnhtdUhudGc?oc=5\" target=\"_blank\">Thị trường tăng ào ạt, thanh khoản rất thấp do “tiết cung”, khối ngoại mua ròng</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VnEconomy</font></li></ol>"
+      },
+      {
+        "title": "Dự báo VN-Index vượt 2.000 điểm cuối năm 2026, thanh khoản bùng nổ nhờ giao dịch xuyên trưa - VnEconomy",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXl6ekRJUFoxR2dndkxBV1kyMzBTck50UmJrRS1tdjV3YjNQcTJPWGZtRTBMU2dzUlJNUHdHZEpFLWN1Ujd1UGpTNFh1d3FsX0dmU3g3WmNuLXE1aGNOTUVBeEFvbVBGdnhJU0tXTDZNYlBWeUJKVXprZFdaYzQ3bjk1MDFOYjJhZmh2eWhJLUVUNVVZU01aempLQUI1UHh2XzJNLUFWLXVydkh4Z3BKajBQX2Q?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 06:49:07 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOSXl6ekRJUFoxR2dndkxBV1kyMzBTck50UmJrRS1tdjV3YjNQcTJPWGZtRTBMU2dzUlJNUHdHZEpFLWN1Ujd1UGpTNFh1d3FsX0dmU3g3WmNuLXE1aGNOTUVBeEFvbVBGdnhJU0tXTDZNYlBWeUJKVXprZFdaYzQ3bjk1MDFOYjJhZmh2eWhJLUVUNVVZU01aempLQUI1UHh2XzJNLUFWLXVydkh4Z3BKajBQX2Q?oc=5\" target=\"_blank\">Dự báo VN-Index vượt 2.000 điểm cuối năm 2026, thanh khoản bùng nổ nhờ giao dịch xuyên trưa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VnEconomy</font>"
+      },
+      {
+        "title": "Chứng khoán 1-7: Nhìn vào đâu để dự đoán thị trường sắp hết đi ngang? - Báo Tuổi Trẻ",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZC16YlVhWU9DaFpyUFZqWURyaGRGN3NKd09aZi16azdadEUwQk4taVNycUtHa1IxTHVIS1B5WkFPejVPUmFHUWFnUWdubGxZa2Z6TjNxSzAwUDJlc3dIeERzLU8wdEo2amFsRUNQQkZIWklOR2VUdlBPN1o5OHJxSW5ydWdKOFJIZGwta1BNSzJSNGJydElMMlp1OEI1SEVoVVJmc09scmRMUFZHaEE?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 02:02:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQZC16YlVhWU9DaFpyUFZqWURyaGRGN3NKd09aZi16azdadEUwQk4taVNycUtHa1IxTHVIS1B5WkFPejVPUmFHUWFnUWdubGxZa2Z6TjNxSzAwUDJlc3dIeERzLU8wdEo2amFsRUNQQkZIWklOR2VUdlBPN1o5OHJxSW5ydWdKOFJIZGwta1BNSzJSNGJydElMMlp1OEI1SEVoVVJmc09scmRMUFZHaEE?oc=5\" target=\"_blank\">Chứng khoán 1-7: Nhìn vào đâu để dự đoán thị trường sắp hết đi ngang?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Báo Tuổi Trẻ</font>"
+      },
+      {
+        "title": "Chứng khoán tăng điểm trong phiên giao dịch đầu tiên của quý III/2026 - Laodong.vn",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZFTTBsOWNIMFhSVFJDNTJnUDB6c3JiN2RfRGxubFJuS3VQS1F6ZW1vQWZibW9BX2YxdjlfQWJSZk1NNWhoalhWQTNVUi1fWjN1cE82dXRoaE1YTk10RHNBWEtYelRnUFpWMTJ6V1lKUHhIVjdVQ1NTZlQtVThuVG93SWVNY194eEdGS2RsdEZUTHN6RnRwTmlrSVdPNUdpQ29va21vWGd5SUFkRTFZ?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 09:30:38 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZFTTBsOWNIMFhSVFJDNTJnUDB6c3JiN2RfRGxubFJuS3VQS1F6ZW1vQWZibW9BX2YxdjlfQWJSZk1NNWhoalhWQTNVUi1fWjN1cE82dXRoaE1YTk10RHNBWEtYelRnUFpWMTJ6V1lKUHhIVjdVQ1NTZlQtVThuVG93SWVNY194eEdGS2RsdEZUTHN6RnRwTmlrSVdPNUdpQ29va21vWGd5SUFkRTFZ?oc=5\" target=\"_blank\">Chứng khoán tăng điểm trong phiên giao dịch đầu tiên của quý III/2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Laodong.vn</font>"
+      },
+      {
+        "title": "Có 'sóng' ở cổ phiếu ngân hàng - Znews",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZ28yby1heVIxV0kwV19kYXc4cXY1VG1yZ2tjVGhNYmM2SVRMXzdPUEJ5bEl0SGl0YlBlN1NJT0p6YnFZYTh5TkQ4Q192Q25Md0I1VW1iMldsZ3ZuNjM5Z0JicWpBWm5HOWhqRVo4SQ?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 09:41:46 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZ28yby1heVIxV0kwV19kYXc4cXY1VG1yZ2tjVGhNYmM2SVRMXzdPUEJ5bEl0SGl0YlBlN1NJT0p6YnFZYTh5TkQ4Q192Q25Md0I1VW1iMldsZ3ZuNjM5Z0JicWpBWm5HOWhqRVo4SQ?oc=5\" target=\"_blank\">Có 'sóng' ở cổ phiếu ngân hàng</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Znews</font>"
+      },
+      {
+        "title": "VNDirect: Các động lực đang hội tụ, VN-Index có thể đạt 2.014 điểm vào cuối năm - Báo Điện tử An ninh Thủ đô",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRnRfdGtFX08wVkpsWEY5a3gySzZNbDFYTjBmQUVaR3V3TFFSTXFjUFV3dldPLVlOdGdIUXpidURVOVdkQnU5TVFuUHFTOUFtY2ZtY3dTRm5Pd1VTSk9UaEJlV25faUlERzVLNnlYbzNCai1mWFAxRUNPMUJRU0JPLW9YMXZuaFBYaUp6QXFXSkREUldzaU1FbEdRaFN5b1N2OWFaWG44YTlWSkFMaVBFT1g4SzNGQQ?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 08:30:13 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPRnRfdGtFX08wVkpsWEY5a3gySzZNbDFYTjBmQUVaR3V3TFFSTXFjUFV3dldPLVlOdGdIUXpidURVOVdkQnU5TVFuUHFTOUFtY2ZtY3dTRm5Pd1VTSk9UaEJlV25faUlERzVLNnlYbzNCai1mWFAxRUNPMUJRU0JPLW9YMXZuaFBYaUp6QXFXSkREUldzaU1FbEdRaFN5b1N2OWFaWG44YTlWSkFMaVBFT1g4SzNGQQ?oc=5\" target=\"_blank\">VNDirect: Các động lực đang hội tụ, VN-Index có thể đạt 2.014 điểm vào cuối năm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Báo Điện tử An ninh Thủ đô</font>"
+      },
+      {
+        "title": "VNDIRECT: Động lực hội tụ, VN-Index có cơ hội chạm đến 2,014 điểm - Vietstock",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3JZX0FOdVRCckxhU201WWRSYzVfbFZuYXExLWRKZGQ2d1kyM3hYTG9fN2hhMHZkbDVMUy1ZTTM1MzVtRmJfNVdDTFl3TEx0ZURucGhMOWU4b2ljcTRLNXlJZkIxNWZwZWhJSnF4NlB5ZXotbFA5TWljMjJwRGlaR0Q2UU5IODlSWGpNS01weDEwT0o1UjgwN2xjYjhwb2ZxVjBSYnBKcElOTjg?oc=5",
+        "source": "\"VN-Index thi truong chung khoan\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 11:52:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3JZX0FOdVRCckxhU201WWRSYzVfbFZuYXExLWRKZGQ2d1kyM3hYTG9fN2hhMHZkbDVMUy1ZTTM1MzVtRmJfNVdDTFl3TEx0ZURucGhMOWU4b2ljcTRLNXlJZkIxNWZwZWhJSnF4NlB5ZXotbFA5TWljMjJwRGlaR0Q2UU5IODlSWGpNS01weDEwT0o1UjgwN2xjYjhwb2ZxVjBSYnBKcElOTjg?oc=5\" target=\"_blank\">VNDIRECT: Động lực hội tụ, VN-Index có cơ hội chạm đến 2,014 điểm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vietstock</font>"
+      },
+      {
+        "title": "Động lực tăng trưởng kinh tế Việt Nam tiếp tục được củng cố - Thời báo Tài chính Việt Nam",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRVZPTGFWWmVTbUNnVWd3YVNON2hnUWp6cU8xX0RRTWJmbmwyejdIMTlWTEVRM0dfUjlKU3R2ZGxZYVRnNTJYZzJvX1J1SXRiWlJpQ1pHUXJGb3o4Ty1zeGpzMUw4ak5MY3RhZUVyTVliZWNhTGVKeHNMUUxKd0xDT3NyQmc5QW9WQXBDN19fZ29vT3NzcmJqcEpydmNjcGNYRldTeTFRVjk?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 11:43:05 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRVZPTGFWWmVTbUNnVWd3YVNON2hnUWp6cU8xX0RRTWJmbmwyejdIMTlWTEVRM0dfUjlKU3R2ZGxZYVRnNTJYZzJvX1J1SXRiWlJpQ1pHUXJGb3o4Ty1zeGpzMUw4ak5MY3RhZUVyTVliZWNhTGVKeHNMUUxKd0xDT3NyQmc5QW9WQXBDN19fZ29vT3NzcmJqcEpydmNjcGNYRldTeTFRVjk?oc=5\" target=\"_blank\">Động lực tăng trưởng kinh tế Việt Nam tiếp tục được củng cố</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Thời báo Tài chính Việt Nam</font>"
+      },
+      {
+        "title": "Khơi thông nguồn lực vàng: Giải pháp căn cơ vẫn là ổn định kinh tế vĩ mô - thitruongtaichinhtiente.vn",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmc3UmNuZ29hRlQzNmlDa3RWNGMzWGhUY04xVVhDXzZBTmdOd3EyTnJodWZhSi0tWlhIOHNfRmd3WV9OQ3YxRXFQSEl5cUxiUDZWcnNLd3hJMFJaN3JETWRMSVphc2VzX2JRaEhsMExHODNpZ2xESklxU0RiclhtLXRIM1NnN2o3TjZSdFFiUGdjdnpyb01Yd1lUMk9YNnNWb2xLZ1Z6MHJNOXRfS1lBaDFXU1kyWFFz?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 09:02:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmc3UmNuZ29hRlQzNmlDa3RWNGMzWGhUY04xVVhDXzZBTmdOd3EyTnJodWZhSi0tWlhIOHNfRmd3WV9OQ3YxRXFQSEl5cUxiUDZWcnNLd3hJMFJaN3JETWRMSVphc2VzX2JRaEhsMExHODNpZ2xESklxU0RiclhtLXRIM1NnN2o3TjZSdFFiUGdjdnpyb01Yd1lUMk9YNnNWb2xLZ1Z6MHJNOXRfS1lBaDFXU1kyWFFz?oc=5\" target=\"_blank\">Khơi thông nguồn lực vàng: Giải pháp căn cơ vẫn là ổn định kinh tế vĩ mô</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thitruongtaichinhtiente.vn</font>"
+      },
+      {
+        "title": "Cập nhật nhanh Kinh tế vĩ mô - Vĩ mô đầu tuần: Thị trường lao động Mỹ, chỉ số PMI Trung Quốc và GDP Q2/2026 của Việt Nam - dautucophieu.net",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaE1WUmNzOVpfOXNlZDBscEJEZVRsWE00dkl1bWRWYkNNeFdSSE1xbEpHRHIxazA1eHhJSjljbTRYQXRTSXZWQVZ0MnA4NmI1bWx2cXB6ZDFVbU9TZ2pWeHBDY281N2w1NEZNMEtPckIyNUYxeklPcWtpSW1palRmNXZKSHJleHNoUWUtMGxJSFVncHJhRjhqYUY4ODJqOWp4dUhhV0tWd0ZuRlljenViaHNmSEYxTmVFN050WXRXVmYwTWxJOG96OGJuTnluVnVGNVExTGxLTElyZw?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 07:22:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaE1WUmNzOVpfOXNlZDBscEJEZVRsWE00dkl1bWRWYkNNeFdSSE1xbEpHRHIxazA1eHhJSjljbTRYQXRTSXZWQVZ0MnA4NmI1bWx2cXB6ZDFVbU9TZ2pWeHBDY281N2w1NEZNMEtPckIyNUYxeklPcWtpSW1palRmNXZKSHJleHNoUWUtMGxJSFVncHJhRjhqYUY4ODJqOWp4dUhhV0tWd0ZuRlljenViaHNmSEYxTmVFN050WXRXVmYwTWxJOG96OGJuTnluVnVGNVExTGxLTElyZw?oc=5\" target=\"_blank\">Cập nhật nhanh Kinh tế vĩ mô - Vĩ mô đầu tuần: Thị trường lao động Mỹ, chỉ số PMI Trung Quốc và GDP Q2/2026 của Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dautucophieu.net</font>"
+      },
+      {
+        "title": "Kinh tế Việt Nam vượt thách thức vĩ mô để bứt phá tăng trưởng - Tạp chí Doanh nghiệp & Đầu tư",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJ1ekFtNXFPeUI1T1EtTzBiY0Nhc2NYWC1DWXNFOE9kclU2eGhuY2cxS0dOQ2tPRTN6TVVJcExXSnJaSi1PdWtQVXJ6Q3JMUzNTTkdoeWx1Z0tUZktCNXQ5VjdIckNORGt5T05sYXRJVjcxamJzeXMxOWxRcC1VQlhPQ3VTbV9GWGthclo5YzRhRUtXUkFTb280TXJaUzFIaU40R283aFNFY3RN?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Mon, 29 Jun 2026 03:55:19 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJ1ekFtNXFPeUI1T1EtTzBiY0Nhc2NYWC1DWXNFOE9kclU2eGhuY2cxS0dOQ2tPRTN6TVVJcExXSnJaSi1PdWtQVXJ6Q3JMUzNTTkdoeWx1Z0tUZktCNXQ5VjdIckNORGt5T05sYXRJVjcxamJzeXMxOWxRcC1VQlhPQ3VTbV9GWGthclo5YzRhRUtXUkFTb280TXJaUzFIaU40R283aFNFY3RN?oc=5\" target=\"_blank\">Kinh tế Việt Nam vượt thách thức vĩ mô để bứt phá tăng trưởng</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tạp chí Doanh nghiệp & Đầu tư</font>"
+      },
+      {
+        "title": "Một địa phương ghi nhận tăng trưởng GRDP 6 tháng 2026 đạt kỷ lục trong vòng 5 năm, lọt top 3 tỉnh, thành có tăng trưởng kinh tế cao nhất Việt Nam - CafeF",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPT3VQWk44NmtPYy1MNDktN3BnZ2FfdEFyT0ltZURMNURTSnE3c1doNmFud01xd3prY0M1al9Ibjg0a0NWT3kzdk9rU2hNMHpkQUt3X2dPOVFUUmNxbjFSY0RMMGl1UHlEWjdublF4bnFvOHM2NEEydUhGclNaWE5YQmIzNFNzRU1zT1U3Q05KME8zazV2VENmSnRfWmRfMENIR1czb0ZrS3hSUWQtcVNDM3VjRTNKbS1vb0tkM3NNcmxjcWhFQ1pQeWhmOUhOOE1fbDJzVk5IcXhXc19ETjNROEVmR2xkOFA2ZDNJYzJGS3VBUFJrOS1mVXM2M050UUxKRGtpcFFpYnhXTkFnZTgxXw?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Tue, 30 Jun 2026 20:40:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxPT3VQWk44NmtPYy1MNDktN3BnZ2FfdEFyT0ltZURMNURTSnE3c1doNmFud01xd3prY0M1al9Ibjg0a0NWT3kzdk9rU2hNMHpkQUt3X2dPOVFUUmNxbjFSY0RMMGl1UHlEWjdublF4bnFvOHM2NEEydUhGclNaWE5YQmIzNFNzRU1zT1U3Q05KME8zazV2VENmSnRfWmRfMENIR1czb0ZrS3hSUWQtcVNDM3VjRTNKbS1vb0tkM3NNcmxjcWhFQ1pQeWhmOUhOOE1fbDJzVk5IcXhXc19ETjNROEVmR2xkOFA2ZDNJYzJGS3VBUFJrOS1mVXM2M050UUxKRGtpcFFpYnhXTkFnZTgxXw?oc=5\" target=\"_blank\">Một địa phương ghi nhận tăng trưởng GRDP 6 tháng 2026 đạt kỷ lục trong vòng 5 năm, lọt top 3 tỉnh, thành có tăng trưởng kinh tế cao nhất Việt Nam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CafeF</font>"
+      },
+      {
+        "title": "Bộ Tài chính phát huy tốt vai trò “kinh tế trưởng” quốc gia - Thời báo Tài chính Việt Nam",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMEdHQ2VuLTlfbUNZRGxsb1dvMEtqUkQ3Q2l0WVhPRFR6cFREMDdrRDREbEhGaWpUcGVIMHFDbi1TUHEyam44cHFmbHY0dGhUNXBRUUpYWVQ1SnpGeVh1cGpyMUEwM2NVakRPSVE5NUZRWWV3ZTRWcFNhOTcxTDRITUxqRl9ySDlJZWtXX0I2cm5rRFlzMXFGRFBXam9iNlFGVnZ5cUM2Uncya3JFTzJZ?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Wed, 01 Jul 2026 05:58:33 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOMEdHQ2VuLTlfbUNZRGxsb1dvMEtqUkQ3Q2l0WVhPRFR6cFREMDdrRDREbEhGaWpUcGVIMHFDbi1TUHEyam44cHFmbHY0dGhUNXBRUUpYWVQ1SnpGeVh1cGpyMUEwM2NVakRPSVE5NUZRWWV3ZTRWcFNhOTcxTDRITUxqRl9ySDlJZWtXX0I2cm5rRFlzMXFGRFBXam9iNlFGVnZ5cUM2Uncya3JFTzJZ?oc=5\" target=\"_blank\">Bộ Tài chính phát huy tốt vai trò “kinh tế trưởng” quốc gia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Thời báo Tài chính Việt Nam</font>"
+      },
+      {
+        "title": "Tăng cường trao đổi chính sách kinh tế vĩ mô và triển vọng tăng trưởng giữa Việt Nam và Nhật Bản - Tạp chí Kinh tế - Tài chính Online",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaHVvT2xWdzFrSXl4TV9TXzhKZkJQZnkwZEdYTVotNHJMODVHMlpzZFp3QUhyazNGNDFMdElSSFlMUm8tREtrWUdsWENaM3ktVGFteTYzWXNXTm9mS2FsMGJIcFluNTBPelM0OXV1WGttbG1pbVV1OC15Q0xwcVBYbHJIRFJaZ3FTZ1lvb24wVUxDM293dXNqZUlaT1dFWUloVExUOFF0Z0pjMzZfZjlrbDVBa0RsNWZPLTRnQW5wRlJTMEM4bWE3ZXpWa2EybDNSVzVxSENfWQ?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Tue, 23 Jun 2026 11:19:47 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaHVvT2xWdzFrSXl4TV9TXzhKZkJQZnkwZEdYTVotNHJMODVHMlpzZFp3QUhyazNGNDFMdElSSFlMUm8tREtrWUdsWENaM3ktVGFteTYzWXNXTm9mS2FsMGJIcFluNTBPelM0OXV1WGttbG1pbVV1OC15Q0xwcVBYbHJIRFJaZ3FTZ1lvb24wVUxDM293dXNqZUlaT1dFWUloVExUOFF0Z0pjMzZfZjlrbDVBa0RsNWZPLTRnQW5wRlJTMEM4bWE3ZXpWa2EybDNSVzVxSENfWQ?oc=5\" target=\"_blank\">Tăng cường trao đổi chính sách kinh tế vĩ mô và triển vọng tăng trưởng giữa Việt Nam và Nhật Bản</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tạp chí Kinh tế - Tài chính Online</font>"
+      },
+      {
+        "title": "Kinh tế vĩ mô những tháng đầu năm 2026: Nhận diện rủi ro, thách thức và kiến nghị giải pháp cho những tháng cuối năm - Tạp chí Ngân hàng",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaW9QTFpNbW4xeGNsRWVoT1V4bnd5Wk5weHg5aHpEaVJ3OHFiRUkyVF84dzdxSHYxSTg5RjM4WVBxNXBoZE8tVUdwMnE4NkkxcDh5X25xZllnNjZhN2FGQUhDd2dvMUcxWEV1b2VkdjBoLXozNmtMMFVLTldCUzBNODFjZmUtR1RKZ1J5Ry1sdUJISjkxd1hjclI2NkFTWURHQjJDUW9UVG5WaEdGajFZdWZrSkt3Vy1jaXJNdG5iRXVNUWR2UmdMaUF3SENvWTdlMU1vX3JPSl9Ka2laT3M1SUY1alNsTTRHbzVv?oc=5",
+        "source": "\"kinh te vi mo Viet Nam\" - Google Tin tức",
+        "published": "Fri, 22 May 2026 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNaW9QTFpNbW4xeGNsRWVoT1V4bnd5Wk5weHg5aHpEaVJ3OHFiRUkyVF84dzdxSHYxSTg5RjM4WVBxNXBoZE8tVUdwMnE4NkkxcDh5X25xZllnNjZhN2FGQUhDd2dvMUcxWEV1b2VkdjBoLXozNmtMMFVLTldCUzBNODFjZmUtR1RKZ1J5Ry1sdUJISjkxd1hjclI2NkFTWURHQjJDUW9UVG5WaEdGajFZdWZrSkt3Vy1jaXJNdG5iRXVNUWR2UmdMaUF3SENvWTdlMU1vX3JPSl9Ka2laT3M1SUY1alNsTTRHbzVv?oc=5\" target=\"_blank\">Kinh tế vĩ mô những tháng đầu năm 2026: Nhận diện rủi ro, thách thức và kiến nghị giải pháp cho những tháng cuối năm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tạp chí Ngân hàng</font>"
+      },
+      {
+        "title": "Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOU5DMTRIOHpLY0VUdlJ6RW1fcEhveWNmVmZaNFo0YkdfNmN0a0VZN1JHMDcxVFdlMl81aVpWQV8td2hxb1dZcldhVE5USmVqeEhDNDA4Yk5RSDBpWnBuN3FTblFLMUxEa3poLTZsR3pfMmNfUENaOVZDRjVFNGl5V0l6MA?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Wed, 17 Jun 2026 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQOU5DMTRIOHpLY0VUdlJ6RW1fcEhveWNmVmZaNFo0YkdfNmN0a0VZN1JHMDcxVFdlMl81aVpWQV8td2hxb1dZcldhVE5USmVqeEhDNDA4Yk5RSDBpWnBuN3FTblFLMUxEa3poLTZsR3pfMmNfUENaOVZDRjVFNGl5V0l6MA?oc=5\" target=\"_blank\">Stocks drop, bond yields rise; Fed keeps rates steady but projects hike for later this year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>"
+      },
+      {
+        "title": "Stock market today: Dow rises, Nasdaq slides in volatile day as Trump amps up China threats, Fed's Powell speaks - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYkNYYnlleEZhR1FoRksza0lvellBRUFyRUpFT3FFWlduOWowd3pDOGJGX2ZSLVNFOXN4aTQ0d3VFY1ZnWEMtRUtIc05zWThCemMwaV9fVHZmd0NJY0w4aGJkMmNMdE1UVEMzcXNfajEwU2llaUFkb2owdm5kODB1YjNTVlB0WktyQl9CSHAtQy1sYjRWSmlPX2FHOFFpQVFuNGJuNGRxekJLTVRpZ0JUUHRkQlpkTVE1bVAtX3VxRnpKNTIyTm1XNGNQUlU3eTJ2cXVIbWVaajgtS3BTQkpiVURpOUVfMUtqOXpFYTR6Y2Q?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYkNYYnlleEZhR1FoRksza0lvellBRUFyRUpFT3FFWlduOWowd3pDOGJGX2ZSLVNFOXN4aTQ0d3VFY1ZnWEMtRUtIc05zWThCemMwaV9fVHZmd0NJY0w4aGJkMmNMdE1UVEMzcXNfajEwU2llaUFkb2owdm5kODB1YjNTVlB0WktyQl9CSHAtQy1sYjRWSmlPX2FHOFFpQVFuNGJuNGRxekJLTVRpZ0JUUHRkQlpkTVE1bVAtX3VxRnpKNTIyTm1XNGNQUlU3eTJ2cXVIbWVaajgtS3BTQkpiVURpOUVfMUtqOXpFYTR6Y2Q?oc=5\" target=\"_blank\">Stock market today: Dow rises, Nasdaq slides in volatile day as Trump amps up China threats, Fed's Powell speaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>"
+      },
+      {
+        "title": "Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed, Micron Earnings Loom - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdGFCTmlTRGJ6V1lKekR4bml6V2ZFb3dBSS1nLU1MQ1htRXE1dWpwaEI1VFgwb2ZJc1kwOW1tMFdaWHdjYWlCV3k3QjZEUDdlOEpodTdmTG1DR3dHRlNzbU4tTVBFejhNdDVfLVR3UDRTVldHVDFsdG95RzZNSmprYl9iRzgzcl9HOFh1NVhXSXR5TmxNSUZmYXV0ekRYWGxxZWZHMTNZaVRYUmRSTmdlQ2pDazdTQ3hwb1NhY2Jn?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Wed, 18 Mar 2026 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOdGFCTmlTRGJ6V1lKekR4bml6V2ZFb3dBSS1nLU1MQ1htRXE1dWpwaEI1VFgwb2ZJc1kwOW1tMFdaWHdjYWlCV3k3QjZEUDdlOEpodTdmTG1DR3dHRlNzbU4tTVBFejhNdDVfLVR3UDRTVldHVDFsdG95RzZNSmprYl9iRzgzcl9HOFh1NVhXSXR5TmxNSUZmYXV0ekRYWGxxZWZHMTNZaVRYUmRSTmdlQ2pDazdTQ3hwb1NhY2Jn?oc=5\" target=\"_blank\">Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed, Micron Earnings Loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>"
+      },
+      {
+        "title": "US stocks inch higher amid oil prices surge, upcoming Fed decision - China Daily - Global Edition",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEEwTjBCMHo0Si1GNkVsWnI4N0R5UGZ1UXlnaHdpazZ0REdtMDFaNkNqUlA4d3oyMW85SmZCdGRVcEc2QmsyVG1TMUhNQnhyVUF6XzhGN01JWkdoRmlESGJJWmpOcGVTUU5VQXRGOEU4cU1JWnh5Q2hXcWJXYUpCd1FR?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Wed, 18 Mar 2026 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEEwTjBCMHo0Si1GNkVsWnI4N0R5UGZ1UXlnaHdpazZ0REdtMDFaNkNqUlA4d3oyMW85SmZCdGRVcEc2QmsyVG1TMUhNQnhyVUF6XzhGN01JWkdoRmlESGJJWmpOcGVTUU5VQXRGOEU4cU1JWnh5Q2hXcWJXYUpCd1FR?oc=5\" target=\"_blank\">US stocks inch higher amid oil prices surge, upcoming Fed decision</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">China Daily - Global Edition</font>"
+      },
+      {
+        "title": "Hong Kong, mainland China stocks tumble as oil shock revives recession worries - South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPU2hkOE5tYy1WbUFZUTRXbVY1ZWpTUGFSeFRRMGYwN21ZM2F2RVlBZ1VaRUNLa2Fob29HRjlxM1ZYNE9QU295dHk4VnZRQkRGQUt1bjluVDRBbzNuYUhDVXdva2lOS1NzQUgyTDQycEVDQzNzaV9RV3lZRExxWkNfLW0wTXRUU3YzT2RmUDFTZTNzeml1N0swSnBfSlFQUlhkUUl5Y3pfVkNXcElJblRCaHVHbU0tYWF5bTBaOTgxeFhxZFl5ZnZzUThkUy1wOEXSAc8BQVVfeXFMTkRpdUZ3cGwwVURPSFJGbmpHZ0FpcFo1NG0xb0JQX18yalg4NzhqMU0xdU9DekNPOThqc0dYZEduM1FSWVBlVi16VXVUUzhUSHV1di1keVdtWVR1Y3pmZDBXQzBCLXUwZWJDYWJxa2pjZzZXUFlsVDdJVmYwYmFETkNMV0RzY243LTdZQXhteWIyaGlyckJ1czZaTDdVakpQZklqM01BX2xyWFJBV2tWZDNhTkt6aW4ybWUyVld5clFwa1NtWWx2bXJ5ellKekhj?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Thu, 19 Mar 2026 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPU2hkOE5tYy1WbUFZUTRXbVY1ZWpTUGFSeFRRMGYwN21ZM2F2RVlBZ1VaRUNLa2Fob29HRjlxM1ZYNE9QU295dHk4VnZRQkRGQUt1bjluVDRBbzNuYUhDVXdva2lOS1NzQUgyTDQycEVDQzNzaV9RV3lZRExxWkNfLW0wTXRUU3YzT2RmUDFTZTNzeml1N0swSnBfSlFQUlhkUUl5Y3pfVkNXcElJblRCaHVHbU0tYWF5bTBaOTgxeFhxZFl5ZnZzUThkUy1wOEXSAc8BQVVfeXFMTkRpdUZ3cGwwVURPSFJGbmpHZ0FpcFo1NG0xb0JQX18yalg4NzhqMU0xdU9DekNPOThqc0dYZEduM1FSWVBlVi16VXVUUzhUSHV1di1keVdtWVR1Y3pmZDBXQzBCLXUwZWJDYWJxa2pjZzZXUFlsVDdJVmYwYmFETkNMV0RzY243LTdZQXhteWIyaGlyckJ1czZaTDdVakpQZklqM01BX2xyWFJBV2tWZDNhTkt6aW4ybWUyVld5clFwa1NtWWx2bXJ5ellKekhj?oc=5\" target=\"_blank\">Hong Kong, mainland China stocks tumble as oil shock revives recession worries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">South China Morning Post</font>"
+      },
+      {
+        "title": "Dow futures jump 300 points as U.S.-China trade war heads for ceasefire while Wall Street eyes another Fed rate cut and earnings from AI giants - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOXJZNWtyUDBQUHU5ZEpDMEQ4dkJWbW9NeTFVZ0F6V0l2WXE0S0lQR2VvdWFtd1RDdEwtdHJzdXRNQVFMa0x2WUVIQUROUDVoSE5aZmRWYWZBNGxIeUNNT3J4MzNVTkY3TDhLeEVUcGlyamVJSC1SWElRVEJVNDZQamVLNnA4cXE5bWNvQmdibEFSZVNTTFlLZWpiS1NCcXZhdjlHTFVodw?oc=5",
+        "source": "\"stock market Fed oil China\" - Google News",
+        "published": "Sun, 26 Oct 2025 07:00:00 GMT",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPOXJZNWtyUDBQUHU5ZEpDMEQ4dkJWbW9NeTFVZ0F6V0l2WXE0S0lQR2VvdWFtd1RDdEwtdHJzdXRNQVFMa0x2WUVIQUROUDVoSE5aZmRWYWZBNGxIeUNNT3J4MzNVTkY3TDhLeEVUcGlyamVJSC1SWElRVEJVNDZQamVLNnA4cXE5bWNvQmdibEFSZVNTTFlLZWpiS1NCcXZhdjlHTFVodw?oc=5\" target=\"_blank\">Dow futures jump 300 points as U.S.-China trade war heads for ceasefire while Wall Street eyes another Fed rate cut and earnings from AI giants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>"
+      }
+    ],
+    "notes": []
+  },
+  "metadata": {
+    "timezone": "Asia/Ho_Chi_Minh",
+    "lookback_days": 10,
+    "generated_by": "market-briefing-agent"
+  }
+}

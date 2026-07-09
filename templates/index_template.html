@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ brand.site_name }}">
+  <title>{{ brand.site_name }}</title>
+  <link rel="stylesheet" href="{{ asset_prefix }}assets/css/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="index-hero">
+      <p class="eyebrow">{{ brand.name }} · DAILY RESEARCH</p>
+      <h1>{{ brand.site_name }}</h1>
+      <p>Danh sách bản tin thị trường được tạo tự động hằng ngày cho broker chứng khoán tại Việt Nam.</p>
+      {% if latest_href %}
+      <a class="primary-link" href="{{ latest_href }}">Mở bản tin mới nhất</a>
+      {% endif %}
+    </header>
+
+    <main class="archive">
+      <div class="section-head">
+        <span>Archive</span>
+        <div>
+          <p>Bản tin mới nhất</p>
+          <h2>Danh sách bản tin</h2>
+        </div>
+      </div>
+      <div class="archive-list">
+        {% for item in items %}
+        <article>
+          <time datetime="{{ item.date }}">{{ item.date_label }}</time>
+          <h3><a href="{{ item.href }}">{{ item.title }}</a></h3>
+          <p>{{ item.subtitle }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+
+    <footer class="footer">
+      <strong>{{ brand.footer }}</strong>
+      <span>Tài liệu thông tin tổng hợp, KHÔNG phải khuyến nghị giao dịch hay đầu tư.</span>
+    </footer>
+  </div>
+</body>
+</html>

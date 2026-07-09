@@ -1,0 +1,91 @@
+{
+  "updated_at": "",
+  "note": "Nhap so lieu thu cong tai day neu nguon tu dong thieu hoac khong on dinh. De trong value/change_pct neu chua co du lieu cap nhat.",
+  "indexes": {
+    "VNINDEX": {
+      "label": "VN-Index",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "comment": "chua co du lieu cap nhat",
+      "source": "manual"
+    },
+    "VN30": {
+      "label": "VN30",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "comment": "chua co du lieu cap nhat",
+      "source": "manual"
+    },
+    "HNX": {
+      "label": "HNX-Index",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "comment": "chua co du lieu cap nhat",
+      "source": "manual"
+    },
+    "UPCOM": {
+      "label": "UPCoM",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "comment": "chua co du lieu cap nhat",
+      "source": "manual"
+    },
+    "USDVND": {
+      "label": "USD/VND",
+      "value": null,
+      "change": null,
+      "change_pct": null,
+      "comment": "chua co du lieu cap nhat",
+      "source": "manual"
+    }
+  },
+  "market_breadth": {
+    "advancers": null,
+    "decliners": null,
+    "unchanged": null,
+    "comment": "chua co du lieu cap nhat"
+  },
+  "liquidity": {
+    "value": null,
+    "unit": "ty VND",
+    "comment": "chua co du lieu cap nhat"
+  },
+  "foreign_flow": {
+    "net_value": null,
+    "unit": "ty VND",
+    "top_buy": [],
+    "top_sell": [],
+    "comment": "chua co du lieu cap nhat"
+  },
+  "proprietary_flow": {
+    "net_value": null,
+    "unit": "ty VND",
+    "top_buy": [],
+    "top_sell": [],
+    "comment": "chua co du lieu cap nhat"
+  },
+  "sector_flow": [
+    {
+      "sector": "Ngan hang",
+      "status": "chua co du lieu cap nhat",
+      "notable_tickers": ["MBB", "HDB"]
+    },
+    {
+      "sector": "Chung khoan",
+      "status": "chua co du lieu cap nhat",
+      "notable_tickers": ["SSI", "VND", "VCI"]
+    },
+    {
+      "sector": "Thep",
+      "status": "chua co du lieu cap nhat",
+      "notable_tickers": ["HPG", "HSG"]
+    }
+  ],
+  "top_gainers": [],
+  "top_losers": [],
+  "watchlist_prices": {}
+}

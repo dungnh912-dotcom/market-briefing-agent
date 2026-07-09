@@ -1,0 +1,49 @@
+sectors:
+  Ngan hang:
+    - VCB
+    - BID
+    - CTG
+    - MBB
+    - TCB
+    - ACB
+    - STB
+    - HDB
+  Chung khoan:
+    - SSI
+    - VND
+    - VCI
+    - HCM
+    - SHS
+    - MBS
+    - VIX
+  Bat dong san:
+    - VHM
+    - VIC
+    - KBC
+    - NLG
+    - DXG
+    - DIG
+    - PDR
+  Thep:
+    - HPG
+    - HSG
+    - NKG
+  Dau khi:
+    - GAS
+    - PVD
+    - PVS
+    - BSR
+    - PLX
+  Ban le tieu dung:
+    - MWG
+    - FRT
+    - MSN
+    - VNM
+    - PNJ
+  Xuat khau cong nghe logistics:
+    - FPT
+    - GMD
+    - VSC
+    - TNG
+    - VHC
+    - ANV

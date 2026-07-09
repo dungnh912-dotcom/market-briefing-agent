@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bản tin TTCK · 2026-07-01</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #111827;
+      --muted: #667085;
+      --line: #d9e0ea;
+      --brand: #0f766e;
+      --soft: #eef6f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .page { max-width: 1120px; margin: 0 auto; padding: 28px 18px 48px; }
+    header { padding: 28px 0 20px; border-bottom: 1px solid var(--line); }
+    .site { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+    .brand { font-size: 18px; font-weight: 800; letter-spacing: 0; }
+    .sub { color: var(--muted); font-size: 13px; text-transform: uppercase; }
+    .date { color: var(--brand); font-weight: 800; }
+    h1 { margin: 24px 0 12px; font-size: clamp(30px, 4vw, 52px); line-height: 1.05; letter-spacing: 0; max-width: 920px; }
+    .lead { max-width: 850px; color: #344054; font-size: 17px; }
+    .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 24px 0; }
+    .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 112px; }
+    .metric .label { color: var(--muted); font-size: 13px; }
+    .metric .value { margin-top: 8px; font-size: 22px; font-weight: 800; }
+    .metric .change { margin-top: 6px; color: var(--muted); font-size: 13px; }
+    .up { color: #067647; } .down { color: #b42318; } .flat { color: #475467; }
+    main { display: grid; gap: 18px; }
+    section, .block { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; }
+    h2 { margin: 0 0 12px; font-size: 21px; letter-spacing: 0; }
+    h3 { margin: 0 0 10px; font-size: 17px; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 8px 0; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .tag { display: inline-block; color: var(--brand); background: var(--soft); border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 700; }
+    footer { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      .page { padding: 20px 14px 36px; }
+      .grid-2 { grid-template-columns: 1fr; }
+      section, .block, .metric { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="site">
+        <div>
+          <div class="brand">Bản tin TTCK</div>
+          <div class="sub">Daily research</div>
+        </div>
+        <div class="date">THỨ TƯ · 01.07.2026</div>
+      </div>
+      <h1>Bản tin thị trường: dữ liệu đang được cập nhật</h1>
+      <div class="lead">
+        
+          <p>Bản tin được tạo ở chế độ raw summary vì chưa có khóa AI hợp lệ hoặc API AI chưa phản hồi.</p>
+        
+          <p>Các số liệu lấy từ nguồn miễn phí có thể thiếu hoặc trễ; mục thiếu dữ liệu được ghi rõ thay vì hard-code.</p>
+        
+          <p>Nhà đầu tư nên ưu tiên quan sát phản ứng của VN-Index tại các vùng hỗ trợ/kháng cự gần nhất.</p>
+        
+          <p>Tin quốc tế được diễn giải theo hướng tác động có thể có đến tâm lý và dòng tiền tại Việt Nam.</p>
+        
+      </div>
+    </header>
+
+    <div class="dashboard" aria-label="Dashboard số liệu nhanh">
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Thanh khoản HOSE</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">Cần nguồn HOSE/FiinTrade/SSI iBoard công khai ổn định.</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Khối ngoại</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">Không hard-code khi nguồn miễn phí chưa ổn định.</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Tự doanh</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">Không hard-code khi nguồn miễn phí chưa ổn định.</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">VN-Index</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">chưa có dữ liệu</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">HNX-Index</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">chưa có dữ liệu</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">VN30</div>
+        <div class="value"><span class="flat">●</span> chưa có dữ liệu</div>
+        <div class="change">chưa có dữ liệu</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">S&amp;P 500</div>
+        <div class="value"><span class="down">▼</span> 7,489.47</div>
+        <div class="change">-9.89 (-0.13%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Nasdaq</div>
+        <div class="value"><span class="down">▼</span> 26,081.27</div>
+        <div class="change">-132.45 (-0.51%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Dow Jones</div>
+        <div class="value"><span class="up">▲</span> 52,401.46</div>
+        <div class="change">+82.26 (+0.16%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Nikkei 225</div>
+        <div class="value"><span class="up">▲</span> 70,474.96</div>
+        <div class="change">+412.64 (+0.59%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Dầu Brent</div>
+        <div class="value"><span class="down">▼</span> 71.87</div>
+        <div class="change">-1.05 (-1.44%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">DXY</div>
+        <div class="value"><span class="up">▲</span> 101.28</div>
+        <div class="change">+0.09 (+0.09%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">UST 10Y</div>
+        <div class="value"><span class="up">▲</span> 4.46</div>
+        <div class="change">+0.09 (+1.99%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Vàng</div>
+        <div class="value"><span class="up">▲</span> 4,122.00</div>
+        <div class="change">+99.10 (+2.46%)</div>
+      </article>
+      
+      
+      
+      
+      <article class="metric">
+        <div class="label">Bitcoin</div>
+        <div class="value"><span class="up">▲</span> 59,575.96</div>
+        <div class="change">+1,017.10 (+1.74%)</div>
+      </article>
+      
+    </div>
+
+    <main>
+      
+      <section>
+        <h2>§01. Qua đêm — toàn cầu</h2>
+        <ul>
+          
+          <li>S&amp;P 500: 7,489.47 -9.89 (-0.13%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>Nasdaq: 26,081.27 -132.45 (-0.51%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>Dow Jones: 52,401.46 +82.26 (+0.16%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>Nikkei 225: 70,474.96 +412.64 (+0.59%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>Dầu Brent: 71.87 -1.05 (-1.44%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>DXY: 101.28 +0.09 (+0.09%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>UST 10Y: 4.46 +0.09 (+1.99%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+          <li>Vàng: 4,122.00 +99.10 (+2.46%). → VN: biến động này ảnh hưởng tâm lý mở cửa và nhóm ngành liên quan.</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§02. Địa chính trị &amp; rủi ro toàn cầu</h2>
+        <ul>
+          
+          <li>→ VN: Rủi ro bên ngoài nếu tăng có thể làm dòng tiền ngắn hạn thận trọng hơn tại nhóm beta cao.</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§03. Dòng tiền &amp; vị thế</h2>
+        <ul>
+          
+          <li>Thanh khoản HOSE, khối ngoại và tự doanh: chưa có dữ liệu từ nguồn miễn phí ổn định.</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§04. Trong nước — tín hiệu thị trường</h2>
+        <ul>
+          
+          <li>VN-Index: chưa có dữ liệu chưa có dữ liệu</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§05. Vĩ mô &amp; tiền tệ</h2>
+        <ul>
+          
+          <li>Theo dõi DXY, UST 10Y, giá dầu và tỷ giá vì đây là nhóm biến số ảnh hưởng khẩu vị rủi ro.</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§06. Doanh nghiệp &amp; cổ phiếu đáng chú ý</h2>
+        <ul>
+          
+          <li>Chủ tịch Fed thay đổi &#39;luật chơi&#39;: Chứng khoán Việt Nam ảnh hưởng ra sao? - Báo Tuổi Trẻ</li>
+          
+          <li>MSCI và FTSE - Hai góc nhìn bổ sung về hành trình hội nhập của thị trường chứng khoán Việt Nam - Vietstock</li>
+          
+          <li>Bán ròng gần 3 tỷ USD từ đầu năm, quỹ ngoại nhận định thế nào về chứng khoán Việt Nam? - VnEconomy</li>
+          
+          <li>Tổ chức nước ngoài đang đánh giá như thế nào về thị trường chứng khoán Việt Nam? - VTV.vn</li>
+          
+          <li>Cuộc &#39;di cư&#39; lớn nhất lịch sử chứng khoán Việt: Gần 300 mã cổ phiếu từ HNX sang HoSE - VietnamFinance</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§07. Lịch sự kiện</h2>
+        <ul>
+          
+          <li>Theo dõi lịch công bố KQKD, họp ĐHĐCĐ, dữ liệu CPI/tỷ giá/lãi suất và tin từ Fed.</li>
+          
+        </ul>
+      </section>
+      
+      <section>
+        <h2>§08. Góc nhìn &amp; chiến lược</h2>
+        <ul>
+          
+          <li>Ưu tiên quản trị tỷ trọng, tránh mua đuổi khi chỉ số tăng nhanh nhưng thanh khoản không xác nhận.</li>
+          
+        </ul>
+      </section>
+      
+
+      <div class="grid-2">
+        <div class="block">
+          <h3>Nhóm ngành</h3>
+          <ul>
+            
+            <li><span class="tag">ngân hàng</span> Theo dõi vai trò dẫn dắt chỉ số và tín hiệu nợ xấu/lãi suất.</li>
+            
+            <li><span class="tag">chứng khoán</span> Nhạy với thanh khoản và kỳ vọng nâng hạng.</li>
+            
+            <li><span class="tag">bất động sản</span> Phụ thuộc lãi suất, pháp lý và trái phiếu.</li>
+            
+            <li><span class="tag">thép</span> Theo dõi giá nguyên liệu, đầu tư công và nhu cầu xây dựng.</li>
+            
+            <li><span class="tag">dầu khí</span> Nhạy với Brent và tiến độ dự án thượng nguồn.</li>
+            
+            <li><span class="tag">bán lẻ</span> Phụ thuộc sức mua và biên lợi nhuận.</li>
+            
+            <li><span class="tag">xuất khẩu</span> Theo dõi USD, đơn hàng Mỹ/EU và chi phí logistics.</li>
+            
+            <li><span class="tag">khu công nghiệp</span> Hưởng lợi FDI nhưng cần theo dõi định giá.</li>
+            
+            <li><span class="tag">công nghệ</span> Ít tỷ trọng chỉ số nhưng có câu chuyện tăng trưởng riêng.</li>
+            
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Kịch bản thị trường</h3>
+          <ul>
+            
+            <li><strong>Tích cực:</strong> VN-Index giữ trên hỗ trợ, thanh khoản cải thiện và khối ngoại giảm bán.</li>
+            
+            <li><strong>Trung tính:</strong> Chỉ số đi ngang, phân hóa theo kết quả kinh doanh và tin riêng.</li>
+            
+            <li><strong>Tiêu cực:</strong> Gãy hỗ trợ gần, áp lực bán lan rộng ở nhóm vốn hóa lớn.</li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <div class="block">
+        <h3>Checklist theo dõi trong phiên</h3>
+        <ul>
+          
+          <li>Thanh khoản 30 phút đầu so với trung bình 20 phiên.</li>
+          
+          <li>Độ rộng thị trường và vai trò của VN30.</li>
+          
+          <li>Giao dịch khối ngoại ở ngân hàng, chứng khoán, bất động sản.</li>
+          
+          <li>Biến động DXY, UST 10Y, dầu Brent và thị trường khu vực.</li>
+          
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <strong>Không phải khuyến nghị đầu tư</strong>. Dữ liệu lấy từ nguồn miễn phí có thể trễ, thiếu hoặc thay đổi cấu trúc. Vui lòng kiểm chứng trước khi ra quyết định.
+    </footer>
+  </div>
+</body>
+</html>
