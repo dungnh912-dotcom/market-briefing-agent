@@ -1,7 +1,8 @@
-name: HDUNGINVEST Daily Briefing
+name: HDINVEST Daily Briefing
 
 on:
   schedule:
+    # GitHub cron uses UTC. 00:00 UTC = 07:00 Vietnam time.
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -10,37 +11,39 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: hd-invest-daily-briefing
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: "20"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: npm install
 
-      - name: Generate briefing
+      - name: Generate daily briefing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-        run: python scripts/generate_briefing.py
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-1.5-flash' }}
+          TIMEZONE: Asia/Ho_Chi_Minh
+          REPORT_BRAND: HDINVEST
+        run: npm run generate
 
       - name: Commit generated briefing
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Generate daily briefing" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html bantin/*.html data/cache/latest-market-data.json
+          git diff --cached --quiet || git commit -m "Add HDINVEST daily market briefing"
           git push
 
       - name: Configure Pages
@@ -49,8 +52,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: .
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4

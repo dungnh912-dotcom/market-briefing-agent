@@ -1,0 +1,16 @@
+{
+  "name": "market-briefing-agent",
+  "version": "2.0.0",
+  "private": true,
+  "description": "HDINVEST realtime daily market briefing generator.",
+  "type": "commonjs",
+  "scripts": {
+    "preview": "npx serve preview",
+    "generate": "node scripts/generate-daily-briefing.js",
+    "generate:today": "node scripts/generate-daily-briefing.js",
+    "check": "node scripts/check-config.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

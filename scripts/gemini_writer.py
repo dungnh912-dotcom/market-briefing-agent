@@ -81,7 +81,7 @@ def compact_payload(payload: dict[str, Any]) -> dict[str, Any]:
 def build_prompt(payload: dict[str, Any]) -> str:
     sections = "\n".join(f"- {title}" for title in REQUIRED_SECTION_TITLES)
     data_json = json.dumps(compact_payload(payload), ensure_ascii=False, default=str)
-    return f"""Hãy viết bản tin HDUNGINVEST Daily Research bằng tiếng Việt, phong cách báo cáo research cao cấp cho broker/chuyên viên tư vấn chứng khoán.
+    return f"""Hãy viết bản tin HDINVEST Daily Market Briefing bằng tiếng Việt, phong cách báo cáo research cao cấp cho broker/chuyên viên tư vấn chứng khoán.
 
 Các phần bắt buộc:
 {sections}

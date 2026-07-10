@@ -41,7 +41,7 @@ def clean_summary(text: str, limit: int = 420) -> str:
 
 
 def fetch_rss(source: dict[str, Any], timeout: int = 12) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    headers = {"User-Agent": "HDUNGINVEST-market-briefing-agent/1.0"}
+    headers = {"User-Agent": "HDINVEST-market-briefing-agent/1.0"}
     fetched_at = now_utc()
     response = requests.get(source["url"], timeout=timeout, headers=headers)
     response.raise_for_status()

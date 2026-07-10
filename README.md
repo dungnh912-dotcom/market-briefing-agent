@@ -1,159 +1,164 @@
-# HDUNGINVEST Daily Research
+# HDINVEST Daily Market Briefing
 
-Website tĩnh tạo bản tin thị trường chứng khoán hằng ngày cho broker/chuyên viên tư vấn tại Việt Nam. Project dùng Python để thu thập dữ liệu, gọi Gemini nếu có API key, render HTML vào `bantin/YYYY-MM-DD.html`, cập nhật `index.html` và deploy bằng GitHub Pages.
+Project tạo bản tin thị trường chứng khoán hằng ngày cho broker tại Việt Nam. Hệ thống lấy dữ liệu public/fallback, gọi Gemini để viết bản tin theo format HDINVEST, render HTML vào `bantin/YYYY-MM-DD.html`, cập nhật `index.html`, và có thể chạy tự động bằng GitHub Actions lúc 07:00 giờ Việt Nam.
 
-## Cách hoạt động
+Tagline: **Dữ liệu là nền tảng, kỷ luật là lợi thế.**
 
-1. `scripts/data_collector.py` lấy chỉ số quốc tế, hàng hóa, Bitcoin và USD/VND từ Google Finance nếu truy cập được.
-2. Dữ liệu Việt Nam ưu tiên `data/manual_market_data.json`: VN-Index, VN30, HNX-Index, UPCoM, thanh khoản HOSE, khối ngoại, tự doanh, USD/VND, lãi suất liên ngân hàng.
-3. `scripts/news_collector.py` đọc RSS/public feeds và trộn tin thủ công từ `data/manual_news.json`.
-4. `scripts/gemini_writer.py` gửi prompt cho Gemini theo phong cách broker thực chiến, tập trung dòng tiền, thanh khoản, margin, khối ngoại và rủi ro phân phối. Nếu Gemini lỗi hoặc thiếu key, hệ thống vẫn sinh fallback và ghi rõ `chưa có dữ liệu cập nhật`.
-5. `scripts/text_postprocessor.py` chuẩn hóa lỗi gõ tiếng Việt, tên riêng, dấu câu và các cụm nhạy cảm trước khi render.
-6. `templates/briefing_template.html` và `assets/css/style.css` tạo giao diện báo cáo research cao cấp.
+## Cài đặt local
 
-## Chạy local
+Yêu cầu Node.js 18 trở lên.
 
 ```bash
-pip install -r requirements.txt
-python scripts/generate_briefing.py
-python -m http.server 8000
+npm install
 ```
 
-Mở trình duyệt tại `http://localhost:8000`.
+Tạo file `.env` từ `.env.example`:
 
-Nếu muốn dùng Gemini khi chạy local:
-
-```powershell
-$env:GEMINI_API_KEY="your_google_ai_studio_key"
-$env:GEMINI_MODEL="gemini-1.5-flash"
-python scripts/generate_briefing.py
+```bash
+cp .env.example .env
 ```
 
-## Thay QR Zalo
-
-Lưu ảnh QR thật vào:
+Điền key Google AI Studio:
 
 ```text
-assets/qr-zalo.png
+GEMINI_API_KEY=your_google_ai_studio_key
+GEMINI_MODEL=gemini-1.5-flash
+TIMEZONE=Asia/Ho_Chi_Minh
+REPORT_BRAND=HDINVEST
 ```
 
-Ảnh sẽ được dùng trong CTA cuối bản tin. CSS đã đặt `object-fit: contain` để QR không bị méo.
+Không đưa API key thật vào repo.
 
-## Thay hotline và brand
+## Kiểm tra cấu hình
 
-Sửa file:
+```bash
+npm run check
+```
+
+Lệnh này kiểm tra Node version, `GEMINI_API_KEY`, `data/manual_market_data.json`, `data/manual_news.json`, `data/watchlist.json` và preview đã duyệt. Nếu thiếu key, lệnh sẽ báo lỗi rõ ràng.
+
+## Tạo bản tin realtime local
+
+```bash
+npm run generate
+```
+
+Lệnh trên sẽ:
+
+1. Load `.env`.
+2. Lấy dữ liệu thị trường từ Yahoo Finance/CoinGecko nếu truy cập được.
+3. Đọc fallback Việt Nam từ `data/manual_market_data.json`.
+4. Lấy tin từ Google News RSS nếu truy cập được và trộn với `data/manual_news.json`.
+5. Đọc watchlist từ `data/watchlist.json`.
+6. Gọi Gemini bằng `GEMINI_API_KEY`.
+7. Nếu thiếu key hoặc Gemini lỗi, tạo bản tin `data-only summary` thay vì dừng toàn bộ pipeline.
+8. Render HTML vào `bantin/YYYY-MM-DD.html`.
+9. Cập nhật `index.html`.
+10. Lưu dữ liệu chuẩn hóa vào `data/cache/latest-market-data.json`.
+
+## Nguồn dữ liệu
+
+Live khi truy cập được:
+
+- Yahoo Finance: S&P 500, Nasdaq, Dow Jones, Nikkei 225, Hang Seng, Shanghai Composite, KOSPI, DAX, vàng, dầu WTI/Brent, bạc, DXY, USD/VND, US 10Y Yield, một số mã Việt Nam nếu Yahoo hỗ trợ.
+- CoinGecko: Bitcoin, Ethereum.
+- Google News RSS: tin Việt Nam, vĩ mô, Fed/CPI/PMI/dầu/Trung Quốc.
+
+Fallback/manual:
+
+- `data/manual_market_data.json`: VN-Index, VN30, HNX-Index, UPCoM, thanh khoản, độ rộng, khối ngoại, tỷ giá, lãi suất liên ngân hàng, dòng tiền ngành.
+- `data/manual_news.json`: tin quan trọng có thể tự nhập mỗi sáng.
+- `data/watchlist.json`: mã, ngành, luận điểm, hỗ trợ, kháng cự, điểm mua tham khảo, chốt lời, cắt lỗ, rủi ro.
+
+Trong bản tin, dữ liệu live/fallback/manual được phản ánh qua trạng thái nguồn để broker biết phần nào cần kiểm tra thêm.
+
+## Watchlist
+
+Watchlist chỉ viết theo điều kiện, ví dụ:
+
+- Chỉ xem xét khi giữ trên hỗ trợ và thanh khoản cải thiện.
+- Chỉ theo dõi nếu breakout có thanh khoản.
+- Không dùng ngôn ngữ khuyến nghị chắc chắn như “mua ngay” hoặc “cam kết”.
+
+Nếu thiếu dữ liệu giá, điền `cần cập nhật thủ công` trong `data/watchlist.json`. AI không được tự bịa vùng kỹ thuật.
+
+## Preview
+
+Giao diện preview đã duyệt nằm tại:
 
 ```text
-data/config.json
+preview/index.html
 ```
 
-Ví dụ:
+Pipeline realtime dùng lại CSS từ `preview/styles.css`.
 
-```json
-{
-  "brand": "HDUNGINVEST",
-  "site_name": "HDUNGINVEST Daily Research",
-  "footer": "HDUNGINVEST",
-  "hotline": "0387337164",
-  "qr_path": "assets/qr-zalo.png",
-  "logo_path": "assets/logo.png"
-}
-```
+## GitHub Secret
 
-Trên GitHub Actions cũng có thể override bằng biến môi trường trong `.github/workflows/daily-briefing.yml`.
+Thêm Gemini key:
 
-## Nhập dữ liệu thủ công
-
-Sửa:
-
-```text
-data/manual_market_data.json
-```
-
-Các nhóm chính:
-
-- `indexes`: VNINDEX, VN30, HNX, UPCOM, USDVND.
-- `liquidity`: thanh khoản HOSE.
-- `foreign_flow`: khối ngoại mua/bán ròng.
-- `proprietary_flow`: tự doanh.
-- `interbank_rate`: lãi suất liên ngân hàng nếu có.
-- `market_breadth`: số mã tăng/giảm/đứng giá.
-- `sector_flow`: dòng tiền theo nhóm ngành.
-
-Nếu thiếu dữ liệu, để `value` là `null`; bản tin sẽ ghi `chưa có dữ liệu cập nhật`.
-
-Tin thủ công nằm tại:
-
-```text
-data/manual_news.json
-```
-
-Watchlist và vùng kỹ thuật nằm tại:
-
-```text
-data/watchlist.json
-```
-
-## Gemini API Key trên GitHub
-
-1. Tạo API key từ Google AI Studio.
-2. Vào repo GitHub: `Settings > Secrets and variables > Actions`.
+1. Vào repo GitHub.
+2. Chọn `Settings > Secrets and variables > Actions`.
 3. Chọn `New repository secret`.
-4. Thêm một trong hai secret:
+4. Tạo secret:
 
 ```text
 GEMINI_API_KEY
-GOOGLE_API_KEY
 ```
 
-Tuỳ chọn model bằng repository variable:
+Có thể tùy chọn repository variable:
 
 ```text
 GEMINI_MODEL=gemini-1.5-flash
 ```
 
-## Chạy GitHub Actions thủ công
+## GitHub Actions
 
-1. Vào tab `Actions`.
-2. Chọn workflow `HDUNGINVEST Daily Briefing`.
-3. Bấm `Run workflow`.
+Workflow nằm tại:
 
-Workflow chạy hằng ngày lúc 07:00 giờ Việt Nam, tương ứng cron UTC:
+```text
+.github/workflows/daily-briefing.yml
+```
+
+Workflow chạy tự động mỗi ngày lúc 07:00 giờ Việt Nam, tương ứng:
 
 ```yaml
 - cron: "0 0 * * *"
 ```
 
+Chạy thủ công:
+
+1. Vào tab `Actions`.
+2. Chọn workflow `HDINVEST Daily Briefing`.
+3. Bấm `Run workflow`.
+
+Workflow sẽ chạy `npm install`, `npm run generate`, commit `bantin/YYYY-MM-DD.html`, `index.html`, `data/cache/latest-market-data.json`, sau đó deploy GitHub Pages bằng Pages Actions.
+
 ## Bật GitHub Pages
 
 1. Vào `Settings > Pages`.
 2. Chọn source `GitHub Actions`.
-3. Chạy workflow thủ công lần đầu để tạo artifact và deploy.
+3. Chạy workflow thủ công lần đầu để tạo bản tin và deploy.
 
 ## File quan trọng
 
 ```text
-.github/workflows/daily-briefing.yml
-assets/css/style.css
-assets/qr-zalo.png
-data/config.json
+scripts/generate-daily-briefing.js
+scripts/check-config.js
+src/data/fetchMarketData.js
+src/data/fetchNews.js
+src/ai/buildPrompt.js
+src/ai/geminiClient.js
+src/render/renderHtml.js
+src/render/updateIndex.js
 data/manual_market_data.json
 data/manual_news.json
 data/watchlist.json
-scripts/generate_briefing.py
-scripts/data_collector.py
-scripts/news_collector.py
-scripts/gemini_writer.py
-scripts/text_postprocessor.py
-templates/briefing_template.html
-templates/index_template.html
+data/cache/latest-market-data.json
+preview/index.html
+preview/styles.css
+.github/workflows/daily-briefing.yml
 ```
-
-Project chỉ giữ một workflow chính và một entrypoint chính:
-
-- `.github/workflows/daily-briefing.yml`
-- `scripts/generate_briefing.py`
 
 ## Disclaimer
 
-Tài liệu thông tin tổng hợp, KHÔNG phải khuyến nghị giao dịch hay đầu tư. Nhà đầu tư cần tự chịu trách nhiệm với quyết định của mình.
+Bản tin chỉ nhằm mục đích cung cấp thông tin, không phải khuyến nghị giao dịch hay tư vấn đầu tư cá nhân. Nhà đầu tư cần tự chịu trách nhiệm với quyết định của mình.

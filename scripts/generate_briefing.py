@@ -49,24 +49,24 @@ def load_json(path: Path, default):
 def brand_config() -> dict[str, str]:
     config = load_json(DATA_DIR / "config.json", {})
     return {
-        "name": os.environ.get("BRAND_NAME", config.get("brand", "HDUNGINVEST")),
-        "site_name": os.environ.get("SITE_NAME", config.get("site_name", "HDUNGINVEST Daily Research")),
-        "footer": os.environ.get("FOOTER_TEXT", config.get("footer", "HDUNGINVEST")),
-        "hotline": os.environ.get("CONTACT_PHONE", config.get("hotline", "0387337164")),
-        "qr_path": os.environ.get("ZALO_QR_PATH", config.get("qr_path", "assets/qr-zalo.png")),
+        "name": os.environ.get("BRAND_NAME", config.get("brand", "HDINVEST")),
+        "site_name": os.environ.get("SITE_NAME", config.get("site_name", "HDINVEST Daily Market Briefing")),
+        "footer": os.environ.get("FOOTER_TEXT", config.get("footer", "HDINVEST Research")),
+        "tagline": config.get("tagline", "Dữ liệu là nền tảng, kỷ luật là lợi thế."),
         "logo_path": os.environ.get("LOGO_PATH", config.get("logo_path", "assets/logo.png")),
     }
 
 
 def load_watchlist() -> list[dict]:
-    return load_json(DATA_DIR / "watchlist.json", {}).get("tickers", [])
+    watchlist = load_json(DATA_DIR / "watchlist.json", {})
+    return watchlist.get("items", watchlist.get("tickers", []))
 
 
 def ensure_static_assets() -> None:
     ASSETS_DIR.mkdir(exist_ok=True)
     (ASSETS_DIR / "css").mkdir(exist_ok=True)
     png = base64.b64decode("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII=")
-    for filename in ["qr-zalo.png", "logo.png"]:
+    for filename in ["logo.png"]:
         path = ASSETS_DIR / filename
         if not path.exists():
             path.write_bytes(png)

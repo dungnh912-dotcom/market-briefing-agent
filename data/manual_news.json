@@ -2,15 +2,15 @@
   "updated_at": "",
   "items": [
     {
-      "title": "Bổ sung tin trong nước tại đây nếu RSS không đủ dữ liệu",
+      "title": "Bổ sung tin Việt Nam trong ngày tại đây nếu nguồn RSS chưa đủ dữ liệu",
       "url": "",
       "source": "manual",
       "published": "",
       "summary": "chưa có dữ liệu cập nhật",
-      "tags": ["trong nước"]
+      "tags": ["Việt Nam", "vĩ mô"]
     },
     {
-      "title": "Bổ sung tin quốc tế/Fed/hàng hóa tại đây nếu cần",
+      "title": "Bổ sung tin Fed, CPI Mỹ, dầu hoặc Trung Quốc tại đây nếu cần",
       "url": "",
       "source": "manual",
       "published": "",

@@ -59,8 +59,8 @@ def write_indexes(brand: dict[str, str]) -> None:
 if __name__ == "__main__":
     write_indexes(
         {
-            "name": "HDUNGINVEST",
-            "site_name": "HDUNGINVEST Daily Research",
-            "footer": "HDUNGINVEST",
+            "name": "HDINVEST",
+            "site_name": "HDINVEST Daily Market Briefing",
+            "footer": "HDINVEST Research",
         }
     )

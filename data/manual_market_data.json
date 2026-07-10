@@ -1,6 +1,6 @@
 {
   "updated_at": "",
-  "note": "Nhập số liệu thủ công tại đây nếu nguồn tự động thiếu hoặc không ổn định. Để trống value/change_pct nếu chưa có dữ liệu cập nhật.",
+  "note": "Nhập số liệu thủ công tại đây nếu nguồn tự động thiếu hoặc không ổn định. Để value/change_pct là null nếu chưa có dữ liệu cập nhật.",
   "indexes": {
     "VNINDEX": {
       "label": "VN-Index",
@@ -61,13 +61,6 @@
     "top_sell": [],
     "comment": "chưa có dữ liệu cập nhật"
   },
-  "proprietary_flow": {
-    "net_value": null,
-    "unit": "tỷ đồng",
-    "top_buy": [],
-    "top_sell": [],
-    "comment": "chưa có dữ liệu cập nhật"
-  },
   "interbank_rate": {
     "value": null,
     "unit": "%",
@@ -77,17 +70,22 @@
     {
       "sector": "Ngân hàng",
       "status": "chưa có dữ liệu cập nhật",
-      "notable_tickers": ["MBB", "HDB"]
+      "notable_tickers": ["VCB", "BID", "CTG", "MBB", "TCB", "VPB"]
     },
     {
       "sector": "Chứng khoán",
       "status": "chưa có dữ liệu cập nhật",
-      "notable_tickers": ["SSI", "VND", "VCI"]
+      "notable_tickers": ["SSI", "VND", "HCM"]
     },
     {
-      "sector": "Thép",
+      "sector": "Dầu khí",
       "status": "chưa có dữ liệu cập nhật",
-      "notable_tickers": ["HPG", "HSG"]
+      "notable_tickers": ["GAS", "PVD", "PVS"]
+    },
+    {
+      "sector": "Công nghệ",
+      "status": "chưa có dữ liệu cập nhật",
+      "notable_tickers": ["FPT"]
     }
   ],
   "top_gainers": [],
