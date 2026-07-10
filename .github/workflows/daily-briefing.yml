@@ -12,8 +12,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: hd-invest-daily-briefing
-  cancel-in-progress: false
+  group: hd-invest-daily-briefing-main
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -21,6 +21,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull --ff-only origin main
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -40,11 +49,23 @@ jobs:
 
       - name: Commit generated briefing
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html bantin/*.html data/cache/latest-market-data.json
-          git diff --cached --quiet || git commit -m "Add HDINVEST daily market briefing"
-          git push
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          paths=(index.html bantin)
+          if [ -d reports ]; then
+            paths+=(reports)
+          fi
+          git add -- "${paths[@]}"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Generate daily briefing"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
